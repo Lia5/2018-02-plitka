@@ -1,0 +1,44 @@
+@font-face { 
+  font-family: 'PTSans-Bold'; 
+  src: url('../fonts/PTSans-Bold.woff2') format('woff2'),
+       url('../fonts/PTSans-Bold.eot') format('eot'),
+       url('../fonts/PTSans-Bold.otf') format('otf'),
+       url('../fonts/PTSans-Bold.svg') format('svg'),
+       url('../fonts/PTSans-Bold.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/PTSans-Bold.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'PTSans-Regular'; 
+  src: url('../fonts/PTSans-Regular.woff2') format('woff2'),
+       url('../fonts/PTSans-Regular.eot') format('eot'),
+       url('../fonts/PTSans-Regular.svg') format('svg'),
+       url('../fonts/PTSans-Regular.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/PTSans-Regular.woff') format('woff'); 
+  font-weight: 400; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'Philosopher-Bold'; 
+  src: url('../fonts/Philosopher-Bold.woff2') format('woff2'),
+  	   url('../fonts/Philosopher-Bold.eot') format('eot'),
+  	   url('../fonts/Philosopher-Bold.svg') format('svg'),
+       url('../fonts/Philosopher-Bold.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/Philosopher-Bold.woff') format('woff'); 
+  font-weight: 700; 
+  font-style: normal; 
+}
+
+@font-face { 
+  font-family: 'Philosopher-Regular'; 
+  src: url('../fonts/Philosopher-Regular.woff2') format('woff2'),
+  	   url('../fonts/Philosopher-Regular.eot') format('eot'),
+  	   url('../fonts/Philosopher-Regular.svg') format('svg'),
+       url('../fonts/Philosopher-Regular.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('../fonts/Philosopher-Regular.woff') format('woff'); 
+  font-weight: 400; 
+  font-style: normal; 
+}

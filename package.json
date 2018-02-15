@@ -1,0 +1,23 @@
+{
+  "name": "plitka",
+  "version": "1.0.0",
+  "description": "https://lia5.github.io/2018-02-plitka/",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lia5/2018-02-plitka.git"
+  },
+  "author": "Lia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lia5/2018-02-plitka/issues"
+  },
+  "homepage": "https://github.com/Lia5/2018-02-plitka#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1"
+  }
+}
