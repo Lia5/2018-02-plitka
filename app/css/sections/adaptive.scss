@@ -172,26 +172,37 @@
     top: -1%;
     left: -23%;
   }
-
+  .catalog {
+     right: auto; 
+  }
 }
 
 @media screen and (max-width: 480px) {
   .logo {
     width: 109px;
   }
-  
+  .main-menu__phone {
+    text-align: right;
+  }
+  .main-menu__contacts {
+    position: static; 
+  }
   .block:before {
   //    width: 369px;
   //    height: 455px;
     top: -6%;
     left: -46%;
   }
+
 }
 
 @media screen and (max-width: 320px) {
   .logo {
     width: 109px;
   }
+  .main-menu__phone-item span {
+    font-size: 19px;
+}
   
   .block:before {
   //    width: 369px;

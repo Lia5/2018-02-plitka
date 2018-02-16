@@ -4084,11 +4084,17 @@ nav ul a:hover {
 @media screen and (max-width: 690px) {
   .block:before {
     top: -1%;
-    left: -23%; } }
+    left: -23%; }
+  .catalog {
+    right: auto; } }
 
 @media screen and (max-width: 480px) {
   .logo {
     width: 109px; }
+  .main-menu__phone {
+    text-align: right; }
+  .main-menu__contacts {
+    position: static; }
   .block:before {
     top: -6%;
     left: -46%; } }
@@ -4096,6 +4102,8 @@ nav ul a:hover {
 @media screen and (max-width: 320px) {
   .logo {
     width: 109px; }
+  .main-menu__phone-item span {
+    font-size: 19px; }
   .block:before {
     top: -10%;
     left: -111%; } }
