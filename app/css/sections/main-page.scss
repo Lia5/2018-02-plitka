@@ -1,8 +1,12 @@
+.main-wrapper {
+  background: $white;
+}
 .main-page {
   background-image: url('../img/main-bg.jpg');
+
   background-repeat: no-repeat;
-  background-size: 100% 80%;
-  background-position: center;
+  background-size: 73% 100%;
+  background-position: left;
   height: 100vh;
   min-width: 350px;
 }
@@ -14,39 +18,62 @@
   height: 100%;
   top: 0;
 }
-.block:after {
+.block:before {
   content: "";
   display: block;
-  width: 276px;
-  height: 440px;
+  /*width: 369px;
+  height: 455px;*/
   position: absolute;
-  top: 18px;
-  left: -79px;
-  -webkit-transform: rotate(-53deg);
-  -ms-transform: rotate(-53deg);
-  transform: rotate(-53deg);
-  -webkit-transform-origin: left top;
-  -ms-transform-origin:  left top;
-  transform-origin: left top;
+  width: 700px;
+  height: 700px;
+  bottom: 6%;
+  right: 1%;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   background-color: $dark-blue;
+  -webkit-transform-origin: center;
+  -ms-transform-origin:  center;
+  transform-origin: center;
 }
+
+.main-header__mobile {
+  display: none;
+}
+
+.logo {
+  width: 212px;
+  min-height: 273px;
+  padding-top: 166px;
+  margin: 0 auto;
+}
+.main-header__desctop .main-menu__items {
+  font-size: 16px;
+  text-align: left;
+}
+.instagram-icon {
+  font-size: 40px;
+    padding-top: 44px;
+    position: absolute;
+    right: 27px;
+}
+
+
+
+/*mobile*/
 .main-header__mobile>div {
   position: relative;
   z-index: 2;
 }
-.main-menu__phone {
-  margin-left: -20px;
-  padding-top: 32px;
-  text-align: right;
-}
+
 .main-menu__contacts {
 
   padding-top: 6px;
 }
-.main-menu__contacts span {
+.menu-line {
   position: relative;
 }
-.main-menu__contacts span:before {
+.menu-line:before {
   content: "";
   display: block;
   position: absolute;
@@ -57,16 +84,13 @@
   background-color: #ffffff;
 }
 
-.logo {
-  width: 109px;
-  height: 172px;
-  padding-top: 18px;
-}
+
 .logo img {
   width: 100%;
 }
 
 .catalog{
+  padding-top: 20px;
   position: relative;
 }
 .catalog:after {
@@ -136,7 +160,7 @@ nav ul {
 nav ul.hidden {
   display: none;
 }
-nav ul a {
+.main-header__mobile nav a {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s;
@@ -175,8 +199,12 @@ nav ul a:hover {
   font-size: 45px;
   font-family: 'PTSans-Bold';
   text-align: center;
-  padding-top: 200px;
+
 }
 .main__choice {
   text-align: center;
 }
+
+
+
+/*end mobile*/

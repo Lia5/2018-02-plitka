@@ -2,7 +2,7 @@ $(function(){
     $(".menu-toggle").on('click', function() {
         $(this).toggleClass("on");
         $('.main-menu').toggleClass("on");
-        $("nav ul").toggleClass('hidden');
+        $(".main-header__mobile nav ul").toggleClass('hidden');
       });
   
   

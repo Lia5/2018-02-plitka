@@ -1324,6 +1324,10 @@ button {
   font-family: 'futura-book';
   font-weight: 700; }
 
+@media (min-width: 1560px) {
+  .container {
+    width: 1530px; } }
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -3682,11 +3686,14 @@ button {
   font-weight: 400;
   font-style: normal; }
 
+.main-wrapper {
+  background: #ffffff; }
+
 .main-page {
   background-image: url("../img/main-bg.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 80%;
-  background-position: center;
+  background-size: 73% 100%;
+  background-position: left;
   height: 100vh;
   min-width: 350px; }
 
@@ -3697,38 +3704,55 @@ button {
   height: 100%;
   top: 0; }
 
-.block:after {
+.block:before {
   content: "";
   display: block;
-  width: 276px;
-  height: 440px;
+  /*width: 369px;
+  height: 455px;*/
   position: absolute;
-  top: 18px;
-  left: -79px;
-  -webkit-transform: rotate(-53deg);
-  -ms-transform: rotate(-53deg);
-  transform: rotate(-53deg);
-  -webkit-transform-origin: left top;
-  -ms-transform-origin: left top;
-  transform-origin: left top;
-  background-color: #1b273c; }
+  width: 700px;
+  height: 700px;
+  bottom: 6%;
+  right: 1%;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #1b273c;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center; }
 
+.main-header__mobile {
+  display: none; }
+
+.logo {
+  width: 212px;
+  min-height: 273px;
+  padding-top: 166px;
+  margin: 0 auto; }
+
+.main-header__desctop .main-menu__items {
+  font-size: 16px;
+  text-align: left; }
+
+.instagram-icon {
+  font-size: 40px;
+  padding-top: 44px;
+  position: absolute;
+  right: 27px; }
+
+/*mobile*/
 .main-header__mobile > div {
   position: relative;
   z-index: 2; }
 
-.main-menu__phone {
-  margin-left: -20px;
-  padding-top: 32px;
-  text-align: right; }
-
 .main-menu__contacts {
   padding-top: 6px; }
 
-.main-menu__contacts span {
+.menu-line {
   position: relative; }
 
-.main-menu__contacts span:before {
+.menu-line:before {
   content: "";
   display: block;
   position: absolute;
@@ -3738,15 +3762,11 @@ button {
   height: 2px;
   background-color: #ffffff; }
 
-.logo {
-  width: 109px;
-  height: 172px;
-  padding-top: 18px; }
-
 .logo img {
   width: 100%; }
 
 .catalog {
+  padding-top: 20px;
   position: relative; }
 
 .catalog:after {
@@ -3812,7 +3832,7 @@ nav ul {
 nav ul.hidden {
   display: none; }
 
-nav ul a {
+.main-header__mobile nav a {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   -webkit-transition-duration: 0.5s;
@@ -3845,18 +3865,60 @@ nav ul a:hover {
 .main__title {
   font-size: 45px;
   font-family: 'PTSans-Bold';
-  text-align: center;
-  padding-top: 200px; }
+  text-align: center; }
 
 .main__choice {
   text-align: center; }
 
-@media screen and (min-width: 480px) {
-  .main-menu__phone {
-    margin-left: 0; }
+/*end mobile*/
+@media screen and (max-width: 749px) {
+  .main-wrapper {
+    background: #1b273c; }
+  .main-page {
+    background-size: 100% 80%;
+    background-position: center; }
+  .main-header__desctop {
+    display: none; }
+  .main-header__mobile {
+    display: block; }
   .logo {
     width: 145px;
-    height: 157px; }
-  .main-header__mobile:before {
-    width: 321px;
-    height: 488px; } }
+    min-height: 172px;
+    padding-top: 18px; }
+  .block:before {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 10%;
+    left: -9%;
+    -webkit-transform: rotate(-64deg);
+    -ms-transform: rotate(-64deg);
+    transform: rotate(-64deg);
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top; }
+  .main-menu__phone {
+    margin-left: -20px;
+    padding-top: 32px;
+    text-align: right; }
+  .main__title {
+    padding-top: 200px; } }
+
+@media screen and (max-width: 690px) {
+  .block:before {
+    top: -1%;
+    left: -23%; } }
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 109px; }
+  .block:before {
+    top: -6%;
+    left: -46%; } }
+
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 109px; }
+  .block:before {
+    top: -10%;
+    left: -111%; } }
