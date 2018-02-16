@@ -9,14 +9,14 @@
 .main-header__mobile:before {
   content: "";
   display: block;
-  width: 320px;
-  height: 450px;
+  width: 276px;
+  height: 440px;
   position: absolute;
-  top: 15px;
-  right: 119px;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-63deg);
+  top: 18px;
+  left: -79px;
+  -webkit-transform: rotate(-53deg);
+  -ms-transform: rotate(-53deg);
+  transform: rotate(-53deg);
   -webkit-transform-origin: left top;
   -ms-transform-origin:  left top;
   transform-origin: left top;
@@ -26,14 +26,42 @@
   position: relative;
   z-index: 2;
 }
+.main-menu__phone {
+  margin-left: -20px;
+  padding-top: 32px;
+  text-align: right;
+}
+.main-menu__contacts {
+  position: relative;
+  padding-top: 6px;
+}
+.main-menu__contacts:before {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  width: 10px;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 109px;
+  height: 172px;
+  padding-top: 18px;
+}
+.logo img {
+  width: 100%;
+}
+
 
 
 /*menu*/
 
 
 .menu-toggle {
-  width: 20px;
-  height: 14px;
+  width: 34px;
+  height: 24px;
   position: absolute;
   top: 8px;
   right: 25px;
@@ -61,7 +89,7 @@
   width: 100%;
   height: 4px;
   background: $white;
-  margin: 7px auto;
+  margin: 4px auto;
   backface-visibility: hidden;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -94,7 +122,10 @@ nav ul a {
 nav ul a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
-
+.menu-toggle.on .one,
+.menu-toggle.on .three {
+  margin: 7px auto;
+}
 .main-menu.on {
   z-index: 10;
   width: 100%;
@@ -110,16 +141,13 @@ nav ul a:hover {
 
 /*end menu*/
 
-.logo {
-  width: 145px;
-  height: 157px;
-}
-.logo img {
-  width: 100%;
-}
 
 .main__title {
   font-size: 45px;
   font-family: 'PTSans-Bold';
+  text-align: center;
+  padding-top: 200px;
+}
+.main__choice {
   text-align: center;
 }
