@@ -14,6 +14,12 @@
   .main-header__desctop {
     display: none;
   }
+  .block2 {
+    display: none;
+  }
+  .block {
+    display: block;
+  }
   .main-header__mobile {
     display: block;
   }
@@ -37,13 +43,59 @@
     -ms-transform-origin:  left top;
     transform-origin: left top;
   }
+  .instagram-icon {
+    padding-top: 44px;
+    position: absolute;
+    right: 27px;
+  }
+  
   .main-menu__phone {
     margin-left: -20px;
     padding-top: 32px;
     text-align: right;
+    position: static;
+    color: $white;
+
   }
+
   .main__title {
     padding-top: 200px;
+  }
+  .catalog{
+    padding-top: 20px;
+    position: relative;
+  }
+  .catalog:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: auto;
+    left: 31px;
+    width: 10px;
+    height: 15px;
+    background: url('../img/arrow-right.png');
+    background-size: 100% 100%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  } 
+  .catalog:before {
+    display: none;
+  }
+  .catalog a {
+    padding: 0;
+    width: 100px;
+    height: 220px;
+    writing-mode: horizontal-tb;
+    font-size: 16px;
+    text-transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
   }
 }
 
