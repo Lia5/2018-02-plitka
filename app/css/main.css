@@ -3767,7 +3767,7 @@ button {
   margin: 0 auto; }
 
 .desctop-nav {
-  padding-top: 147px;
+  padding-top: 100px;
   top: 0;
   right: 0; }
 
@@ -3780,9 +3780,9 @@ button {
   padding-top: 5px;
   padding-bottom: 5px; }
 
-.instagram-icon {
+.social-icon {
   font-size: 40px;
-  padding-top: 20px; }
+  padding-top: 10px; }
 
 /*mobile*/
 .main-menu__contacts a {
@@ -3944,22 +3944,69 @@ nav ul a:hover {
 
 .left-side__desctop {
   position: absolute;
-  left: 86px;
+  left: 80px;
   bottom: 133px;
   z-index: 2; }
 
 .main__title {
   font-size: 45px;
   font-family: 'PTSans-Bold';
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .main__choice {
   text-align: center; }
 
 /*end mobile*/
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 1539px) {
+  .desctop-nav {
+    padding-top: 50px; }
+  .catalog a {
+    height: 190px;
+    padding: 32px; }
+  .block2:before {
+    right: -139px; }
+  .catalog:before,
+  .catalog:after {
+    top: 87px; }
+  .left-side__desctop {
+    left: 41px; }
+  .logo {
+    padding-top: 115px; }
+  .main-menu__phone {
+    color: #ffffff;
+    right: 12%; }
+  .left-side__desctop-wrapper {
+    min-height: auto; } }
+
+@media screen and (max-width: 979px) {
   .main-wrapper {
     background: #1b273c; }
+  .block2:before {
+    right: -246px; }
+  .left-side__desctop {
+    left: 30px; }
+  .left-side__desctop {
+    left: 30px;
+    bottom: 30px; }
+  .logo {
+    padding-top: 47px; }
+  .main-menu__phone {
+    bottom: 13%; }
+  .main-menu__contacts {
+    position: absolute; }
+  .catalog {
+    position: relative;
+    right: -92px; }
+  .catalog:before, .catalog:after {
+    top: 55px; }
+  .catalog:before {
+    left: 50px; }
+  .catalog a {
+    height: 132px;
+    padding: 12px; } }
+
+@media screen and (max-width: 749px) {
   .main-page {
     background-size: 100% 80%;
     background-position: center; }
@@ -3987,7 +4034,7 @@ nav ul a:hover {
     -webkit-transform-origin: left top;
     -ms-transform-origin: left top;
     transform-origin: left top; }
-  .instagram-icon {
+  .social-icon {
     padding-top: 44px;
     position: absolute;
     right: 27px; }

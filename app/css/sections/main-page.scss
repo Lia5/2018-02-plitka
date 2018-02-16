@@ -81,7 +81,7 @@
   margin: 0 auto;
 }
 .desctop-nav {
-  padding-top: 147px;
+  padding-top: 100px;
   top: 0;
   right: 0;
 }
@@ -97,9 +97,9 @@
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.instagram-icon {
+.social-icon {
   font-size: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 
@@ -272,7 +272,7 @@ nav ul a:hover {
 }
 .left-side__desctop {
   position: absolute;
-  left: 86px;
+  left: 80px;
   bottom: 133px;
   z-index: 2;
 
@@ -282,6 +282,7 @@ nav ul a:hover {
   font-size: 45px;
   font-family: 'PTSans-Bold';
   text-align: center;
+  text-transform: uppercase;
 
 }
 .main__choice {
