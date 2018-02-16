@@ -6,7 +6,18 @@
   height: 100vh;
   min-width: 350px;
 }
-.main-header__mobile:before {
+.main-header__mobile {
+  overflow: hidden;
+}
+
+.block {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.block:after {
   content: "";
   display: block;
   width: 276px;
