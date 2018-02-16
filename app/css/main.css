@@ -3690,9 +3690,6 @@ button {
   height: 100vh;
   min-width: 350px; }
 
-.main-header__mobile {
-  overflow: hidden; }
-
 .block {
   position: absolute;
   overflow: hidden;
@@ -3726,15 +3723,18 @@ button {
   text-align: right; }
 
 .main-menu__contacts {
-  position: relative;
   padding-top: 6px; }
 
-.main-menu__contacts:before {
+.main-menu__contacts span {
+  position: relative; }
+
+.main-menu__contacts span:before {
   content: "";
   display: block;
   position: absolute;
-  right: 0;
-  width: 10px;
+  left: -18px;
+  top: 9px;
+  width: 15px;
   height: 2px;
   background-color: #ffffff; }
 
@@ -3745,6 +3745,24 @@ button {
 
 .logo img {
   width: 100%; }
+
+.catalog {
+  position: relative; }
+
+.catalog:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 31px;
+  width: 10px;
+  height: 15px;
+  background: url("../img/arrow-right.png");
+  background-size: 100% 100%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
 
 /*menu*/
 .menu-toggle {
