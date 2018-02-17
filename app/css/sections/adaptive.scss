@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 1539px) {
   .desctop-nav {
-    padding-top: 50px;
+
   }
   .catalog a {
     height: 190px;
@@ -89,6 +89,7 @@
   }
   
   .logo {
+    position: static;
     width: 145px;
     min-height: 172px;
     padding-top: 18px;
@@ -190,25 +191,36 @@
   .block:before {
   //    width: 369px;
   //    height: 455px;
-    top: -6%;
-    left: -46%;
+  top: 41px;
+  left: -112px;
   }
-
+  .main-menu__phone-item span {
+    font-size: 19px;
+  }
+  .social-icon {
+    right: -8px;
+  }
+  .main__title {
+    padding-top: 129px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .block:before {
+    left: -197px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .logo {
     width: 109px;
   }
-  .main-menu__phone-item span {
-    font-size: 19px;
-}
+
   
   .block:before {
   //    width: 369px;
   //    height: 455px;
-    top: -10%;
-    left: -111%;
+  top: 84px;
+  left: -234px;
   }
 
 

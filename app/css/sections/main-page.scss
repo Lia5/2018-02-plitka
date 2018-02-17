@@ -45,7 +45,7 @@
 }
 .block2 {
   position: relative;
-  height: 100vh;
+  top: 200px;
   min-height: 500px;
   left: 0;
 }
@@ -66,24 +66,23 @@
   -ms-transform-origin:  center;
   transform-origin: center;
 }
-.upper {
-  position: relative;
-  z-index: 2;
-}
+
 .main-header__mobile {
   display: none;
 }
 
 .logo {
+  position: absolute;
   width: 212px;
   min-height: 273px;
   padding-top: 166px;
-  margin: 0 auto;
+  right: 0;
+  top: -173px;
 }
 .desctop-nav {
-  padding-top: 100px;
-  top: 0;
-  right: 0;
+  position: absolute;
+  top: -73px;
+  left: 63px;
 }
 
 
@@ -170,7 +169,7 @@
 }
 .main-menu__phone {
   position: absolute;
-  bottom: 15px;
+  bottom: 0;
   right: 15px;
   color: $dark-blue;
 }
