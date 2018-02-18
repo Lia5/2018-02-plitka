@@ -9,7 +9,7 @@ body {
 	line-height: 1.2;
 	background: $dark-blue;
 	position: relative;
-	font-family: 'PTSans-Regular';
+	font-family: 'PTSans-Regular', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
@@ -65,7 +65,6 @@ h6 {
 button {
 	cursor: pointer;
 	border: none;
-	font-family: 'futura-book';
 	font-weight: 700;
 }
 .margin0 {

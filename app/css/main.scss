@@ -1,5 +1,6 @@
 $dark-blue: #1b273c;
 $dark-blue2: rgba(27, 39, 60, 0.5);
+$dark-blue3: rgba(27, 39, 60, 0.9);
 $white: #ffffff;
 
 
@@ -12,6 +13,7 @@ $white: #ffffff;
 
 @import "sections/main-page.scss";
 @import "sections/main-page-anim.scss";
+@import "sections/cat__item.scss";
 
 @import "sections/adaptive.scss";
 

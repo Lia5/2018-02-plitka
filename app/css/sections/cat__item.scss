@@ -1,0 +1,110 @@
+.block3 {
+  right: -139px; 
+  z-index: 3;
+  position: fixed;
+}
+.block3:before {
+  content: "";
+  display: block;
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  top: -8%;
+  right: 0;
+  z-index: 0;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: #1b273c;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+  left: -20%;
+  z-index: 3;
+
+}
+.catalog-page__right {
+  position: fixed;
+  background-color: $white;
+  height: 100vh;
+  padding-left: 67px;
+
+}
+.catalog-page--bg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 12%;
+    width: 71%;
+    height: 100vh;
+    z-index: 2;
+    // background-image: url('../img/bg-item.jpg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+  }
+  .cat__item--left {
+    display: block;
+    position: fixed;
+    top: 10%;
+    left: 2%;
+    font-size: 16px;
+    max-width: 20%;
+    z-index: 3;
+
+  }
+  .cat__item__active {
+    margin: 45px 0;
+    font-size: 48px;
+    text-transform: uppercase;
+
+    font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
+  }
+  .cat__item--left:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -20%;
+    top: 45%;
+    width: 23px;
+    height: 20px;
+    background: url('../img/arrow-right.png');
+    background-size: 100% 100%;
+  }
+  .catalog-page__figure {
+    font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
+    font-size: 47px;
+  }  
+  .catalog-page__ed {
+    font-size: 20px;
+    opacity: 0.5;
+  }
+  .catalog-page__name {
+    font-size: 22px;
+    font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 50px 0 42px 0;
+  }
+  .catalog-page__color {
+    background-color: $dark-blue3;
+  }
+
+.cat__item1 {
+  background-image: url('../img/cat__items/cat5-item1.jpg');
+}
+.cat__item2 {
+  background-image: url('../img/cat__items/cat5-item2.jpg');
+}
+.cat__item3 {
+  background-image: url('../img/cat__items/cat5-item3.jpg');
+}
+.cat__item4 {
+  background-image: url('../img/cat__items/cat5-item4.jpg');
+}
+.cat__item--bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cat__page-mob.catalog--anim--visible {
+  display: none;
+}

@@ -18,6 +18,7 @@ $(function(){
     $('.main-header__mobile .fa-instagram').addClass("fa-instagram--anim");
     $('.logo').addClass("anim--hidden");
     $('.social-icon-anim').removeClass("anim--hidden");
+    $('.main-menu__contacts--anim').removeClass("anim--hidden");
   });
 
   
