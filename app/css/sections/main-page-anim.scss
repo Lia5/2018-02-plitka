@@ -1,9 +1,14 @@
 
 /*animation*/
+#catalog-href {
+  z-index: 2;
+}
 .block2--move-to-left {
   left: -86%;
 }
-.catalog--anim--hidden {
+.catalog--anim--hidden,
+.catalog-page--anim--hidden, 
+.anim--hidden {
   display: none;
 }
 .catalog--anim--visible {
@@ -29,6 +34,7 @@
   color: #ffffff;
 }
 .catalog-page--anim {
+  display: block;
   position: absolute;
   top: 0;
   left: 12%;
