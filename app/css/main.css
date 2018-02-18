@@ -3957,7 +3957,7 @@ nav ul a:hover {
 
 /*end mobile*/
 /*animation*/
-#catalog-href {
+.catalog-href {
   z-index: 2; }
 
 .block2--move-to-left {
@@ -4186,6 +4186,10 @@ nav ul a:hover {
   .left-side__desctop-wrapper {
     min-height: auto; } }
 
+@media screen and (max-width: 1390px) {
+  .cat__items {
+    font-size: 14px; } }
+
 @media screen and (max-width: 979px) {
   .main-wrapper {
     background: #1b273c; }
@@ -4211,7 +4215,16 @@ nav ul a:hover {
     left: 50px; }
   .catalog a {
     height: 132px;
-    padding: 12px; } }
+    padding: 12px; }
+  /*anim*/
+  .catalog-page--anim {
+    height: auto; }
+  .prod__item {
+    min-height: 168px; }
+  .cat__item--overlay {
+    width: 90%; }
+  .catalog--anim--visible .catalog {
+    right: auto; } }
 
 @media screen and (max-width: 749px) {
   .main-page {
@@ -4287,7 +4300,47 @@ nav ul a:hover {
     -moz-transform: none;
     -ms-transform: none;
     -o-transform: none;
-    transform: none; } }
+    transform: none; }
+  /*anim*/
+  .catalog-page--anim {
+    padding-top: 205px;
+    width: 100%;
+    left: auto; }
+  .catalog--anim--visible {
+    background-color: #1b273c;
+    top: 0;
+    left: auto;
+    padding: 59px 28px 36px 28px;
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: lr-tb;
+    writing-mode: horizontal-tb;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    z-index: 3;
+    width: 60%; }
+  .catalog--anim--visible .catalog {
+    font-size: 46px; }
+  .catalog--anim--visible .catalog:after {
+    content: none; }
+  .catalog--anim--visible .catalog-smaller {
+    font-size: 32px; }
+  .menu-toggle {
+    z-index: 4; }
+  .main-header__mobile .fa-envelope-o,
+  .main-header__mobile .fa-phone {
+    display: block;
+    z-index: 3; }
+  .desctop-nav--anim {
+    display: none; }
+  .catalog--anim--visible .catalog-smaller {
+    margin-top: 0; }
+  .social-icon-anim .fa-envelope-o,
+  .social-icon-anim .fa-phone {
+    z-index: 4;
+    position: relative; } }
 
 @media screen and (max-width: 690px) {
   .block:before {
@@ -4315,7 +4368,15 @@ nav ul a:hover {
 
 @media screen and (max-width: 390px) {
   .block:before {
-    left: -197px; } }
+    left: -197px; }
+  .social-icon-anim .fa-envelope-o,
+  .social-icon-anim .fa-phone {
+    font-size: 25px; }
+  .fa-instagram--anim {
+    z-index: 4;
+    position: relative;
+    font-size: 25px;
+    top: -16px; } }
 
 @media screen and (max-width: 320px) {
   .logo {

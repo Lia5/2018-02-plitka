@@ -5,7 +5,7 @@ $(function(){
     $(".main-header__mobile nav ul").toggleClass('hidden');
   });
 
-  $("#catalog-href").on('click', function() {
+  $(".catalog-href").on('click', function() {
     $(this).toggleClass("on");
     $('.block2').addClass("block2--move-to-left");
     $('.block2').addClass("slide-left");
@@ -14,6 +14,10 @@ $(function(){
     $('.catalog-page--anim--hidden').addClass("slide-down");
     $('.block2 div').addClass("anim--hidden");
     $('.left-side__desctop').addClass("anim--hidden");
+    $('.main-header__mobile .catalog').addClass("anim--hidden");
+    $('.main-header__mobile .fa-instagram').addClass("fa-instagram--anim");
+    $('.logo').addClass("anim--hidden");
+    $('.social-icon-anim').removeClass("anim--hidden");
   });
 
   
