@@ -1,4 +1,5 @@
 $dark-blue: #1b273c;
+$dark-blue2: rgba(27, 39, 60, 0.5);
 $white: #ffffff;
 
 
@@ -10,5 +11,7 @@ $white: #ffffff;
 @import "settings/fonts.scss";
 
 @import "sections/main-page.scss";
+@import "sections/main-page-anim.scss";
+
 @import "sections/adaptive.scss";
 

@@ -1,0 +1,181 @@
+
+/*animation*/
+.block2--move-to-left {
+  left: -86%;
+}
+.catalog--anim--hidden {
+  display: none;
+}
+.catalog--anim--visible {
+  display: block;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  font-size: 81px;
+  writing-mode: tb-rl;
+  text-transform: uppercase;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.catalog--anim--visible .catalog-smaller {
+  margin-top: 14%;
+}
+.catalog-smaller{
+  font-size: 53px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.catalog-page--anim {
+  position: absolute;
+  top: 0;
+  left: 12%;
+  width: 63%;
+  height: 100vh;
+  z-index: 2;
+}
+/*end animation*/
+
+.slide-down{
+  animation-name: slide-down;
+  -webkit-animation-name: slide-down;  
+  animation-duration: 1s; 
+  -webkit-animation-duration: 1s;
+  animation-timing-function: ease;    
+  -webkit-animation-timing-function: ease;    
+  visibility: visible !important;                     
+}
+
+@keyframes slide-down {
+  0% {      transform: translateY(-100%);  }
+  50%{      transform: translateY(8%);  }
+  65%{      transform: translateY(-4%);  }
+  80%{      transform: translateY(4%);  }
+  95%{      transform: translateY(-2%);  }           
+  100% {      transform: translateY(0%);  }       
+}
+
+@-webkit-keyframes slide-down {
+  0% { -webkit-transform: translateY(-100%);  }
+  50%{ -webkit-transform: translateY(8%);  }
+  65%{ -webkit-transform: translateY(-4%);  }
+  80%{ -webkit-transform: translateY(4%);  }
+  95%{ -webkit-transform: translateY(-2%);  }           
+  100% { -webkit-transform: translateY(0%);  }   
+}
+
+
+
+
+.slide-left{
+  animation-name: slide-left;
+  -webkit-animation-name: slide-left;  
+
+  animation-duration: 2s; 
+  -webkit-animation-duration: 2s;
+
+  animation-timing-function: ease-in-out; 
+  -webkit-animation-timing-function: ease-in-out;     
+
+  visibility: visible !important; 
+}
+
+@keyframes slide-left {
+  0% {      transform: translateX(150%);  }
+  50%{      transform: translateX(-8%);  }
+  65%{      transform: translateX(4%);  }
+  80%{      transform: translateX(-4%);  }
+  95%{      transform: translateX(2%);  }           
+  100% {      transform: translateX(0%);  }
+}
+
+@-webkit-keyframes slide-left {
+  0% {      -webkit-transform: translateX(150%);  }
+  50%{      -webkit-transform: translateX(-8%);  }
+  65%{      -webkit-transform: translateX(4%);  }
+  80%{      -webkit-transform: translateX(-4%);  }
+  95%{      -webkit-transform: translateX(2%);  }           
+  100% {      -webkit-transform: translateX(0%);  }
+}
+.cat__items {
+  height: 25%;
+  padding-top: 11px;
+  font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+.cat__item {
+  height: 100%;
+ 
+}
+.prod__item {
+  padding: 18px 29px;
+  height: 100%;
+}
+.prod__item-1 {
+  background-image: url('../img/catalog/cat1-klink-plit.jpg');
+}
+.prod__item-2 {
+  background-image: url('../img/catalog/cat2-klink-brus.jpg');
+}
+.prod__item-3 {
+  background-image: url('../img/catalog/cat3-klink-stup.jpg');
+}
+.prod__item-4 {
+  background-image: url('../img/catalog/cat4-vodootvod.jpg');
+}
+.prod__item-5 {
+  background-image: url('../img/catalog/cat5-trot-pl.jpg');
+}
+.prod__item-6 {
+  background-image: url('../img/catalog/cat6-maf-decor.jpg');
+}
+.prod__item-7 {
+  background-image: url('../img/catalog/cat7-drev-komp.jpg');
+}
+.prod__item-8 {
+  background-image: url('../img/catalog/cat8-bord.jpg');
+}
+.prod__item-9 {
+  background-image: url('../img/catalog/cat9-vaz.jpg');
+}
+.prod__item-10 {
+  background-image: url('../img/catalog/cat10-zabor.jpg');
+}
+.prod__item-11 {
+  background-image: url('../img/catalog/cat11-fonar.jpg');
+}
+.prod__item-12 {
+  background-image: url('../img/catalog/cat12-rezin.jpg');
+}
+.cat__item--overlay { 
+  background: $dark-blue2;
+   width: 70%;
+
+}
+.cat__item__name {
+  padding: 13px;
+}
+
+
+.desctop-nav--anim {
+  position: absolute;
+  top: 55px;;
+  right: 0;
+  color: $dark-blue;
+}
+.desctop-nav--anim a {
+  color: $dark-blue;
+}
+.desctop-nav--anim .main-menu__phone {
+  color: $dark-blue;
+  position: static;
+}
+.desctop-nav--anim .main-menu__contacts {
+  margin-top: 100%;
+}
+.desctop-nav--anim .menu-line:before {
+  background-color: $dark-blue;
+}
