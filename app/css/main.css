@@ -4268,6 +4268,9 @@ nav ul a:hover {
 .cat__page-mob.catalog--anim--visible {
   display: none; }
 
+.catalog-page__right--mob {
+  display: none; }
+
 @media screen and (max-width: 1539px) {
   .catalog a {
     height: 190px;
@@ -4473,6 +4476,7 @@ nav ul a:hover {
     z-index: 4;
     position: relative; }
   .catalog-page__right--mob {
+    display: block;
     background-color: #ffffff;
     position: fixed;
     top: 0;

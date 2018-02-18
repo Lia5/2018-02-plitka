@@ -275,6 +275,7 @@
     position: relative
   }
   .catalog-page__right--mob {
+    display: block;
     background-color: $white;
     position: fixed;
     top: 0;
