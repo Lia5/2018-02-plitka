@@ -3,6 +3,7 @@ $(function(){
     $(this).toggleClass("on");
     $('.main-menu').toggleClass("on");
     $(".main-header__mobile nav ul").toggleClass('hidden');
+    $('.mt__left-menu').toggleClass("open");
   });
 
   $(".catalog-href").on('click', function() {
@@ -19,7 +20,12 @@ $(function(){
     $('.logo').addClass("anim--hidden");
     $('.social-icon-anim').removeClass("anim--hidden");
     $('.main-menu__contacts--anim').removeClass("anim--hidden");
+    
   });
 
+  $(".mt__item").on('click', function() {
+    $('.block2').addClass("block2--move-to-left-mt");
+    $('.block2').addClass("slide-left");
+  });
   
 })
