@@ -26,6 +26,33 @@ $(function(){
   $(".mt__item").on('click', function() {
     $('.block2').addClass("block2--move-to-left-mt");
     $('.block2').addClass("slide-left");
+    $('.mt-page--anim--hidden ').addClass("mt-page--anim--visible");
+    $('.mt__title--exampl').addClass("anim--hidden");
+    $('.mt__subtitle').addClass("mt__subtitle--anim");
+    $('.block2__container .social-icon').addClass("social-icon--anim");
+    $('.logo img').addClass("mk-logo--anim");
   });
+
+	//скрыть весь контент
+	$('.tab_content').hide();
+	//Показать контент первой вкладки
+	$('.tab_content:first').show();
+	//Активировать первую вкладку
+	$('.tabs li:first').addClass('active');
+	//Событие по клику
+	$('.tabs li').click(function(event) {
+		//Удалить "active" класс
+		$('.tabs li').removeClass('active');
+		//Добавить "active" для выбранной вкладки
+		$(this).addClass('active');
+		//Скрыть контент вкладки
+		$('.tab_content').hide();
+
+		//Найти значение атрибута ссылки, чтобы 
+		//определить активный таб контент
+		var selectTab = $(this).find('a').attr("href");
+		//Исчезновение активного контента
+		$(selectTab).fadeIn();
+	});
   
 })

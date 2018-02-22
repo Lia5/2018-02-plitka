@@ -4419,7 +4419,7 @@ nav ul a:hover {
 
 .make-calc {
   border: 2px solid #ffffff;
-  padding: 15px 27px;
+  padding: 3px 27px;
   font-size: 24px; }
 
 .mt__item {
@@ -4446,6 +4446,69 @@ nav ul a:hover {
 .block2--move-to-left-mt {
   left: -100%; }
 
+.mt-page--anim--hidden {
+  display: none; }
+
+.mt-page--anim--visible {
+  display: block;
+  position: absolute;
+  padding: 40px 15px;
+  top: 0;
+  left: 34%;
+  width: 66%;
+  height: 100vh;
+  z-index: 2;
+  background-color: #1b273c;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s; }
+
+.mt__subtitle.last-word {
+  padding-bottom: 76px; }
+
+.block2__container .social-icon--anim {
+  top: 202px;
+  left: 0; }
+
+.mk-logo--anim {
+  z-index: 1;
+  position: relative; }
+
+/*tabs*/
+.tabs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  border: none; }
+
+.tabs li {
+  float: left; }
+
+.tabs li a {
+  display: block;
+  padding: 10px 20px;
+  font-size: 28px;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.tabs li a:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+.tabs li.active,
+.tabs li.active a:hover {
+  font-weight: bold;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+.tab_container {
+  border-top: none; }
+
+.tab_content {
+  padding: 20px;
+  font-size: 16px; }
+
+/*end tabs*/
 @media screen and (max-width: 1539px) {
   .catalog a {
     height: 190px;
@@ -4480,7 +4543,11 @@ nav ul a:hover {
   .mt__subtitle {
     font-size: 36px; }
   .mt__title--exampl {
-    font-size: 9px; } }
+    font-size: 9px; }
+  .block2__container .social-icon--anim {
+    top: 151px; }
+  .tabs li a {
+    font-size: 18px; } }
 
 @media screen and (max-width: 1390px) {
   .cat__items {
@@ -4538,12 +4605,23 @@ nav ul a:hover {
   .catalog--anim--visible .catalog {
     right: auto; }
   /*cat*/
+  .mt-main-header__mobile .block2__container {
+    position: relative;
+    width: 106%;
+    margin-left: -118px;
+    padding-right: 0; }
   .block3:before {
     left: -425px; }
   .cat__item__active {
     margin: 12px 0; }
   .block3:before {
-    left: -466px; } }
+    left: -466px; }
+  .tabs li a {
+    font-size: 14px;
+    padding: 10px; }
+  .mt-main-header__mobile .block2__container .social-icon {
+    top: 143px;
+    left: 15px; } }
 
 @media screen and (max-width: 749px) {
   .main-page {
@@ -4751,7 +4829,9 @@ nav ul a:hover {
   .mt__left-menu--mobile .three {
     background-color: #ffffff; }
   .block__mt:before {
-    left: 503px; } }
+    left: 503px; }
+  .tabs li a {
+    font-size: 28px; } }
 
 @media screen and (max-width: 479px) {
   .block:before {
