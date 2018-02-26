@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -4442,6 +4443,29 @@ nav ul a:hover {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg); }
+
+.examples__title {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative; }
+
+.examples-panel {
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.examples__img img {
+  width: 100%; }
+
+/*tabs-exm*/
+.tabs__content-exm {
+  display: none;
+  /* по умолчанию прячем все блоки */ }
+
+.tabs__content-exm.active-exm {
+  display: block;
+  /* по умолчанию показываем нужный блок */ }
 
 .block2--move-to-left-mt {
   left: -100%; }

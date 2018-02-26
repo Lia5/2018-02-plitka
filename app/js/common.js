@@ -53,6 +53,18 @@ $(function(){
 		var selectTab = $(this).find('a').attr("href");
 		//Исчезновение активного контента
 		$(selectTab).fadeIn();
-	});
+  });
   
+  /*tabs inside*/
+  (function($) {
+    $(function() {
+     
+      $('.tabs__caption-exm').on('click', 'li:not(.active-exm)', function() {
+        $(this)
+          .addClass('active-exm').siblings().removeClass('active-exm')
+          .closest('div.tabs-exm').find('div.tabs__content-exm').removeClass('active-exm').eq($(this).index()).addClass('active-exm');
+      });
+     
+    });
+    })(jQuery);
 })
