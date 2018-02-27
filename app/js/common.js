@@ -36,7 +36,14 @@ $(function(){
     $('.mt-descr').addClass("anim--hidden");
     $('.mt__item rotate').addClass("anim--hidden");
   });
-
+  
+  $(".examples-panel-item--block").on('click', function() {
+    $('.examples__img').addClass("examples__img-blocks");
+  });
+  $(".examples-panel-item--lines").on('click', function() {
+    $('.examples__img').removeClass("examples__img-blocks");
+  });
+  
 	//скрыть весь контент
 	$('.tab_content').hide();
 	//Показать контент первой вкладки
@@ -71,4 +78,31 @@ $(function(){
      
     });
     })(jQuery);
+//popups
+    $(function() {
+      //----- OPEN
+      $('[data-popup-open]').on('click', function(e)  {
+          var targeted_popup_class = jQuery(this).attr('data-popup-open');
+          $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+   
+          e.preventDefault();
+      });
+   
+      //----- CLOSE
+      $('[data-popup-close]').on('click', function(e)  {
+          var targeted_popup_class = jQuery(this).attr('data-popup-close');
+          $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+   
+          e.preventDefault();
+      });
+      //------ jQuery: Закрытие элемента по клику за пределами его области (вне элемента)
+      $(document).mouseup(function (e){ // событие клика по веб-документу
+        var div = $("#popup1"); // тут указываем ID элемента
+         if (!div.is(e.target) // если клик был не по нашему блоку
+         && div.has(e.target).length === 0) { // и не по его дочерним элементам
+       div.hide(); // скрываем его родителя (оверфлоу фон)
+     }
+  });
+  });
+
 })
