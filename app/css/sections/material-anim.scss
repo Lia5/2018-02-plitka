@@ -35,7 +35,9 @@
   left: 0;
   position: fixed;
 }
-
+.block2--move-to-left-mt--fix .hight-eco {
+  padding-left: 46px;
+}
 /*tabs*/
 
 .tabs {
@@ -156,6 +158,8 @@
   width: 130px;
   height: 130px;
   position: relative;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 .color__item__img img {
   width: 100%;
@@ -163,9 +167,22 @@
 .color__item__txt {
   position: absolute;
   right: 0;
+  bottom: 12px;
   padding: 5px;
   background-color: #ff0000;
   font-size: 23px;
   font-family: 'Philosopher-Regular', 'Arial Narrow', Arial, sans-serif;
+}
+.color__info2 {
+  display: block;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 80%;
+}
+.color__item__txt2 {
+  color: $dark-blue;
+  font-size: 23px;
+  text-align: center;
+
 }
 /*end tabs*/

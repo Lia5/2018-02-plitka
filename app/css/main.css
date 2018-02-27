@@ -4487,6 +4487,9 @@ nav ul a:hover {
   left: 0;
   position: fixed; }
 
+.block2--move-to-left-mt--fix .hight-eco {
+  padding-left: 46px; }
+
 /*tabs*/
 .tabs {
   margin: 0;
@@ -4598,7 +4601,9 @@ nav ul a:hover {
   display: inline-block;
   width: 130px;
   height: 130px;
-  position: relative; }
+  position: relative;
+  margin-top: 20px;
+  margin-right: 20px; }
 
 .color__item__img img {
   width: 100%; }
@@ -4606,10 +4611,22 @@ nav ul a:hover {
 .color__item__txt {
   position: absolute;
   right: 0;
+  bottom: 12px;
   padding: 5px;
   background-color: #ff0000;
   font-size: 23px;
   font-family: 'Philosopher-Regular', 'Arial Narrow', Arial, sans-serif; }
+
+.color__info2 {
+  display: block;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 80%; }
+
+.color__item__txt2 {
+  color: #1b273c;
+  font-size: 23px;
+  text-align: center; }
 
 /*end tabs*/
 @media screen and (max-width: 1539px) {
