@@ -87,3 +87,10 @@ button {
 	-o-transform: rotate(180deg);
 	transform: rotate(180deg);
 }
+.pos-fix {
+  position: fixed;
+}
+.block2--move-to-left-mt--fix {
+  left: auto;
+  position: fixed;
+}

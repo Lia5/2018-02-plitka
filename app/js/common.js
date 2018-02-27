@@ -31,6 +31,10 @@ $(function(){
     $('.mt__subtitle').addClass("mt__subtitle--anim");
     $('.block2__container .social-icon').addClass("social-icon--anim");
     $('.logo img').addClass("mk-logo--anim");
+    $('.mt__left-menu').addClass("pos-fix");
+    $('.block2--move-to-left-mt').addClass("block2--move-to-left-mt--fix");
+    $('.mt-descr').addClass("anim--hidden");
+    $('.mt__item rotate').addClass("anim--hidden");
   });
 
 	//скрыть весь контент

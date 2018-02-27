@@ -31,7 +31,10 @@
   position: relative;
 }
 
-
+.block2--move-to-left-mt--fix {
+  left: 0;
+  position: fixed;
+}
 
 /*tabs*/
 
@@ -70,4 +73,99 @@
   font-size: 16px;
 }
 
+.examples__title {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.examples-panel {
+  position: absolute;
+  right: -50px;
+  top: 0;
+}
+.examples__img {
+  margin: 1%;
+}
+.examples__img img {
+  width: 100%;
+}
+
+.tabs__content-exm {
+  display: none; /* по умолчанию прячем все блоки */
+}
+.tabs__content-exm.active-exm {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
+
+
+//2
+.har__item {
+  padding: 45px 34px 0 34px;
+}
+.har__title {
+  font-size: 50px;
+  font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+  opacity: 0.2;
+  text-transform: uppercase;
+}
+.har__info {
+  padding: 10px;
+}
+.har__info__items {
+  font-size: 16px;
+  color: #ffffff;
+}
+.har__items__name {
+  opacity: 0.5;
+  text-align: left;
+  display: inline-block;
+  width: 30%;
+}
+.har__items__name--first {
+  width: 46%;
+}
+.har__items__count {
+  display: inline-block;
+  width: 33%;
+}
+.har__items__count--right {
+  text-align: right;
+  width: 50%;
+}
+.har__item fieldset {
+  width: 80%;
+}
+.har__info > li:before {
+  content: "-";
+  text-indent: -5px;
+  opacity: 0.5;
+}
+//3
+.color__item {
+  padding: 60px 31px;
+}
+.color__title {
+  font-size: 24px;
+  color: #ffffff;
+}
+.color__item__img {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  position: relative;
+}
+.color__item__img img {
+  width: 100%;
+}
+.color__item__txt {
+  position: absolute;
+  right: 0;
+  padding: 5px;
+  background-color: #ff0000;
+  font-size: 23px;
+  font-family: 'Philosopher-Regular', 'Arial Narrow', Arial, sans-serif;
+}
 /*end tabs*/

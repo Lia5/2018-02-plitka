@@ -58,6 +58,10 @@
   .tabs li a {
     font-size: 18px;
   }
+  .examples-panel {
+    position: absolute;
+    right: 0;
+  }
 }
 
 @media screen and (max-width: 1390px) {
