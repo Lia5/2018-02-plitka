@@ -4560,7 +4560,8 @@ nav ul a:hover {
   font-size: 18px;
   position: absolute;
   right: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  cursor: pointer; }
 
 .mt__item:after {
   content: "";
@@ -4605,7 +4606,7 @@ nav ul a:hover {
   padding-bottom: 76px; }
 
 .block2__container .social-icon--anim {
-  top: 202px;
+  top: 238px;
   left: 0; }
 
 .mk-logo--anim {
@@ -4700,6 +4701,9 @@ nav ul a:hover {
 .examples__img-blocks {
   width: 47%;
   display: inline-block; }
+
+.block2--move-to-left-mt--fix .img-title {
+  width: 80%; }
 
 .popup {
   width: 100%;

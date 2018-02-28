@@ -39,6 +39,7 @@ $(function(){
     $('.back-to').removeClass("anim--hidden");
     $('.block2--move-to-left-mt--fix .mt__item').addClass("anim--hidden");
     $('.back-to-mt').addClass("back-to-mt--anim");
+    $('.hight-eco').addClass("anim--hidden");
 
   });
   
