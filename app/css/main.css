@@ -1344,10 +1344,6 @@ button {
 .pos-fix {
   position: fixed; }
 
-.block2--move-to-left-mt--fix {
-  left: auto;
-  position: fixed; }
-
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -4302,13 +4298,36 @@ nav ul a:hover {
   height: 100vh;
   min-height: 100px;
   max-width: 100px;
-  z-index: 2; }
+  z-index: 2;
+  padding-top: 48px; }
+
+.open > .mt__menu-toggle {
+  position: absolute;
+  top: 70px;
+  left: 20px; }
+
+.mt__left-menu.open {
+  margin-top: -27px;
+  padding-left: 66px; }
+
+.mt__left-menu nav a {
+  text-align: left;
+  font-size: 20px; }
 
 .mt__left-menu a {
   color: #1b273c; }
 
 .mt__left-menu nav a {
-  color: #1b273c; }
+  color: #1b273c;
+  position: relative; }
+
+.mt__left-menu nav ul a:hover {
+  background: none; }
+
+.mt__left-menu nav ul a:hover:before {
+  content: '—';
+  position: absolute;
+  left: -20px; }
 
 .mt__menu-toggle {
   position: static; }
@@ -4350,6 +4369,47 @@ nav ul a:hover {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg); }
+
+.open.mt__left-menu .main-menu__phone {
+  -webkit-writing-mode: horizontal-tb;
+  -ms-writing-mode: horizontal-tb;
+  writing-mode: horizontal-tb;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+  bottom: 10px; }
+
+.open.mt__left-menu .menu-line {
+  -webkit-writing-mode: horizontal-tb;
+  -ms-writing-mode: horizontal-tb;
+  writing-mode: horizontal-tb;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.open .main-menu__contacts {
+  bottom: 85px;
+  left: 109px; }
+
+.back-to-cat {
+  display: none;
+  font-size: 30px;
+  font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
+  -webkit-writing-mode: tb-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.open .back-to-cat {
+  display: block; }
 
 .mt-page .logo {
   width: 90px;
@@ -4466,14 +4526,14 @@ nav ul a:hover {
   left: 34%;
   width: 66%;
   height: 100vh;
-  z-index: 2;
+  z-index: 3;
   background-color: #1b273c;
   -webkit-transition: 2s;
   -moz-transition: 2s;
   -o-transition: 2s;
   transition: 2s; }
 
-.mt__subtitle.last-word {
+.mt__subtitle.last-word.mt__subtitle--anim {
   padding-bottom: 76px; }
 
 .block2__container .social-icon--anim {
@@ -4485,11 +4545,43 @@ nav ul a:hover {
   position: relative; }
 
 .block2--move-to-left-mt--fix {
-  left: 68px;
-  position: fixed; }
+  left: 294px;
+  position: fixed;
+  z-index: 2; }
 
 .block2--move-to-left-mt--fix .hight-eco {
   padding-left: 46px; }
+
+.back-to {
+  position: absolute;
+  left: -96px;
+  top: 111px;
+  font-size: 18px;
+  font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
+  -webkit-writing-mode: tb-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); }
+
+.block2--move-to-left-mt--fix .block2__container {
+  left: -160px; }
+
+.mt__left-menu.open {
+  z-index: 3; }
+
+.mt__left-menu.open .back-to-cat {
+  display: none; }
+
+.mt__left-menu.open .main-menu__phone {
+  display: none; }
+
+.mt__left-menu.open .main-menu__contacts {
+  bottom: 54px;
+  left: 64px; }
 
 /*tabs*/
 .tabs {
@@ -4717,6 +4809,32 @@ nav ul a:hover {
   .catalog-page__name {
     font-size: 18px; }
   /*mt*/
+  .block2--move-to-left-mt--fix {
+    left: 177px; }
+  .block2--move-to-left-mt--fix .block2__container {
+    left: -95px; }
+  .back-to {
+    left: -63px; }
+  .hight-eco {
+    display: none; }
+  .mt-page .block2 {
+    left: 211px; }
+  .mt-page .block2__container {
+    left: -130px; }
+  .mt-page .img-title {
+    width: 85%; }
+  .mt-page .main-menu__phone {
+    color: #1b273c;
+    right: 12%; }
+  .mt-page .logo {
+    margin-left: 88px; }
+  .mt__left-menu.open .back-to-cat {
+    display: none; }
+  .mt__left-menu.open .main-menu__phone {
+    display: none; }
+  .open .main-menu__contacts {
+    bottom: 54px;
+    left: 64px; }
   .mt-page .logo {
     margin-top: 24px;
     margin-left: 28px; }
@@ -4814,7 +4932,17 @@ nav ul a:hover {
     padding: 10px; }
   .mt-main-header__mobile .block2__container .social-icon {
     top: 143px;
-    left: 15px; } }
+    left: 15px; }
+  /*mt*/
+  .mt__left-menu.open .back-to-cat {
+    display: none; }
+  .mt__left-menu.open .main-menu__phone {
+    display: none; }
+  .open .main-menu__contacts {
+    bottom: 54px;
+    left: 64px; }
+  .mt-page .block2 {
+    top: 105px; } }
 
 @media screen and (max-width: 749px) {
   .main-page {

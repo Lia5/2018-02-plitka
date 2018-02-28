@@ -35,6 +35,8 @@ $(function(){
     $('.block2--move-to-left-mt').addClass("block2--move-to-left-mt--fix");
     $('.mt-descr').addClass("anim--hidden");
     $('.mt__item rotate').addClass("anim--hidden");
+    $('.back-to').removeClass("anim--hidden");
+    $('.block2--move-to-left-mt--fix .mt__item').addClass("anim--hidden");
   });
   
   $(".examples-panel-item--block").on('click', function() {
