@@ -3984,7 +3984,7 @@ nav ul a:hover {
 .catalog--anim--visible {
   display: block;
   position: absolute;
-  top: 10%;
+  top: 23%;
   left: 0;
   font-size: 81px;
   -webkit-writing-mode: tb-rl;
@@ -4010,7 +4010,7 @@ nav ul a:hover {
   position: absolute;
   top: 0;
   left: 12%;
-  width: 71%;
+  width: 67%;
   height: 100vh;
   z-index: 2; }
 
@@ -4222,7 +4222,9 @@ nav ul a:hover {
   position: absolute;
   top: 55px;
   right: 0;
-  color: #1b273c; }
+  color: #1b273c;
+  width: 21%;
+  padding-left: 116px; }
 
 .desctop-nav--anim a {
   color: #1b273c; }
@@ -4272,7 +4274,7 @@ nav ul a:hover {
   position: absolute;
   top: 0;
   left: 12%;
-  width: 71%;
+  width: 67%;
   height: 100vh;
   z-index: 2; }
 
@@ -4332,6 +4334,7 @@ nav ul a:hover {
   background-image: url("../img/cat__items/cat5-item4.jpg"); }
 
 .cat__item--bg {
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -5183,6 +5186,10 @@ nav ul a:hover {
   .catalog__tomain {
     font-size: 14px;
     text-transform: none; }
+  .cat__item {
+    width: 96%;
+    margin: 2%;
+    float: none; }
   /*mt*/
   .mt-page .logo {
     display: none; }

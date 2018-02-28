@@ -15,11 +15,13 @@ $(function(){
     $('.catalog-page--anim--hidden').addClass("slide-down");
     $('.block2 div').addClass("anim--hidden");
     $('.left-side__desctop').addClass("anim--hidden");
+    $('.catalog__tomain').addClass("anim--hidden");
     $('.main-header__mobile .catalog').addClass("anim--hidden");
     $('.main-header__mobile .fa-instagram').addClass("fa-instagram--anim");
     $('.logo').addClass("anim--hidden");
     $('.social-icon-anim').removeClass("anim--hidden");
     $('.main-menu__contacts--anim').removeClass("anim--hidden");
+
     
   });
 

@@ -15,7 +15,7 @@
 .catalog--anim--visible {
   display: block;
   position: absolute;
-  top: 10%;
+  top: 23%;
   left: 0;
   font-size: 81px;
   writing-mode: tb-rl;
@@ -39,7 +39,7 @@
   position: absolute;
   top: 0;
   left: 12%;
-  width: 71%;
+  width: 67%;
   height: 100vh;
   z-index: 2;
 }
@@ -237,6 +237,8 @@
   top: 55px;;
   right: 0;
   color: $dark-blue;
+  width: 21%;
+  padding-left: 116px;
 }
 .desctop-nav--anim a {
   color: $dark-blue;

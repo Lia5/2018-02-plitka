@@ -35,7 +35,7 @@
     position: absolute;
     top: 0;
     left: 12%;
-    width: 71%;
+    width: 67%;
     height: 100vh;
     z-index: 2;
     // background-image: url('../img/bg-item.jpg');
@@ -101,6 +101,7 @@
   background-image: url('../img/cat__items/cat5-item4.jpg');
 }
 .cat__item--bg {
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
