@@ -122,6 +122,68 @@
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.prod__item--overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.prod__item:hover .prod__item--overlay {
+  display: block;
+}
+.prod__item--overlay__figure {
+  width: 50%;
+  height: 100%;
+  color: #ffffff;
+  z-index: 0;
+  position: relative;
+  font-size: 12px;
+  font-family: 'PTSans-Regular', 'Arial Narrow', Arial, sans-serif;
+}
+.prod__item__figure__title {
+  font-size: 20px;
+  font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 6px;
+}
+.prod__item--overlay__figure p {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+
+.prod__item--overlay__figure:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 313px;
+  height: 372px;
+  bottom: -69px;
+  left: -98px;
+  z-index: -1;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background-color: $dark-blue;
+  -webkit-transform-origin: center;
+  -ms-transform-origin:  center;
+  transform-origin: center;
+}
+
+
+
+.prod__item--overlay__img {
+  margin-left: 50%;
+  width: 34%;
+  height: 34%;
+  position: absolute;
+  top: 9%;
+}
+.prod__item--overlay__img img {
+  width: 100%;
 }
 .prod__item-1 {
   background-image: url('../img/catalog/cat1-klink-plit.jpg');

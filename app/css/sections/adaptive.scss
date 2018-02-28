@@ -234,7 +234,26 @@
   .mt-page .block2 {
     top: 105px;
   }
-
+  .mt__title {
+    font-size: 46px;
+  }
+  .mt__subtitle {
+    font-size: 28px;
+  }
+  .social-icon750__mail {
+      position: absolute;
+      right: -90px;
+      top: -135px;
+  
+  }
+  .social-icon750__phone {
+      position: absolute;
+      right: -90px;
+      top: -86px;
+  }
+  .mt-page .img-title {
+    margin-top: 75px;
+  }
 }
 
 @media screen and (max-width: 749px) {
