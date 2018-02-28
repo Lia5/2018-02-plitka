@@ -21,7 +21,7 @@ $(function(){
     $('.logo').addClass("anim--hidden");
     $('.social-icon-anim').removeClass("anim--hidden");
     $('.main-menu__contacts--anim').removeClass("anim--hidden");
-
+   
   });
 
   $(".mt__item").on('click', function() {
@@ -38,6 +38,8 @@ $(function(){
     $('.mt__item rotate').addClass("anim--hidden");
     $('.back-to').removeClass("anim--hidden");
     $('.block2--move-to-left-mt--fix .mt__item').addClass("anim--hidden");
+    $('.back-to-mt').addClass("back-to-mt--anim");
+
   });
   
   $(".examples-panel-item--block").on('click', function() {
