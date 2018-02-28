@@ -4501,7 +4501,8 @@ nav ul a:hover {
   list-style: disc; }
 
 .mt-bread-crumbs {
-  font-size: 14px; }
+  font-size: 14px;
+  margin: 20px; }
 
 .mt__title {
   font-size: 82px;
@@ -4612,12 +4613,12 @@ nav ul a:hover {
   position: relative; }
 
 .block2--move-to-left-mt--fix {
-  left: 294px;
+  left: 273px;
   position: fixed;
   z-index: 2; }
 
 .block2--move-to-left-mt--fix .hight-eco {
-  padding-left: 46px; }
+  padding-left: 25px; }
 
 .back-to {
   position: absolute;
@@ -4679,7 +4680,8 @@ nav ul a:hover {
 .examples-panel {
   position: absolute;
   right: -50px;
-  top: 0; }
+  top: 0;
+  cursor: pointer; }
 
 .examples__img {
   margin: 1%; }
