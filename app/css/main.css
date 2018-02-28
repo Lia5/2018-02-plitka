@@ -4345,6 +4345,10 @@ nav ul a:hover {
 .catalog-page__right--mob {
   display: none; }
 
+.cat__item--bg:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
 .mt-page {
   overflow: hidden;
   background-image: url(../img/material-bg.png); }
