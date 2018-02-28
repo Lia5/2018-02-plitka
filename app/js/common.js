@@ -22,7 +22,6 @@ $(function(){
     $('.social-icon-anim').removeClass("anim--hidden");
     $('.main-menu__contacts--anim').removeClass("anim--hidden");
 
-    
   });
 
   $(".mt__item").on('click', function() {

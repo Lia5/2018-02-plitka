@@ -4924,8 +4924,6 @@ nav ul a:hover {
     padding-left: 39px; }
   .main-menu__phone-item span {
     font-size: 22px; }
-  .catalog-page--bg {
-    width: 61%; }
   .catalog-page__right {
     top: 0;
     padding-top: 55px; } }
@@ -4966,6 +4964,57 @@ nav ul a:hover {
   .catalog--anim--visible .catalog {
     right: auto; }
   /*cat*/
+  .catalog-page__right--mob {
+    display: block;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 10%; }
+  .desctop-nav--anim {
+    display: none; }
+  .menu-toggle {
+    z-index: 4; }
+  .main-header__mobile .fa-envelope-o,
+  .main-header__mobile .fa-phone {
+    display: block;
+    z-index: 3; }
+  .social-icon-anim .fa-envelope-o,
+  .social-icon-anim .fa-phone {
+    z-index: 4;
+    position: relative; }
+  .main-header__mobile {
+    display: block; }
+  .social-icon {
+    padding-top: 44px;
+    position: absolute;
+    right: 27px; }
+  .main-menu__phone {
+    margin-left: -20px;
+    padding-top: 32px;
+    text-align: right;
+    position: static;
+    color: #ffffff; }
+  .block2 {
+    display: none; }
+  .block {
+    display: block; }
+  .catalog-page__name {
+    font-size: 32px;
+    padding: 19px 18px 6px 19px; }
+  .cat-mob {
+    background-color: #1b273c; }
+  .catalog-page--bg {
+    width: 76%; }
+  .fa-catalog-page__right--mob {
+    color: #1b273c; }
+  .fa-youtube-play.fa-catalog-page__right--mob {
+    margin-top: 50px; }
+  .catalog-page--bg {
+    width: 80%; }
+  .catalog-page__name {
+    font-size: 18px; }
   .mt-main-header__mobile .block2__container {
     position: relative;
     width: 106%;
@@ -5014,12 +5063,6 @@ nav ul a:hover {
     background-position: center; }
   .main-header__desctop {
     display: none; }
-  .block2 {
-    display: none; }
-  .block {
-    display: block; }
-  .main-header__mobile {
-    display: block; }
   .logo {
     position: static;
     width: 145px;
@@ -5037,16 +5080,6 @@ nav ul a:hover {
     -webkit-transform-origin: left top;
     -ms-transform-origin: left top;
     transform-origin: left top; }
-  .social-icon {
-    padding-top: 44px;
-    position: absolute;
-    right: 27px; }
-  .main-menu__phone {
-    margin-left: -20px;
-    padding-top: 32px;
-    text-align: right;
-    position: static;
-    color: #ffffff; }
   .main__title {
     padding-top: 200px; }
   .block:before {
@@ -5064,17 +5097,15 @@ nav ul a:hover {
     width: 80%; }
   .cat__page-mob .social-icon {
     top: 0;
-    right: 0;
+    right: 44px;
     padding-top: 90px; }
-  .catalog-page__right--mob {
-    display: none; }
   .cat-mob {
     background-color: #ffffff; }
   .cat__item--left {
     display: none; }
   .catalog-page--bg {
-    width: 92%;
-    left: 4%; }
+    width: 100%;
+    left: 0%; }
   .cat__item--bg {
     min-height: 195px; }
   .cat__item--bg {
@@ -5085,9 +5116,6 @@ nav ul a:hover {
     bottom: 5px; }
   .catalog-page__color > div {
     display: inline-block; }
-  .catalog-page__name {
-    font-size: 32px;
-    padding: 19px 239px 6px 19px; }
   .catalog-page__figure {
     position: absolute;
     right: 32px;
@@ -5146,43 +5174,17 @@ nav ul a:hover {
     -o-transform: none;
     transform: none;
     z-index: 3;
-    width: 60%; }
+    width: 100%; }
   .catalog--anim--visible .catalog {
     font-size: 46px; }
   .catalog--anim--visible .catalog:after {
     content: none; }
   .catalog--anim--visible .catalog-smaller {
-    font-size: 32px; }
-  .catalog--anim--visible .catalog-smaller {
+    font-size: 32px;
     margin-top: 0; }
-  .menu-toggle {
-    z-index: 4; }
-  .main-header__mobile .fa-envelope-o,
-  .main-header__mobile .fa-phone {
-    display: block;
-    z-index: 3; }
-  .desctop-nav--anim {
-    display: none; }
-  .social-icon-anim .fa-envelope-o,
-  .social-icon-anim .fa-phone {
-    z-index: 4;
-    position: relative; }
-  .catalog-page__right--mob {
-    display: block;
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 10%; }
-  .cat-mob {
-    background-color: #1b273c; }
-  .catalog-page--bg {
-    width: 76%; }
-  .fa-catalog-page__right--mob {
-    color: #1b273c; }
-  .fa-youtube-play.fa-catalog-page__right--mob {
-    margin-top: 50px; }
+  .catalog-page__name {
+    font-size: 32px;
+    padding-right: 100px; }
   .catalog__tomain {
     font-size: 14px;
     text-transform: none; }
@@ -5240,9 +5242,6 @@ nav ul a:hover {
     right: -8px; }
   .main__title {
     padding-top: 129px; }
-  .catalog-page__name {
-    font-size: 32px;
-    padding: 19px 79px 6px 19px; }
   .block__mt:before {
     left: 503px;
     top: auto; } }
