@@ -4077,7 +4077,9 @@ nav ul.hidden {
   display: block; }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.5); }
+  content: '—';
+  position: absolute;
+  left: -20px; }
 
 .menu-toggle.on .one,
 .menu-toggle.on .three {
