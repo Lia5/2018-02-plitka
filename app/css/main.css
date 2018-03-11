@@ -5360,6 +5360,8 @@ a .nav-right--color {
     transform: rotate(-90deg); }
   .prod__item {
     padding: 10px 16px; }
+  .main-menu__phone--anim {
+    display: none; }
   /*anim*/
   /*
   .catalog-page--anim {
