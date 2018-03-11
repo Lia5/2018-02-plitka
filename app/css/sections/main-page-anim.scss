@@ -1,23 +1,22 @@
 
 
 /*animation*/
-/*
+
 .catalog-href {
   z-index: 2;
 }
 .block2--move-to-left {
-  left: -86%;
+  left: -14vw;
+  right: auto;
 }
-.catalog--anim--hidden,
-.catalog-page--anim--hidden, 
 .anim--hidden {
   display: none;
 }
-.catalog--anim--visible {
-  display: block;
+.catalog-title--anim {
   position: absolute;
   top: 23%;
-  left: 0;
+  right: 38%;
+  line-height: 0.8;
   font-size: 81px;
   writing-mode: tb-rl;
   text-transform: uppercase;
@@ -26,9 +25,11 @@
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
+  z-index: 1;
 }
-.catalog--anim--visible .catalog-smaller {
-  margin-top: 14%;
+.catalog-title--anim .catalog-smaller {
+  margin-top: 24%;
+  font-size: 54px;
 }
 .catalog-smaller{
   font-size: 53px;
@@ -40,13 +41,28 @@
   position: absolute;
   top: 0;
   left: 12%;
-  width: 67%;
+  width: 68%;
   height: 100vh;
   z-index: 2;
 }
-*/
+.main-page--anim {
+  background-size: 79% 100%;
+}
+a.nav-right--color {
+  color: $dark-blue;
+}
+a .nav-right--color {
+  color: $dark-blue;
+}
+.main-menu__contacts--anim {
+  position: absolute;
+  bottom: 143px;
+}
+.main-menu__phone--anim {
+  left: 0;
+}
 /*end animation*/
-/*
+
 .slide-down{
   animation-name: slide-down;
   -webkit-animation-name: slide-down;  
@@ -93,18 +109,14 @@
 
 @keyframes slide-left {
   0% {      transform: translateX(150%);  }
-  50%{      transform: translateX(-8%);  }
   65%{      transform: translateX(4%);  }
-  80%{      transform: translateX(-4%);  }
   95%{      transform: translateX(2%);  }           
   100% {      transform: translateX(0%);  }
 }
 
 @-webkit-keyframes slide-left {
   0% {      -webkit-transform: translateX(150%);  }
-  50%{      -webkit-transform: translateX(-8%);  }
   65%{      -webkit-transform: translateX(4%);  }
-  80%{      -webkit-transform: translateX(-4%);  }
   95%{      -webkit-transform: translateX(2%);  }           
   100% {      -webkit-transform: translateX(0%);  }
 }
@@ -257,4 +269,4 @@
 }
 
 
-*/
+
