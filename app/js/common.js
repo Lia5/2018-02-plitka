@@ -1,5 +1,6 @@
 $(function(){
-  $(".menu-toggle").on('click', function() {
+  $(".nav-right .menu-toggle").on('click', function() {
+    $('.nav-right .overlay').toggleClass("block");
     $(this).toggleClass("on");
     $('.main-menu').toggleClass("on");
     $(".main-header__mobile nav ul").toggleClass('hidden');
