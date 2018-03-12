@@ -26,6 +26,8 @@
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
   z-index: 1;
+  font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
+
 }
 .catalog-title--anim .catalog-smaller {
   margin-top: 24%;
@@ -148,8 +150,11 @@ a .nav-right--color {
 .prod__item:hover .prod__item--overlay {
   display: block;
 }
+.prod__item:hover .cat__item--overlay {
+  display: none;
+}
 .prod__item--overlay__figure {
-  width: 50%;
+  width: 63%;
   height: 100%;
   color: #ffffff;
   z-index: 0;
@@ -175,8 +180,8 @@ a .nav-right--color {
   position: absolute;
   width: 313px;
   height: 372px;
-  bottom: -69px;
-  left: -98px;
+  bottom: -56px;
+  left: -176px;
   z-index: -1;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);

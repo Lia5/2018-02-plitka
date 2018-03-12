@@ -111,23 +111,20 @@ button {
     animation-name: slideRight;
     -webkit-animation-name: slideRight; 
  
-    animation-duration: 5s; 
-	-webkit-animation-duration: 5s;
+    animation-duration: 4s; 
+	-webkit-animation-duration: 4s;
 
-    animation-timing-function: ease-in-out; 
-    -webkit-animation-timing-function: ease-in-out;     
+    animation-timing-function: ease; 
+    -webkit-animation-timing-function: ease;     
  
     visibility: visible !important; 
 }
 .slideRight2{
     animation-name: slideRight;
     -webkit-animation-name: slideRight; 
- 
-    animation-duration: 1s; 
+     animation-duration: 1s; 
     -webkit-animation-duration: 1s;
- 
-
-    animation-timing-function: ease-in-out; 
+     animation-timing-function: ease-in-out; 
     -webkit-animation-timing-function: ease-in-out;     
  
     visibility: visible !important; 
@@ -135,18 +132,18 @@ button {
 @keyframes slideRight {
     0% {        transform: translateX(-150%);	}
     50%{        transform: translateX(8%);    }
-    65%{        transform: translateX(-4%);    }
+   // 65%{        transform: translateX(-4%);    }
     80%{        transform: translateX(4%);    }
-    95%{        transform: translateX(-2%);    }           
+  //  95%{        transform: translateX(-2%);    }           
     100% {        transform: translateX(0%);    }   
 }
  
 @-webkit-keyframes slideRight {
     0% {        -webkit-transform: translateX(-150%);    }
     50%{        -webkit-transform: translateX(8%);    }
-    65%{        -webkit-transform: translateX(-4%);    }
+ //   65%{        -webkit-transform: translateX(-4%);    }
     80%{        -webkit-transform: translateX(4%);    }
-    95%{        -webkit-transform: translateX(-2%);    }           
+ //   95%{        -webkit-transform: translateX(-2%);    }           
     100% {        -webkit-transform: translateX(0%);    }
 }
 
@@ -186,19 +183,19 @@ button {
     visibility: visible !important; 
 }
 @keyframes slideLeft {
-    0% {        transform: translateX(150%);    }
-    50%{        transform: translateX(-8%);    }
+    0% {        transform: translateX(100%);    }
+ //   50%{        transform: translateX(-8%);    }
     65%{        transform: translateX(4%);    }
-    80%{        transform: translateX(-4%);    }
+ //   80%{        transform: translateX(-4%);    }
     95%{        transform: translateX(2%);    }           
     100% {        transform: translateX(0%);    }
 }
  
 @-webkit-keyframes slideLeft {
-    0% {        -webkit-transform: translateX(150%);    }
-    50%{        -webkit-transform: translateX(-8%);    }
+    0% {        -webkit-transform: translateX(100%);    }
+ //   50%{        -webkit-transform: translateX(-8%);    }
     65%{        -webkit-transform: translateX(4%);    }
-    80%{        -webkit-transform: translateX(-4%);    }
+  //  80%{        -webkit-transform: translateX(-4%);    }
     95%{        -webkit-transform: translateX(2%);    }           
     100% {        -webkit-transform: translateX(0%);    }
 }

@@ -7,7 +7,7 @@
        url('../fonts/PTSans-Bold.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
        url('../fonts/PTSans-Bold.woff') format('woff'); 
   font-weight: 700; 
-  font-style: normal; 
+  font-style: bold; 
 }
 
 @font-face { 

@@ -30,6 +30,7 @@ $(function(){
     $('.main-page').addClass("main-page--anim");
     $('.main-menu__phone').addClass("main-menu__phone--anim");
     $('.nav-right .overlay').toggleClass("overlay--anim");
+    $('.nav-right-wrap').addClass("nav-right-wrap--anim");
   });
 
   $(".mt__item").on('click', function() {
