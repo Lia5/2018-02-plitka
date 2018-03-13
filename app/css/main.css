@@ -6017,6 +6017,13 @@ a .nav-right--color {
     font-size: 25px; }
   .overlay--menu {
     left: 55%; }
+  /*cat*/
+  .cat__social-icon-call {
+    top: 109px; }
+  .catalog-page__name {
+    font-size: 25px; }
+  .catalog-page__figure {
+    font-size: 25px; }
   /*
     .block:before {
     left: -197px;
