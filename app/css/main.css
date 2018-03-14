@@ -4301,9 +4301,6 @@ a .nav-right--color {
 .nav-right-wrap--anim .main-menu__item:hover:before {
   background-color: #1b273c; }
 
-.nav-right-wrap--anim .main-menu__item:hover:before {
-  background-color: #1b273c; }
-
 .main-menu__contacts--anim {
   position: absolute;
   bottom: 143px; }
@@ -6229,7 +6226,8 @@ material.html
   .main-page {
     background-size: 100% 75%;
     background-position: top;
-    margin-top: 127px; }
+    margin-top: 127px;
+    min-height: 60px; }
   .main-wrapper {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), color-stop(50%, #1b273c));
     background: -webkit-linear-gradient(#ffffff 50%, #1b273c 50%);
@@ -6244,9 +6242,11 @@ material.html
     min-width: auto; }
   .block2:before {
     bottom: auto;
-    top: -123vh;
-    right: 21vw;
+    top: -967px;
+    right: 103px;
     left: auto;
+    width: 767px;
+    height: 767px;
     -webkit-transform: rotate(-65deg);
     -ms-transform: rotate(-65deg);
     transform: rotate(-65deg);
@@ -6311,7 +6311,7 @@ material.html
     left: 67%; }
   /*anim*/
   .catalog-page--anim {
-    padding-top: 165px;
+    padding-top: 105px;
     width: 100%;
     left: auto; }
   .main-page--anim .nav-right-wrap {
@@ -6409,11 +6409,13 @@ material.html
     bottom: -148px; }
   .prod__item--overlay__figure {
     width: 57%; }
+  .nav-right .main-menu__contacts:before {
+    background-color: #ffffff; }
   /* cat */
   .block3 {
     display: none; }
   .catalog-page--bg {
-    margin-top: 22vh;
+    margin-top: 165px;
     height: 78vh;
     width: 100%;
     padding: 0 15px; }
@@ -6424,7 +6426,7 @@ material.html
     width: 100%; }
   .cat__block2:before {
     z-index: 0;
-    top: -113vh;
+    top: -901px;
     -webkit-transform: rotate(-63deg);
     -ms-transform: rotate(-63deg);
     transform: rotate(-63deg); }
@@ -6605,8 +6607,9 @@ material.html
     margin-top: 0; }
   .img-title {
     position: absolute;
-    top: -227px;
-    right: 32px; }
+    top: -141px;
+    right: auto;
+    left: 131px; }
   .block2__container {
     position: relative;
     top: 116px;
@@ -6615,7 +6618,10 @@ material.html
     padding: 6px 37px;
     right: 30px;
     left: auto;
-    font-size: 21px; }
+    font-size: 21px;
+    z-index: 1;
+    bottom: -14px;
+    top: auto; }
   .mt__subtitle {
     font-size: 32px; }
   .mt__item.rotate {
