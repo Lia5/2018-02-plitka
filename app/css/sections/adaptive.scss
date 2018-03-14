@@ -691,6 +691,8 @@
     left: 15px;
   }
 */
+
+
   .tabs li a {
     font-size: 14px;
     padding: 7px;
@@ -1154,7 +1156,16 @@
     position: absolute;
     top: -130px;
     right: -142px;
-  }/*
+  }
+  
+  .tabs ul {
+    position: static;
+    height: auto;
+    width: auto;
+  }
+  
+  
+  /*
   .mt-main-header__mobile .block2:before {
     -webkit-transform: rotate(-62deg);
     -ms-transform: rotate(-62deg);

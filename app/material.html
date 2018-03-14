@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Document</title>
   <link rel="stylesheet" href="css/main.css">
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
 </head>
 <body>
   <div class="block block__mt"></div>
@@ -105,56 +105,126 @@
         <div class="catalog-smaller">продукции</div>
       </div> -->
       <div class="mt-page--anim--hidden ">
-          <!-- Nav tabs -->
-
-          <ul class="tabs">
-            <li><a href="#tab1">примеры</a></li>
-            <li><a href="#tab2">Характеристики</a></li>
-            <li><a href="#tab3">Расцветки и формы</a></li>
-            <li><a href="#tab4">прайс</a></li>
-          </ul>
-                <!-- Tab panes -->
-          <div class="tab_container">
-            <div id="tab1" class="tab_content"> 
-              <div class="row">
-                <div class="col-lg-10">
-                  <div class="examples__item">
-                    <div class="examples__title">
-                      Цвет мустанг
-                      <span class="examples-panel">
-                        <a class="examples-panel-item examples-panel-item--lines"><i class="fa fa-bars" aria-hidden="true"></i></a>
-                        <a class="examples-panel-item examples-panel-item--block"><i class="fa fa-th-large" aria-hidden="true"></i></a>
-                      </span>
-                    </div>
-                    
-                    <div class="examples__img">
-                      <a class="btn btn-primary" data-popup-open="popup-1" href="#">
-                      <img src="img/mt/prod-examp1.jpg" alt="Цвет мустанг"></a>
-                    </div>
-                    <div class="examples__img">
-                      <a class="btn btn-primary" data-popup-open="popup-2" href="#">
-                      <img src="img/mt/prod-examp1.jpg" alt="Цвет мустанг"></a>
-                    </div>
-                  </div>
-                  <div class="examples__item">
-                    <div class="examples__title"> Цвет каир</div>
-                    
-                    <div class="examples__img">
-                      <a class="btn btn-primary" data-popup-open="popup-3" href="#">
-                      <img src="img/mt/prod-examp2.jpg" alt="Цвет каир"></a>
-                    </div>
-                    <div class="examples__img">
-                      <a class="btn btn-primary" data-popup-open="popup-4" href="#">
-                      <img src="img/mt/prod-examp2.jpg" alt="Цвет каир"></a>
-                    </div>
-                  </div>
-                </div>
-
-                  
-
+          <div id='cssmenu'>
+              <ul class="tabs">
+                 <li class='active has-sub'><a href="#">Примеры</a>
+                    <ul class="tab">
+                      <li class="tab_content">
+                        <div class="examples__item">
+                          <div class="examples__title">
+                            Цвет мустанг
+                            <span class="examples-panel">
+                              <a class="examples-panel-item examples-panel-item--lines"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                              <a class="examples-panel-item examples-panel-item--block"><i class="fa fa-th-large" aria-hidden="true"></i></a>
+                            </span>
+                          </div>
+                          
+                          <div class="examples__img">
+                            <a class="btn btn-primary" data-popup-open="popup-1" href="#">
+                            <img src="img/mt/prod-examp1.jpg" alt="Цвет мустанг"></a>
+                          </div>
+                          <div class="examples__img">
+                            <a class="btn btn-primary" data-popup-open="popup-2" href="#">
+                            <img src="img/mt/prod-examp1.jpg" alt="Цвет мустанг"></a>
+                          </div>
+                        </div>
+                        <div class="examples__item">
+                          <div class="examples__title"> Цвет каир</div>
+                          
+                          <div class="examples__img">
+                            <a class="btn btn-primary" data-popup-open="popup-3" href="#">
+                            <img src="img/mt/prod-examp2.jpg" alt="Цвет каир"></a>
+                          </div>
+                          <div class="examples__img">
+                            <a class="btn btn-primary" data-popup-open="popup-4" href="#">
+                            <img src="img/mt/prod-examp2.jpg" alt="Цвет каир"></a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                 </li>
+                <li class='has-sub'><a href='#'>Характеристики</a>
+                    <ul class="tab">
+                       <li class="tab_content">
+                        <div class="har__item">
+                          <fieldset disabled="disabled">
+                            <legend class="har__title">Характеристики</legend>
+                            <div class="har__info">
+                              <div class="har__info__items">
+                                <div class="har__items__name har__items__name--first">Класс бетона по прочности на сжатие</div>
+                                <div class="har__items__count har__items__count--right">В 22,5; В 25; В 30;</div>
+                              </div>
+                              <div class="har__info__items">
+                                <div class="har__items__name har__items__name--first">Марка бетона по морозостойкости</div>
+                                <div class="har__items__count har__items__count--right">F150; F200;</div>
+                              </div>
+                              <div class="har__info__item">
+                                <div class="har__items__name har__items__name--first">Водопоглощение</div>
+                                <div class="har__items__count har__items__count--right"> не более 6%;</div>
+                              </div>
+                              <div class="har__info__items">
+                                <div class="har__items__name har__items__name--first">Марка по истираемости</div>
+                                <div class="har__items__count har__items__count--right">G1</div>
+                              </div>
+                            </div>
+                          </fieldset>
+                        </div>
+                        <div class="har__item">
+                          <fieldset disabled="disabled">
+                            <legend class="har__title">Норма упаковки</legend>
+                            <div class="har__info">
+                              <div class="har__info__items">
+                                <div class="har__items__name">Продукция</div>
+                                <div class="har__items__count">2П.4 (100х200х40)</div>
+                                <div class="har__items__count">2П.6 (100х200х60)</div>
+                              </div>
+                              <div class="har__info__items">
+                                <div class="har__items__name">В ряду</div>
+                                <div class="har__items__count">54 шт   1,08 м2</div>
+                                <div class="har__items__count">54 шт    1,08 м2</div>
+                              </div>
+                              <div class="har__info__items">
+                                <div class="har__items__name">В поддоне</div>
+                                <div class="har__items__count">16 рядов    17,28 м2</div>
+                                <div class="har__items__count">13 рядов     14,04 м2</div>
+                              </div>
+                              <div class="har__info__items">
+                                <div class="har__items__name">Средний вес</div>
+                                <div class="har__items__count">1,8 кг/шт.    1560 кг</div>
+                                <div class="har__items__count">2,8 кг/шт.     2000 кг</div>
+                              </div>
+                              <div class="har__info__items">
+                                <div class="har__items__name">В машине 20т</div>
+                                <div class="har__items__count">13 поддонов    224,64 м2</div>
+                                <div class="har__items__count">10 поддонов     140,4 м2</div>
+                              </div>
+          
+                            </div>
+                          </fieldset>
+                        </div>
+                       </li>
+                    </ul>
+                 </li>
+                 <li class='has-sub'><a href='#'>Расцветки и формы</a>
+                    <ul class="tab">
+                       <li class="tab_content">Product 3</li>
+                    </ul>
+                 </li>
+                 <li class='has-sub'><a href='#'>Прайс</a>
+                    <ul class="tab">
+                       <li class="tab_content">Product 4</li>
+                    </ul>
+                 </li>
+              </ul>
               </div>
 
-            </div>
+
+          <!-- Nav tabs -->
+ <!--
+
+                
+          <div class="tab_container">
+ 
             <div id="tab2" class="tab_content"> 
               <div class="har__item">
                 <fieldset disabled="disabled">
@@ -244,7 +314,7 @@
             <div id="tab4" class="tab_content"> 
                 <a href="#">Прайс</a>
             </div>
-          </div>
+          </div>-->
 
 
         </div>

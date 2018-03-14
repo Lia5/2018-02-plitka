@@ -5007,7 +5007,7 @@ a .nav-right--color {
 .mt-page--anim--visible {
   display: block;
   position: absolute;
-  padding: 40px 15px;
+  padding: 110px 15px 40px;
   top: 0;
   left: 40%;
   width: 60%;
@@ -5037,7 +5037,10 @@ a .nav-right--color {
   z-index: 2; }
 
 .block2--move-to-left-mt--fix:before {
-  right: -9px; }
+  right: -60px;
+  bottom: 8%;
+  width: 108vh;
+  height: 108vh; }
 
 .block2--move-to-left-mt--fix .hight-eco {
   padding-left: 25px; }
@@ -5089,28 +5092,70 @@ a .nav-right--color {
   z-index: 3; }
 
 /*tabs*/
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li > a {
+  list-style: none;
+  line-height: 1;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: visible; }
+
 .tabs {
   margin: 0;
   padding: 0;
   list-style: none;
   overflow: hidden;
-  border: none; }
+  border: none;
+  position: relative; }
+
+.tabs ul {
+  position: absolute;
+  left: 0px;
+  top: 97px;
+  height: 70vh;
+  width: 55vw;
+  overflow-y: auto; }
+
+#cssmenu ul ul {
+  display: none; }
+
+#cssmenu > ul > li.active > ul {
+  display: block; }
+
+.align-right {
+  float: right; }
+
+#cssmenu > ul > li > a {
+  cursor: pointer;
+  z-index: 2;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease; }
+
+.mt__nav-left-open {
+  z-index: 4; }
 
 .tabs li {
   float: left; }
 
-.tabs li a {
+.tabs li > a {
   display: block;
   padding: 10px 20px;
   font-size: 28px;
   text-decoration: none;
   text-transform: uppercase; }
 
-.tabs li a:hover {
+.tabs li > a:hover {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
-.tabs li.active,
-.tabs li.active a:hover {
+.tabs li.open,
+.tabs li.open a:hover {
   font-weight: bold;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
 
@@ -6205,6 +6250,10 @@ a .nav-right--color {
     position: absolute;
     top: -130px;
     right: -142px; }
+  .tabs ul {
+    position: static;
+    height: auto;
+    width: auto; }
   /*
   .mt-main-header__mobile .block2:before {
     -webkit-transform: rotate(-62deg);

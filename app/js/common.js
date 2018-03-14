@@ -60,40 +60,40 @@ $(function(){
     $('.examples__img').removeClass("examples__img-blocks");
   });
   
-	//скрыть весь контент
-	$('.tab_content').hide();
-	//Показать контент первой вкладки
-	$('.tab_content:first').show();
-	//Активировать первую вкладку
-	$('.tabs li:first').addClass('active');
-	//Событие по клику
-	$('.tabs li').click(function(event) {
-		//Удалить "active" класс
-		$('.tabs li').removeClass('active');
-		//Добавить "active" для выбранной вкладки
-		$(this).addClass('active');
-		//Скрыть контент вкладки
-		$('.tab_content').hide();
+	// //скрыть весь контент
+	// $('.tab_content').hide();
+	// //Показать контент первой вкладки
+	// $('.tab_content:first').show();
+	// //Активировать первую вкладку
+	// $('.tabs li:first').addClass('active');
+	// //Событие по клику
+	// $('.tabs li').click(function(event) {
+	// 	//Удалить "active" класс
+	// 	$('.tabs li').removeClass('active');
+	// 	//Добавить "active" для выбранной вкладки
+	// 	$(this).addClass('active');
+	// 	//Скрыть контент вкладки
+	// 	$('.tab_content').hide();
 
-		//Найти значение атрибута ссылки, чтобы 
-		//определить активный таб контент
-		var selectTab = $(this).find('a').attr("href");
-		//Исчезновение активного контента
-		$(selectTab).fadeIn();
-  });
+	// 	//Найти значение атрибута ссылки, чтобы 
+	// 	//определить активный таб контент
+	// 	var selectTab = $(this).find('a').attr("href");
+	// 	//Исчезновение активного контента
+	// 	$(selectTab).fadeIn();
+  // });
   
-  /*tabs inside*/
-  (function($) {
-    $(function() {
+  // /*tabs inside*/
+  // (function($) {
+  //   $(function() {
      
-      $('.tabs__caption-exm').on('click', 'li:not(.active-exm)', function() {
-        $(this)
-          .addClass('active-exm').siblings().removeClass('active-exm')
-          .closest('div.tabs-exm').find('div.tabs__content-exm').removeClass('active-exm').eq($(this).index()).addClass('active-exm');
-      });
+  //     $('.tabs__caption-exm').on('click', 'li:not(.active-exm)', function() {
+  //       $(this)
+  //         .addClass('active-exm').siblings().removeClass('active-exm')
+  //         .closest('div.tabs-exm').find('div.tabs__content-exm').removeClass('active-exm').eq($(this).index()).addClass('active-exm');
+  //     });
      
-    });
-    })(jQuery);
+  //   });
+  //   })(jQuery);
 //popups
     $(function() {
       //----- OPEN
@@ -120,5 +120,31 @@ $(function(){
      }
   });
   });
+
+  (function($){
+    $(document).ready(function(){
+    
+    $('#cssmenu li.active').addClass('open').children('ul').show();
+      $('#cssmenu li.has-sub>a').on('click', function(){
+        $(this).removeAttr('href');
+        var element = $(this).parent('li');
+        if (element.hasClass('open')) {
+          element.removeClass('open');
+          element.find('li').removeClass('open');
+          element.find('ul').slideUp(200);
+        }
+        else {
+          element.addClass('open');
+          element.children('ul').slideDown(200);
+          element.siblings('li').children('ul').slideUp(200);
+          element.siblings('li').removeClass('open');
+          element.siblings('li').find('li').removeClass('open');
+          element.siblings('li').find('ul').slideUp(200);
+        }
+      });
+    
+    });
+    })(jQuery);
+    
 
 })
