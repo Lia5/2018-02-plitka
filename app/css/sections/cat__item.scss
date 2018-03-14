@@ -139,3 +139,11 @@
 .cat__block2 {
   display: none;
 }
+.cat__nav-right .main-menu__item:hover:before {
+  background-color: $dark-blue;
+}
+.cat__nav-right .main-menu__contacts:before {
+  background-color: $dark-blue;
+}
+
+

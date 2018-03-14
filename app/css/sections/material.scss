@@ -390,3 +390,10 @@
 .back-to-mt {
   display: none;
 }
+.mt__nav-left .main-menu__item:hover:before {
+  background-color: $dark-blue;
+}
+
+.mt__nav-left .main-menu__contacts:before {
+  background-color: $dark-blue;
+}

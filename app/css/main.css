@@ -4298,6 +4298,12 @@ a.nav-right--color {
 a .nav-right--color {
   color: #1b273c; }
 
+.nav-right-wrap--anim .main-menu__item:hover:before {
+  background-color: #1b273c; }
+
+.nav-right-wrap--anim .main-menu__item:hover:before {
+  background-color: #1b273c; }
+
 .main-menu__contacts--anim {
   position: absolute;
   bottom: 143px; }
@@ -4658,6 +4664,12 @@ a .nav-right--color {
 
 .cat__block2 {
   display: none; }
+
+.cat__nav-right .main-menu__item:hover:before {
+  background-color: #1b273c; }
+
+.cat__nav-right .main-menu__contacts:before {
+  background-color: #1b273c; }
 
 .mt-page {
   overflow: hidden;
@@ -5043,6 +5055,12 @@ a .nav-right--color {
 
 .back-to-mt {
   display: none; }
+
+.mt__nav-left .main-menu__item:hover:before {
+  background-color: #1b273c; }
+
+.mt__nav-left .main-menu__contacts:before {
+  background-color: #1b273c; }
 
 .block2--move-to-left-mt {
   left: -100%; }
