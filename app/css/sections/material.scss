@@ -20,6 +20,17 @@
   padding: 50px 34px 69px;
   width: 115px;
 }
+.mt__nav-left .mt__contacts {
+color: $dark-blue;
+}
+.mt__nav-left-open .main-menu__item:hover:before {
+  background-color: $dark-blue;
+}
+
+.mt__nav-left-open .main-menu__contacts:before {
+  background-color: $dark-blue;
+}
+
 .mt__menu-toggle {
   width: 55px;
   height: 37px;
@@ -389,11 +400,4 @@
 
 .back-to-mt {
   display: none;
-}
-.mt__nav-left .main-menu__item:hover:before {
-  background-color: $dark-blue;
-}
-
-.mt__nav-left .main-menu__contacts:before {
-  background-color: $dark-blue;
 }
