@@ -9,8 +9,8 @@
   position: absolute;
   padding: 40px 15px;
   top: 0;
-  left: 34%;
-  width: 66%;
+  left: 40%;
+  width: 60%;
   height: 100vh;
   z-index: 3;
   background-color: $dark-blue;
@@ -18,6 +18,7 @@
   -moz-transition: 2s;
   -o-transition: 2s;
   transition: 2s ;
+  overflow: auto;
 }
 .mt__subtitle.last-word.mt__subtitle--anim {
   padding-bottom: 76px;
@@ -64,14 +65,35 @@
   z-index: 3;
 }
 /*anim2*/
-.mt__back-to {
+.main-wrapper__mt--anim .mt__back-to {
   text-transform: uppercase;
-  left: -176px;
+  left: -134px;
     top: 196px;
 }
-.block2__container  {
-  left: -63px;
+.main-wrapper__mt--anim .block2__container  {
+  left: -102px;
+  padding-top: 43px;
 }
+.main-wrapper__mt--anim .make-calc {
+  position: absolute;
+  left: 0;
+  top: 312px;
+}
+.main-wrapper__mt--anim .mt__social-icon__phone {
+  position: absolute;
+  left: 270px;
+  top: 312px;
+}
+
+.main-wrapper__mt--anim .mt__social-icon__mail {
+  position: absolute;
+  left: 320px;
+  top: 312px;
+}
+.main-wrapper__mt--anim .mt__logo {
+  z-index: 3;
+}
+
 /*tabs*/
 
 .tabs {
@@ -125,9 +147,11 @@
   margin: 1%;
 }
 .examples__img img {
+  width: 100%;
+}
+.examples__img-blocks.examples__img img {
   width: 200%;
 }
-
 .tabs__content-exm {
   display: none; /* по умолчанию прячем все блоки */
 }

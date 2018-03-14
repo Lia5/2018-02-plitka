@@ -4662,7 +4662,8 @@ a .nav-right--color {
   line-height: 1.5; }
 
 .mt__nav-left-open {
-  width: 362px; }
+  width: 362px;
+  z-index: 2; }
 
 .mt__social-icon {
   font-size: 34px;
@@ -5008,15 +5009,16 @@ a .nav-right--color {
   position: absolute;
   padding: 40px 15px;
   top: 0;
-  left: 34%;
-  width: 66%;
+  left: 40%;
+  width: 60%;
   height: 100vh;
   z-index: 3;
   background-color: #1b273c;
   -webkit-transition: 2s;
   -moz-transition: 2s;
   -o-transition: 2s;
-  transition: 2s; }
+  transition: 2s;
+  overflow: auto; }
 
 .mt__subtitle.last-word.mt__subtitle--anim {
   padding-bottom: 76px; }
@@ -5059,13 +5061,32 @@ a .nav-right--color {
   z-index: 3; }
 
 /*anim2*/
-.mt__back-to {
+.main-wrapper__mt--anim .mt__back-to {
   text-transform: uppercase;
-  left: -176px;
+  left: -134px;
   top: 196px; }
 
-.block2__container {
-  left: -63px; }
+.main-wrapper__mt--anim .block2__container {
+  left: -102px;
+  padding-top: 43px; }
+
+.main-wrapper__mt--anim .make-calc {
+  position: absolute;
+  left: 0;
+  top: 312px; }
+
+.main-wrapper__mt--anim .mt__social-icon__phone {
+  position: absolute;
+  left: 270px;
+  top: 312px; }
+
+.main-wrapper__mt--anim .mt__social-icon__mail {
+  position: absolute;
+  left: 320px;
+  top: 312px; }
+
+.main-wrapper__mt--anim .mt__logo {
+  z-index: 3; }
 
 /*tabs*/
 .tabs {
@@ -5116,6 +5137,9 @@ a .nav-right--color {
   margin: 1%; }
 
 .examples__img img {
+  width: 100%; }
+
+.examples__img-blocks.examples__img img {
   width: 200%; }
 
 .tabs__content-exm {
@@ -5356,6 +5380,20 @@ a .nav-right--color {
   .cat__item__active {
     font-size: 32px; }
   /*mt*/
+  .main-wrapper__mt--anim .mt__block2:before {
+    left: -132px; }
+  .main-wrapper__mt--anim .mt__back-to {
+    top: 155px; }
+  .main-wrapper__mt--anim .make-calc {
+    top: 273px; }
+  .main-wrapper__mt--anim .mt__social-icon__phone {
+    top: 273px;
+    left: 226px; }
+  .main-wrapper__mt--anim .mt__social-icon__mail {
+    top: 273px;
+    left: 273px; }
+  .block2--move-to-left-mt--fix .img-title {
+    width: 254px; }
   .mt__block2:before {
     z-index: 0; }
   .mt__logo {
@@ -5794,7 +5832,10 @@ a .nav-right--color {
 */
   .tabs li a {
     font-size: 14px;
-    padding: 10px; }
+    padding: 7px; }
+  .block2--move-to-left-mt--fix .img-title {
+    width: 231px;
+    margin-left: -15px; }
   /*mt*/
   /*
   .mt__left-menu.open .back-to-cat {

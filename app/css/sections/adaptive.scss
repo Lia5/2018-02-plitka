@@ -114,6 +114,32 @@
     font-size: 32px;
   }
   /*mt*/
+  .main-wrapper__mt--anim .mt__block2:before {
+    left: -132px;
+  }
+  .main-wrapper__mt--anim .mt__back-to {
+    top: 155px;
+  }
+  .main-wrapper__mt--anim .make-calc {
+    top: 273px;
+  }
+  .main-wrapper__mt--anim .mt__social-icon__phone {
+    top: 273px;
+    left: 226px;
+  }
+  
+  .main-wrapper__mt--anim .mt__social-icon__mail {
+    top: 273px;
+    left: 273px;
+  }
+  .block2--move-to-left-mt--fix .img-title {
+    width: 254px;
+  }
+
+
+
+
+
 
   .mt__block2:before {
     z-index: 0;
@@ -667,9 +693,12 @@
 */
   .tabs li a {
     font-size: 14px;
-    padding: 10px;
+    padding: 7px;
   }
-
+  .block2--move-to-left-mt--fix .img-title {
+    width: 231px;
+    margin-left: -15px;
+}
    
   /*mt*/
   /*

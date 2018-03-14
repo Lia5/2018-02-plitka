@@ -50,7 +50,7 @@ $(function(){
     $('.block2--move-to-left-mt--fix .mt__item').addClass("anim--hidden");
     $('.back-to-mt').addClass("back-to-mt--anim");
     $('.hight-eco').addClass("anim--hidden");
-
+    $('.main-wrapper__mt').addClass("main-wrapper__mt--anim");
   });
   
   $(".examples-panel-item--block").on('click', function() {
