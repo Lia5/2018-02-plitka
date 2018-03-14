@@ -221,15 +221,18 @@
 .main-menu__item {
   position: relative;
 }
-.main-menu__item:before {
+.main-menu__item:hover:before {
   content: "";
-  width: 10px;
+  display: block;
+  width: 13px;
   height: 1px;
   position: absolute;
-  color: $white;
-  left: -10px;
-  top: 0;
-  z-index: 2
+  background-color: $white;
+  left: -19px;
+  top: 12px;
+  z-index: 2;
+
+
   
 }
 /*
