@@ -4692,14 +4692,42 @@ a .nav-right--color {
   padding: 50px 34px 69px;
   width: 115px; }
 
-.mt__nav-left .mt__contacts {
+.mt__nav-left .mt__contacts a {
   color: #1b273c; }
 
 .mt__nav-left-open .main-menu__item:hover:before {
   background-color: #1b273c; }
 
-.mt__nav-left-open .main-menu__contacts:before {
-  background-color: #1b273c; }
+.mt__nav-left .mt__contacts:before {
+  background-color: #1b273c;
+  content: "";
+  display: block;
+  width: 13px;
+  height: 1px;
+  position: absolute;
+  left: 2px;
+  top: -10px;
+  z-index: 2;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.mt__nav-left-open .mt__contacts:before {
+  left: -17px;
+  top: 9px;
+  -webkit-writing-mode: horizontal-tb;
+  -ms-writing-mode: lr-tb;
+  writing-mode: horizontal-tb;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none; }
 
 .mt__menu-toggle {
   width: 55px;
