@@ -4718,8 +4718,8 @@ a .nav-right--color {
   transform: rotate(90deg); }
 
 .mt__nav-left-open .mt__contacts:before {
-  left: -17px;
-  top: 9px;
+  left: 2px;
+  top: -10px;
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
   writing-mode: horizontal-tb;
@@ -5091,6 +5091,70 @@ a .nav-right--color {
   transform: rotate(180deg); }
 
 .back-to-mt {
+  display: none; }
+
+/*================
+material.html
+==================*/
+.mt__block2__social-icon {
+  margin-right: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.mt__item {
+  font-size: 18px;
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 0.8;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.mt__item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 23px;
+  height: 20px;
+  background: url(../img/arrow-right.png);
+  background-size: 100% 100%;
+  -webkit-transform: translateY(-50%) rotate(360deg);
+  -ms-transform: translateY(-50%) rotate(360deg);
+  transform: translateY(-50%) rotate(360deg);
+  right: -30px; }
+
+.img-title {
+  width: 390px;
+  margin-left: 59px;
+  position: relative;
+  bottom: -130%;
+  left: -15%; }
+
+.hight-eco {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  left: 55%;
+  bottom: -22%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.block2 .hight-eco {
+  padding-left: 0; }
+
+.tov-zn-hide {
   display: none; }
 
 .block2--move-to-left-mt {
