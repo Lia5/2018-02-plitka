@@ -1,3 +1,9 @@
+.main-page {
+  min-height: 795px;
+}
+.cat__wrapper {
+  min-height: 795px;
+}
 .block3 {
  // right: -139px; 
   z-index: 3;
@@ -9,8 +15,8 @@
   position: fixed;
   width: 100vh;
   height: 100vh;
-  min-width: 485px;
-  min-height: 485px;
+  min-width: 795px;
+  min-height: 795px;
   top: 0;
   left: -28%; 
   -webkit-transform: rotate(-45deg);
@@ -33,7 +39,7 @@
 .catalog-page--bg {
   overflow-y: scroll;
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0%;
   width: 84%;

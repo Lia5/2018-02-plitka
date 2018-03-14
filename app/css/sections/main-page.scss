@@ -21,7 +21,7 @@
   width: 39vw;
   height: 100vh;
   min-width: 320px;
-  min-height: 480px;
+  min-height: 795px;
   right: 0;
 }
 .block2:before {
@@ -30,8 +30,8 @@
   position: absolute;
   width: 100vh;
   height: 100vh;
-  min-width: 480px;
-  min-height: 480px;
+  min-width: 795px;
+  min-height: 795px;
   bottom: 13%;
   right: 0;
   z-index: 0;
@@ -83,9 +83,12 @@
 .nav-right-wrap {
   height: 100vh;
   min-height: 480px;
+  overflow: auto;
   width: 245px;
   margin-left: auto;
   position: relative;
+  position: fixed;
+  right: 0;
 }
 .nav-right {
   color: $white;
