@@ -4069,6 +4069,20 @@ button {
   top: 12px;
   z-index: 2; }
 
+.main-menu__contacts {
+  position: relative; }
+
+.main-menu__contacts:before {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 1px;
+  position: absolute;
+  background-color: #ffffff;
+  left: -19px;
+  top: 9px;
+  z-index: 2; }
+
 /*
 .block {
   display: none;
