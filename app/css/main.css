@@ -6503,7 +6503,8 @@ a .nav-right--color {
     z-index: 2;
     position: relative;
     left: 0;
-    padding: 40px 6px 40px; }
+    padding: 40px 6px 40px;
+    height: auto; }
   .main-wrapper__mt--anim .block2--move-to-left-mt--fix:before {
     bottom: 63px;
     right: 149px;
@@ -6532,6 +6533,15 @@ a .nav-right--color {
   .color__item__img {
     width: 91px;
     height: 91px; }
+  .har__items__name {
+    width: 25%; }
+  .har__items__name--first {
+    width: 58%; }
+  .har__item {
+    padding: 0;
+    margin-top: 52px; }
+  .har__item fieldset {
+    width: 97%; }
   /*
   .block__mt:before {
     bottom: -5%;
@@ -6572,12 +6582,8 @@ a .nav-right--color {
     float: none; }
   .har__title {
     font-size: 30px; }
-  .har__item {
-    padding: 0; }
   .tab_content {
     padding: 0; }
-  .har__items__name {
-    width: 28%; }
   .color__info2 {
     padding: 15px;
     width: 100%; } }
