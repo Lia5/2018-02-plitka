@@ -78,6 +78,12 @@
   min-height: 273px;
   padding-top: 77px;
 }
+.tov-zn {
+  position: absolute;
+  right: 0;
+  font-size: 25px;
+  color: $white;
+}
 //left-menu
 
 .nav-right-wrap {
@@ -209,6 +215,20 @@
 .on .two,
 .on .three {
   margin: 8px auto;
+}
+.main-menu__item {
+  position: relative;
+}
+.main-menu__item:before {
+  content: "";
+  width: 10px;
+  height: 1px;
+  position: absolute;
+  color: $white;
+  left: -10px;
+  top: 0;
+  z-index: 2
+  
 }
 /*
 .block {
