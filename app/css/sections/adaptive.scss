@@ -503,6 +503,15 @@
   .on + nav a {
     color: $dark-blue;
   }
+  .on + nav .main-menu__item:hover:before {
+    background-color: $dark-blue;
+  }
+  .on + nav .main-menu__item--active {
+    background-color: $dark-blue; 
+  }
+  .main-menu__contacts:before {
+    background-color: $dark-blue;
+  }
   .on .one,
   .on .two,
   .on .three {

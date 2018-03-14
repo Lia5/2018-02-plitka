@@ -232,6 +232,17 @@
   top: 12px;
   z-index: 2;
 }
+.main-menu__item--active:before {
+  content: "";
+  display: block;
+  width: 13px;
+  height: 1px;
+  position: absolute;
+  background-color: $white;
+  left: -19px;
+  top: 12px;
+  z-index: 2;
+}
 .main-menu__contacts {
   position: relative;
 }
