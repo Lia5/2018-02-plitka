@@ -506,7 +506,7 @@
   .on + nav .main-menu__item:hover:before {
     background-color: $dark-blue;
   }
-  .on + nav .main-menu__item--active {
+  .on + nav .main-menu__item--active:before {
     background-color: $dark-blue; 
   }
   .main-menu__contacts:before {

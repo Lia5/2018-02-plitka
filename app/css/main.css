@@ -5783,7 +5783,7 @@ a .nav-right--color {
     color: #1b273c; }
   .on + nav .main-menu__item:hover:before {
     background-color: #1b273c; }
-  .on + nav .main-menu__item--active {
+  .on + nav .main-menu__item--active:before {
     background-color: #1b273c; }
   .main-menu__contacts:before {
     background-color: #1b273c; }
