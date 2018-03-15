@@ -4286,7 +4286,7 @@ nav ul a:hover nav ul a:before{
   top: 0;
   left: 12%;
   width: 68%;
-  height: 100vh;
+  height: 97vh;
   z-index: 2; }
 
 .main-page--anim {
@@ -5600,6 +5600,8 @@ material.html
     bottom: 74px;
     color: #1b273c; }
   /*cat*/
+  .catalog-page--anim {
+    height: 100vh; }
   .catalog-page__figure {
     font-size: 36px; }
   .catalog-page__ed {
