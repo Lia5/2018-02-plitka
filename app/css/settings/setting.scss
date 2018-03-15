@@ -111,8 +111,8 @@ button {
     animation-name: slideRight;
     -webkit-animation-name: slideRight; 
  
-    animation-duration: 4s; 
-	-webkit-animation-duration: 4s;
+    animation-duration: 2s; 
+	-webkit-animation-duration: 2s;
 
     animation-timing-function: ease; 
     -webkit-animation-timing-function: ease;     
@@ -131,19 +131,14 @@ button {
 } 
 @keyframes slideRight {
     0% {        transform: translateX(-150%);	}
-    50%{        transform: translateX(8%);    }
-   // 65%{        transform: translateX(-4%);    }
-    80%{        transform: translateX(4%);    }
-  //  95%{        transform: translateX(-2%);    }           
+    50%{        transform: translateX(-50%);    }
+         
     100% {        transform: translateX(0%);    }   
 }
  
 @-webkit-keyframes slideRight {
     0% {        -webkit-transform: translateX(-150%);    }
-    50%{        -webkit-transform: translateX(8%);    }
- //   65%{        -webkit-transform: translateX(-4%);    }
-    80%{        -webkit-transform: translateX(4%);    }
- //   95%{        -webkit-transform: translateX(-2%);    }           
+    50%{        -webkit-transform: translateX(-50%);    }
     100% {        -webkit-transform: translateX(0%);    }
 }
 
@@ -174,8 +169,8 @@ button {
     animation-name: slideLeft;
     -webkit-animation-name: slideLeft;  
  
-    animation-duration: 5s; 
-    -webkit-animation-duration: 5s;
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
  
     animation-timing-function: ease-in-out; 
     -webkit-animation-timing-function: ease-in-out;     
@@ -184,27 +179,21 @@ button {
 }
 @keyframes slideLeft {
     0% {        transform: translateX(100%);    }
- //   50%{        transform: translateX(-8%);    }
-    65%{        transform: translateX(4%);    }
- //   80%{        transform: translateX(-4%);    }
-    95%{        transform: translateX(2%);    }           
+    50%{        transform: translateX(50%);    }
     100% {        transform: translateX(0%);    }
 }
  
 @-webkit-keyframes slideLeft {
     0% {        -webkit-transform: translateX(100%);    }
- //   50%{        -webkit-transform: translateX(-8%);    }
-    65%{        -webkit-transform: translateX(4%);    }
-  //  80%{        -webkit-transform: translateX(-4%);    }
-    95%{        -webkit-transform: translateX(2%);    }           
+    50%{        -webkit-transform: translateX(50%);    }
     100% {        -webkit-transform: translateX(0%);    }
 }
 .slideUp{
     animation-name: slideUp;
     -webkit-animation-name: slideUp;    
  
-    animation-duration: 6s; 
-    -webkit-animation-duration: 6s;
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
  
     animation-timing-function: ease;    
     -webkit-animation-timing-function: ease;
@@ -214,14 +203,12 @@ button {
  
 @keyframes slideUp {
     0% {        transform: translateY(100%);    }
-    65%{        transform: translateY(4%);    }
-    95%{        transform: translateY(2%);    }           
+    50%{        transform: translateY(50%);    }
     100% {        transform: translateY(0%);    }   
 }
  
 @-webkit-keyframes slideUp {
     0% {        -webkit-transform: translateY(100%);    }
-    65%{        -webkit-transform: translateY(4%);    }
-    95%{        -webkit-transform: translateY(2%);    }           
+    50%{        -webkit-transform: translateY(5%);    }
     100% {        -webkit-transform: translateY(0%);    }   
 }
