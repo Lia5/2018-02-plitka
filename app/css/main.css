@@ -4308,8 +4308,8 @@ a .nav-right--color {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%); }
   50% {
-    -webkit-transform: translateY(50%);
-    transform: translateY(50%); }
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%); }
   100% {
     -webkit-transform: translateY(0%);
     transform: translateY(0%); } }
@@ -4318,7 +4318,7 @@ a .nav-right--color {
   0% {
     -webkit-transform: translateY(-100%); }
   50% {
-    -webkit-transform: translateY(50%); }
+    -webkit-transform: translateY(-50%); }
   100% {
     -webkit-transform: translateY(0%); } }
 
