@@ -5083,9 +5083,9 @@ material.html
   text-transform: uppercase;
   cursor: pointer;
   opacity: 0.8;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+  -webkit-transform: translateY(-50%) rotate(180deg);
+  -ms-transform: translateY(-50%) rotate(180deg);
+  transform: translateY(-50%) rotate(180deg); }
 
 .mt__item:after {
   content: "";
@@ -6153,7 +6153,8 @@ material.html
     display: none; }
   .mt-descr .hight-eco {
     display: block;
-    position: static; }
+    position: relative;
+    bottom: auto; }
   .hight-eco__img {
     padding-top: 0; }
   .hight-eco img {

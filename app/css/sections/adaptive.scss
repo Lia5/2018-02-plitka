@@ -868,7 +868,8 @@
   }
   .mt-descr .hight-eco {
     display: block;
-    position: static;
+    position: relative;
+    bottom: auto;
   }
   .hight-eco__img {
     padding-top: 0;

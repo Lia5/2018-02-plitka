@@ -443,7 +443,7 @@ material.html
   text-transform: uppercase;
   cursor: pointer;
   opacity: 0.8;
-  transform: translateY(-50%);
+  transform: translateY(-50%) rotate(180deg);
 }
 .mt__item:after {
   content: "";
