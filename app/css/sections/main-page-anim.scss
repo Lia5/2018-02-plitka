@@ -123,6 +123,7 @@ a .nav-right--color {
   padding-top: 11px;
   font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
+  line-height: 0.9;
   color: #ffffff;
 }
 .cat__item {
@@ -157,13 +158,21 @@ a .nav-right--color {
   position: relative;
   font-size: 12px;
   font-family: 'PTSans-Regular', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .prod__item__figure__title {
+  vertical-align: middle;
+  display: inline-block;
   font-size: 20px;
+  text-transform: uppercase;
   font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 6px;
 }
 .prod__item--overlay__figure p {
+  vertical-align: middle;
+  display: inline-block;
   margin-top: 6px;
   margin-bottom: 6px;
   color: #ffffff;

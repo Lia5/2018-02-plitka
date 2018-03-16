@@ -50,6 +50,17 @@
   // background-repeat: no-repeat;
 }
 
+  .catalog-page--bg::-webkit-scrollbar-track{
+    background-color:transparent
+  }
+  .catalog-page--bg::-webkit-scrollbar{
+  width:12px;
+  background-color:transparent
+  }
+  .catalog-page--bg::-webkit-scrollbar-thumb{
+  background-color:transparent
+  }
+
 .catalog-page--bg a {
   display: block;
 }

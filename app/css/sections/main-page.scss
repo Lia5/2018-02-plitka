@@ -126,7 +126,7 @@
 .catalog{
   position: relative;
 }
-.catalog:after {
+.catalog a:after {
   content: "";
   display: block;
   position: absolute;
@@ -138,7 +138,7 @@
   background-size: 100% 100%;
   cursor: pointer;
 } 
-.catalog:before {
+.catalog a:before {
   content: "";
   display: block;
   position: absolute;
@@ -150,7 +150,7 @@
   background-size: 100% 100%;
   cursor: pointer;
 } 
-.catalog a {
+.catalog span {
   padding: 50px;
   width: 100px;
   height: 220px;

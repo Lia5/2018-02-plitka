@@ -65,19 +65,19 @@
   .logo img {
     width: 100%
   }
-  .catalog a {
+  .catalog span {
     font-size: 18px;
     height: 140px;
     padding: 32px;
   }
-  .catalog:before,
-  .catalog:after {
+  .catalog a:before,
+  .catalog a:after {
     top: 65px;
   }
-  .catalog:before {
+  .catalog a:before {
     left: 103px;
   }
-  .catalog:after {
+  .catalog a:after {
     left: 72px;
   }
    .main-menu__phone {
@@ -525,14 +525,14 @@
   .nav-right--anim .three {
     background-color: $dark-blue;
   }
-  .catalog a {
+  .catalog span {
     height: 148px;
     padding: 34px 10px;
   }
-  .catalog:before {
+  .catalog a:before {
     display: none;
   }
-  .catalog:after {
+  .catalog a:after {
     left: 29px;
   }
   .main-menu__contacts {
@@ -988,7 +988,7 @@
     padding-top: 44px;
     position: relative;
   } 
-  .catalog a {
+  .catalog span {
     font-size: 20px;
     text-transform: uppercase;
     padding: 0;
@@ -1001,7 +1001,7 @@
     -o-transform: none;
     transform: none;
   }
-  .catalog:after {
+  .catalog a:after {
     top: auto;
     left: 44px;
     width: 10px;
