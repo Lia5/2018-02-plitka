@@ -13,38 +13,37 @@ $(function(){
   //  $('.catalog-page--anim--hidden').toggleClass("hidden");
   });
 
-  $('.catalog-href').on('click', function() {
-    $(this).toggleClass('on');
-    $('.block2').addClass('block2--move-to-left');
-    $('.block2').removeClass('wow');
-    $('.block2').removeClass('fadeInRight');
+  // $('.catalog-href').on('click', function() {
+  //   $(this).toggleClass('on');
+  //   $('.block2').addClass('block2--move-to-left');
+  //   $('.block2').removeClass('wow');
+  //   $('.block2').removeClass('fadeInRight');
 
-    $('.block2').addClass('slide-left');
-    $('.nav-right').addClass('wow');
-    $('.nav-right').addClass('fadeInRight');
-    // $('.nav-right').setAttribute('data-wow-delay', '1s');
-    $('.catalog-title--anim').removeClass('anim--hidden');
-    $('.catalog-page--anim--hidden').addClass('catalog-page--anim');
-    $('.catalog-page--anim--hidden').addClass('wow');
-    $('.catalog-page--anim--hidden').addClass('fadeInDown');
-    $('.catalog-page--anim--hidden').addClass('slide-down');
-    $('.main-header__mobile .fa-instagram').addClass('fa-instagram--anim');
-    $('.nav-right .catalog').addClass('anim--hidden');
-    $('.logo').addClass('anim--hidden');
-    $('.main-header__desctop').addClass('anim--hidden');
-    $('.social-icon-anim').removeClass('anim--hidden');
-    $('.main-menu__contacts').addClass('main-menu__contacts--anim');
-    $('.main-wrapper').addClass('main-wrapper--anim');
-    $('.nav-right').addClass('nav-right--anim');
-    $('.nav-right a').addClass('nav-right--color');
-    $('.nav-right .fa-instagram').addClass('nav-right--color');
-    $('.main-menu__item').removeClass('anim--hidden');
-    $('.catalog__tomain').removeClass('anim--hidden');
-    $('.main-page').addClass('main-page--anim');
-    $('.main-menu__phone').addClass('main-menu__phone--anim');
-    $('.nav-right .overlay').toggleClass('overlay--anim');
-    $('.nav-right-wrap').addClass('nav-right-wrap--anim');
-  });
+  //   $('.block2').addClass('slide-left');
+  //   $('.nav-right').addClass('wow');
+  //   $('.nav-right').addClass('fadeInRight');
+  //   // $('.nav-right').setAttribute('data-wow-delay', '1s');
+  //   $('.catalog-title--anim').removeClass('anim--hidden');
+  //   $('.catalog-page--anim--hidden').addClass('catalog-page--anim');
+  //   $('.catalog-page--anim--hidden').addClass('wow');
+  //   $('.catalog-page--anim--hidden').addClass('fadeInDown');
+  //   $('.catalog-page--anim--hidden').addClass('slide-down');
+  //   $('.main-header__mobile .fa-instagram').addClass('fa-instagram--anim');
+  //   $('.nav-right .catalog').addClass('anim--hidden');
+  //   $('.logo').addClass('anim--hidden');
+  //   $('.main-header__desctop').addClass('anim--hidden');
+  //   $('.main-menu__contacts').addClass('main-menu__contacts--anim');
+  //   $('.main-wrapper').addClass('main-wrapper--anim');
+  //   $('.nav-right').addClass('nav-right--anim');
+  //   $('.nav-right a').addClass('nav-right--color');
+  //   $('.nav-right .fa-instagram').addClass('nav-right--color');
+  //   $('.main-menu__item').removeClass('anim--hidden');
+  //   $('.catalog__tomain').removeClass('anim--hidden');
+  //   $('.main-page').addClass('main-page--anim');
+  //   $('.main-menu__phone').addClass('main-menu__phone--anim');
+  //   $('.nav-right .overlay').toggleClass('overlay--anim');
+  //   $('.nav-right-wrap').addClass('nav-right-wrap--anim');
+  // });
 
   $(".mt__item").on('click', function() {
     $('.block2').addClass("block2--move-to-left-mt");
