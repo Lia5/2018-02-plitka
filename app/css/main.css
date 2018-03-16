@@ -1382,8 +1382,8 @@ button {
     -webkit-transform: translateX(-150%);
     transform: translateX(-150%); }
   50% {
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%); }
+    -webkit-transform: translateX(-75%);
+    transform: translateX(-75%); }
   100% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%); } }
@@ -1392,7 +1392,7 @@ button {
   0% {
     -webkit-transform: translateX(-150%); }
   50% {
-    -webkit-transform: translateX(-50%); }
+    -webkit-transform: translateX(-75%); }
   100% {
     -webkit-transform: translateX(0%); } }
 
@@ -1466,7 +1466,7 @@ button {
   0% {
     -webkit-transform: translateY(100%); }
   50% {
-    -webkit-transform: translateY(5%); }
+    -webkit-transform: translateY(50%); }
   100% {
     -webkit-transform: translateY(0%); } }
 
@@ -4308,8 +4308,8 @@ a .nav-right--color {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%); }
   50% {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%); }
+    -webkit-transform: translateY(-75%);
+    transform: translateY(-75%); }
   100% {
     -webkit-transform: translateY(0%);
     transform: translateY(0%); } }
@@ -4318,7 +4318,7 @@ a .nav-right--color {
   0% {
     -webkit-transform: translateY(-100%); }
   50% {
-    -webkit-transform: translateY(-50%); }
+    -webkit-transform: translateY(-75%); }
   100% {
     -webkit-transform: translateY(0%); } }
 
@@ -4336,8 +4336,8 @@ a .nav-right--color {
     -webkit-transform: translateX(150%);
     transform: translateX(150%); }
   50% {
-    -webkit-transform: translateX(50%);
-    transform: translateX(50%); }
+    -webkit-transform: translateX(75%);
+    transform: translateX(75%); }
   100% {
     -webkit-transform: translateX(0%);
     transform: translateX(0%); } }
@@ -4346,7 +4346,7 @@ a .nav-right--color {
   0% {
     -webkit-transform: translateX(150%); }
   50% {
-    -webkit-transform: translateX(50%); }
+    -webkit-transform: translateX(75%); }
   100% {
     -webkit-transform: translateX(0%); } }
 
