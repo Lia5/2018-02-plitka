@@ -5,9 +5,7 @@
   min-height: 795px;
 }
 .block3 {
- // right: -139px; 
   z-index: 3;
- // position: fixed;
 }
 .block3:before {
   content: "";
@@ -45,9 +43,6 @@
   width: 84%;
   height: 100vh;
   z-index: 2;
-  // background-image: url('../img/bg-item.jpg');
-  // background-size: cover;
-  // background-repeat: no-repeat;
 }
 
   .catalog-page--bg::-webkit-scrollbar-track{
