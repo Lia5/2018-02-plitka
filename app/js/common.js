@@ -1,4 +1,8 @@
 $(function(){
+  
+  new WOW().init();
+
+
   $('.menu-toggle').on('click', function() {
     $('.nav-right .overlay').toggleClass('overlay--menu');
     $(this).toggleClass('on');

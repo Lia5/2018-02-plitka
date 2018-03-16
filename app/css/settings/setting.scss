@@ -105,15 +105,15 @@ button {
 .pos-fix {
   position: fixed;
 }
-
+/*
 
 .slideRight{
     animation-name: slideRight;
     -webkit-animation-name: slideRight; 
  
-    animation-duration: 2s; 
-	-webkit-animation-duration: 2s;
-
+    animation-duration: 1s; 
+	-webkit-animation-duration: 1s;
+animation-delay: 1s;
     animation-timing-function: linear; 
     -webkit-animation-timing-function: linear;     
  
@@ -124,6 +124,7 @@ button {
     -webkit-animation-name: slideRight; 
      animation-duration: 1s; 
     -webkit-animation-duration: 1s;
+    
      animation-timing-function: linear; 
     -webkit-animation-timing-function: linear;     
  
@@ -212,3 +213,4 @@ button {
     50%{        -webkit-transform: translateY(50%);    }
     100% {        -webkit-transform: translateY(0%);    }   
 }
+*/
