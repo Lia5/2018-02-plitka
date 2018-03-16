@@ -114,8 +114,8 @@ button {
     animation-duration: 2s; 
 	-webkit-animation-duration: 2s;
 
-    animation-timing-function: ease; 
-    -webkit-animation-timing-function: ease;     
+    animation-timing-function: linear; 
+    -webkit-animation-timing-function: linear;     
  
     visibility: visible !important; 
 }
@@ -124,8 +124,8 @@ button {
     -webkit-animation-name: slideRight; 
      animation-duration: 1s; 
     -webkit-animation-duration: 1s;
-     animation-timing-function: ease-in-out; 
-    -webkit-animation-timing-function: ease-in-out;     
+     animation-timing-function: linear; 
+    -webkit-animation-timing-function: linear;     
  
     visibility: visible !important; 
 } 
@@ -149,8 +149,8 @@ button {
     animation-duration: 2s; 
     -webkit-animation-duration: 2s;
  
-    animation-timing-function: ease-in-out; 
-    -webkit-animation-timing-function: ease-in-out;     
+    animation-timing-function: linear; 
+    -webkit-animation-timing-function: linear;     
  
     visibility: visible !important; 
 }
@@ -161,8 +161,8 @@ button {
     animation-duration: 1s; 
     -webkit-animation-duration: 1s;
  
-    animation-timing-function: ease-in-out; 
-    -webkit-animation-timing-function: ease-in-out;     
+    animation-timing-function: linear; 
+    -webkit-animation-timing-function: linear;     
  
     visibility: visible !important; 
 } .slideLeft2{
@@ -172,8 +172,8 @@ button {
     animation-duration: 2s; 
     -webkit-animation-duration: 2s;
  
-    animation-timing-function: ease-in-out; 
-    -webkit-animation-timing-function: ease-in-out;     
+    animation-timing-function: linear; 
+    -webkit-animation-timing-function: linear;     
  
     visibility: visible !important; 
 }
@@ -195,8 +195,8 @@ button {
     animation-duration: 2s; 
     -webkit-animation-duration: 2s;
  
-    animation-timing-function: ease;    
-    -webkit-animation-timing-function: ease;
+    animation-timing-function: linear;    
+    -webkit-animation-timing-function: linear;
  
     visibility: visible !important;         
 }

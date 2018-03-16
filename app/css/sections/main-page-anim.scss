@@ -73,8 +73,8 @@ a .nav-right--color {
   -webkit-animation-name: slide-down;  
   animation-duration: 1s; 
   -webkit-animation-duration: 1s;
-  animation-timing-function: ease;    
-  -webkit-animation-timing-function: ease;    
+  animation-timing-function: linear;    
+  -webkit-animation-timing-function: linear;    
   visibility: visible !important;                     
 }
 
@@ -100,23 +100,22 @@ a .nav-right--color {
   animation-duration: 2s; 
   -webkit-animation-duration: 2s;
 
-  animation-timing-function: ease-in-out; 
-  -webkit-animation-timing-function: ease-in-out;     
+  animation-timing-function: linear; 
+  -webkit-animation-timing-function: linear;     
 
   visibility: visible !important; 
 }
 
 @keyframes slide-left {
   0% {      transform: translateX(150%);  }
-  65%{      transform: translateX(4%);  }
-  95%{      transform: translateX(2%);  }           
+  50%{      transform: translateX(50%);  }
+       
   100% {      transform: translateX(0%);  }
 }
 
 @-webkit-keyframes slide-left {
   0% {      -webkit-transform: translateX(150%);  }
-  65%{      -webkit-transform: translateX(4%);  }
-  95%{      -webkit-transform: translateX(2%);  }           
+  50%{      -webkit-transform: translateX(50%);  }
   100% {      -webkit-transform: translateX(0%);  }
 }
 .cat__items {
