@@ -126,6 +126,9 @@
   width: 55vw;
   overflow-y: auto;
 }
+.tabs li .btn {
+  display: block;
+}
 #cssmenu ul ul {
   display: none;
 }
