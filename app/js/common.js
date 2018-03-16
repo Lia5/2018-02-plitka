@@ -16,10 +16,17 @@ $(function(){
   $('.catalog-href').on('click', function() {
     $(this).toggleClass('on');
     $('.block2').addClass('block2--move-to-left');
+    $('.block2').removeClass('wow');
+    $('.block2').removeClass('fadeInRight');
+
     $('.block2').addClass('slide-left');
+    $('.nav-right').addClass('wow');
+    $('.nav-right').addClass('fadeInRight');
+    // $('.nav-right').setAttribute('data-wow-delay', '1s');
     $('.catalog-title--anim').removeClass('anim--hidden');
     $('.catalog-page--anim--hidden').addClass('catalog-page--anim');
-    $('.catalog-page--anim--hidden').addClass('slide-down');
+    $('.catalog-page--anim--hidden').addClass('wow');
+    $('.catalog-page--anim--hidden').addClass('slideInDown');
     $('.main-header__mobile .fa-instagram').addClass('fa-instagram--anim');
     $('.nav-right .catalog').addClass('anim--hidden');
     $('.logo').addClass('anim--hidden');
