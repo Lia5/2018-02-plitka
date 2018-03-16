@@ -45,24 +45,22 @@ $(function(){
   //   $('.nav-right-wrap').addClass('nav-right-wrap--anim');
   // });
 
-  $(".mt__item").on('click', function() {
-    $('.block2').addClass("block2--move-to-left-mt");
-    $('.block2').addClass("slide-left");
-    $('.mt-page--anim--hidden ').addClass("mt-page--anim--visible");
-    $('.mt__title--exampl').addClass("anim--hidden");
-    $('.mt__subtitle').addClass("mt__subtitle--anim");
-    $('.block2__container .social-icon').addClass("social-icon--anim");
-    $('.logo img').addClass("mk-logo--anim");
-    $('.mt__left-menu').addClass("pos-fix");
-    $('.block2--move-to-left-mt').addClass("block2--move-to-left-mt--fix");
-    $('.mt-descr').addClass("anim--hidden");
-    $('.mt__item rotate').addClass("anim--hidden");
-    $('.back-to').removeClass("anim--hidden");
-    $('.block2--move-to-left-mt--fix .mt__item').addClass("anim--hidden");
-    $('.back-to-mt').addClass("back-to-mt--anim");
-    $('.hight-eco').addClass("anim--hidden");
-    $('.main-wrapper__mt').addClass("main-wrapper__mt--anim");
-  });
+  // $(".mt__item").on('click', function() {
+  //   $('.block2').addClass("block2--move-to-left-mt");
+  //   $('.block2').addClass("slide-left");
+  //   $('.mt-page--anim--hidden ').addClass("mt-page--anim--visible");
+  //   $('.mt__title--exampl').addClass("anim--hidden");
+  //   $('.mt__subtitle').addClass("mt__subtitle--anim");
+  //   $('.block2__container .social-icon').addClass("social-icon--anim");
+  //   // $('.logo img').addClass("mk-logo--anim");
+  //   $('.block2--move-to-left-mt').addClass("block2--move-to-left-mt--fix");
+  //   $('.mt-descr').addClass("anim--hidden");
+  //   $('.mt__item rotate').addClass("anim--hidden");
+  //   $('.back-to').removeClass("anim--hidden");
+  //   $('.back-to-mt').addClass("back-to-mt--anim");
+  //   $('.hight-eco').addClass("anim--hidden");
+  //   $('.main-wrapper__mt').addClass("main-wrapper__mt--anim");
+  // });
   
   $(".examples-panel-item--block").on('click', function() {
     $('.examples__img').addClass("examples__img-blocks");
