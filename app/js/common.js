@@ -26,7 +26,8 @@ $(function(){
     $('.catalog-title--anim').removeClass('anim--hidden');
     $('.catalog-page--anim--hidden').addClass('catalog-page--anim');
     $('.catalog-page--anim--hidden').addClass('wow');
-    $('.catalog-page--anim--hidden').addClass('slideInDown');
+    $('.catalog-page--anim--hidden').addClass('fadeInDown');
+    $('.catalog-page--anim--hidden').addClass('slide-down');
     $('.main-header__mobile .fa-instagram').addClass('fa-instagram--anim');
     $('.nav-right .catalog').addClass('anim--hidden');
     $('.logo').addClass('anim--hidden');

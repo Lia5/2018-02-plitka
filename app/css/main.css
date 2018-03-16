@@ -6697,30 +6697,34 @@ a .nav-right--color {
   left: 0; }
 
 /*end animation*/
-/*
-.slide-down{
+.slide-down {
   animation-name: slide-down;
-  -webkit-animation-name: slide-down;  
-  animation-duration: 1s; 
+  -webkit-animation-name: slide-down;
+  animation-duration: 1s;
   -webkit-animation-duration: 1s;
-  animation-timing-function: linear;    
-  -webkit-animation-timing-function: linear;    
-  visibility: visible !important;                     
-}
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+  visibility: visible !important; }
 
 @keyframes slide-down {
-  0% {      transform: translateY(-100%);  }
-  50%{      transform: translateY(-75%);  }
-  100% {      transform: translateY(0%);  }       
-}
+  0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%); }
+  50% {
+    -webkit-transform: translateY(-75%);
+    transform: translateY(-75%); }
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%); } }
 
 @-webkit-keyframes slide-down {
-  0% { -webkit-transform: translateY(-100%);  }
-  50%{ -webkit-transform: translateY(-75%);  }
-  100% { -webkit-transform: translateY(0%);  }   
-}
+  0% {
+    -webkit-transform: translateY(-100%); }
+  50% {
+    -webkit-transform: translateY(-75%); }
+  100% {
+    -webkit-transform: translateY(0%); } }
 
-*/
 .slide-left {
   animation-name: slide-left;
   -webkit-animation-name: slide-left;
