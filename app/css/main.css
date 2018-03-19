@@ -7789,7 +7789,9 @@ material.html
   .logo {
     padding-top: 12vh;
     width: 18vw;
-    height: 55vh; } }
+    height: 55vh; }
+  .prod__item--overlay__figure {
+    width: 48%; } }
 
 @media screen and (min-width: 2000px) {
   .block3:before {
