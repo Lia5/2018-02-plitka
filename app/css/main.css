@@ -6931,7 +6931,7 @@ a .nav-right--color {
   content: "";
   display: block;
   position: absolute;
-  right: -20%;
+  right: -28%;
   top: 50%;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
