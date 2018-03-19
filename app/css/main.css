@@ -7253,6 +7253,8 @@ material.html
   align-items: center; }
 
 .mt__item {
+  border: 2px solid transparent;
+  padding: 25px 10px;
   font-size: 18px;
   position: absolute;
   right: 50px;
@@ -7264,6 +7266,9 @@ material.html
   -ms-transform: translateY(-50%) rotate(180deg);
   transform: translateY(-50%) rotate(180deg);
   z-index: 1; }
+
+.mt__item:hover {
+  border: 2px solid #ffffff; }
 
 .mt__item a:after {
   content: "";
@@ -7372,9 +7377,10 @@ material.html
 /*anim2*/
 .main-wrapper__mt--anim .mt__back-to {
   text-transform: uppercase;
-  left: -134px;
+  left: -170px;
   top: 196px;
-  opacity: 0; }
+  opacity: 0;
+  padding: 26px 18px; }
 
 .main-wrapper__mt--anim .mt__back-to:hover {
   opacity: 1; }
@@ -7776,7 +7782,7 @@ material.html
   .main-wrapper__mt--anim .mt__block2:before {
     left: -92px; }
   .main-wrapper__mt--anim .mt__back-to {
-    top: 127px;
+    top: 96px;
     left: -55px; }
   .main-wrapper__mt--anim .make-calc {
     top: 273px; }
