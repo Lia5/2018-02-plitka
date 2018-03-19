@@ -143,11 +143,12 @@
   position: relative;
   font-family: 'PTSans-Bold', 'Arial Narrow', Arial, sans-serif;
 }
-.cat__tomain {
-  top: -60px;
+.cat__tomain-cat {
+  top: 60px;
   position: absolute;
   opacity: 0.8;
   text-decoration: underline;
+  z-index: 4;
 }
 .cat__item__active:after {
   content: "";

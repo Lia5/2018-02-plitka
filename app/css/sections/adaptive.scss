@@ -13,6 +13,10 @@
   .prod__item--overlay__figure {
     width: 48%;
   }
+  .block3:before {
+    min-width: 851px;
+    min-height: 806px;
+  }
 }
 @media screen and (min-width: 2000px) {
   .block3:before {
@@ -230,8 +234,8 @@
   }
   .mt__item {
     font-size: 14px;
-    right: 15px;
-    top: 186px;
+    right: 38px;
+    top: 209px;
   }
   .mt__item a:after {
     width: 15px;
@@ -610,7 +614,7 @@
   .cat__item--left {
     font-size: 12px;
   }
-  .cat__tomain {
+  .cat__tomain-cat {
     top: -93px;
   }
   .prod__item__figure__title {
