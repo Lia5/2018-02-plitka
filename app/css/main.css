@@ -6993,8 +6993,8 @@ a .nav-right--color {
   transform: rotate(90deg); }
 
 .mt__nav-left-open .mt__contacts:before {
-  left: 2px;
-  top: -10px;
+  left: -17px;
+  top: 9px;
   -webkit-writing-mode: horizontal-tb;
   -ms-writing-mode: lr-tb;
   writing-mode: horizontal-tb;
@@ -7044,6 +7044,28 @@ a .nav-right--color {
   bottom: auto;
   left: 145px;
   top: 216px; }
+
+.mt__nav__back {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  top: 149px;
+  left: 50%;
+  position: absolute;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg) translateX(50%);
+  -moz-transform: rotate(180deg) translateX(50%);
+  -ms-transform: rotate(180deg) translateX(50%);
+  -o-transform: rotate(180deg) translateX(50%);
+  transform: rotate(180deg) translateX(50%); }
+
+.mt__nav__back a {
+  color: #1b273c; }
+
+.mt__nav-left-open .mt__nav__back {
+  display: none; }
 
 .mt__contacts {
   bottom: 92px;
@@ -7377,10 +7399,10 @@ material.html
 /*anim2*/
 .main-wrapper__mt--anim .mt__back-to {
   text-transform: uppercase;
-  left: -170px;
+  left: -214px;
   top: 196px;
   opacity: 0;
-  padding: 26px 18px; }
+  padding: 26px 30px; }
 
 .main-wrapper__mt--anim .mt__back-to:hover {
   opacity: 1; }

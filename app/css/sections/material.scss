@@ -57,10 +57,8 @@ color: $dark-blue;
   transform: rotate(90deg);
 }
 .mt__nav-left-open .mt__contacts:before {
-  
-  left: 2px;
-  top: -10px;
-
+  left: -17px;
+  top: 9px;
   writing-mode: horizontal-tb;
   -webkit-transform: none;
   -moz-transform: none;
@@ -108,6 +106,26 @@ color: $dark-blue;
   bottom: auto;
   left: 145px;
   top: 216px;
+}
+.mt__nav__back {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  top: 149px;
+  left: 50%;
+  position: absolute;
+  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg) translateX(50%);
+  -moz-transform: rotate(180deg) translateX(50%);
+  -ms-transform: rotate(180deg) translateX(50%);
+  -o-transform: rotate(180deg) translateX(50%);
+  transform: rotate(180deg) translateX(50%);
+}
+.mt__nav__back a {
+  color: $dark-blue;
+}
+.mt__nav-left-open .mt__nav__back {
+  display: none;
 }
 .mt__contacts {
   bottom: 92px;
