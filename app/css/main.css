@@ -7484,6 +7484,16 @@ material.html
   width: 52%;
   padding: 36px; }
 
+.tab_content::-webkit-scrollbar-track {
+  background-color: transparent; }
+
+.tab_content::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent; }
+
+.tab_content::-webkit-scrollbar-thumb {
+  background-color: transparent; }
+
 .examples__title {
   font-size: 24px;
   padding-top: 10px;
@@ -7626,7 +7636,8 @@ material.html
   width: 50%; }
 
 .har__item fieldset {
-  width: 96%; }
+  width: 96%;
+  border: 2px solid #c0c0c0; }
 
 .har__info > li:before {
   content: "-";
