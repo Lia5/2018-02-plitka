@@ -155,11 +155,31 @@ $(function(){
     });
     })(jQuery);
     
-  $(".reviews__feedback-vk").mouseover(function() {
-    $('.go-to-vk').removeClass("hidden");
-  });
-  $(".go-to-vk").on('mouseleave', function() {
-    $('.go-to-vk').addClass("hidden");
-  });
+    var up = document.querySelector('.cat__item--left--up');
+    var down = document.querySelector('.cat__item--left--down');
+    var list = document.querySelectorAll('.cat__menu__item');
+    var i = 5;
+    up.onclick = function () {
+      list[i].classList.remove('cat__item__active');
+      i--;
+      if (i < 0) {
+        i = list.length-1;
+      }
+      list[i].classList.add('cat__item__active');
+    }
+    down.onclick = function () {
+      list[i].classList.remove('cat__item__active');
+      i++;
+      if (i >= list.length) {
+        i = 0;
+      }
+      list[i].classList.add('cat__item__active');
+    }
+  // $(".cat__item--left--up").mouseover(function() {
+  //   $('.cat__menu__items-before').style.display="block";
+  // });
+  // $(".go-to-vk").on('mouseleave', function() {
+  //   $('.go-to-vk').addClass("hidden");
+  // });
 
 })
