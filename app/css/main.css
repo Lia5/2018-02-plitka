@@ -8001,6 +8001,9 @@ material.html
 .gal__img img {
   width: 100%; }
 
+.main-wrapper__gal .mt-descr {
+  display: none; }
+
 @media screen and (min-width: 1700px) {
   .nav-right {
     padding-top: 12vh; }
@@ -8122,6 +8125,8 @@ material.html
   .mt__menu-toggle {
     width: 52px;
     height: 36px; }
+  .mt__nav__back {
+    font-size: 19px; }
   .mt__contacts {
     bottom: 28px; }
   .mt-menu__phone {
@@ -8795,6 +8800,21 @@ material.html
     font-size: 20px; }
   .prod__item--overlay__figure p {
     font-size: 12px; }
+  /*cat*/
+  .cat__wrapper {
+    height: auto;
+    overflow: auto; }
+  .cat__wrapper .main-page {
+    height: auto; }
+  .cat__wrapper .cat__block2 {
+    height: auto; }
+  .catalog-page--bg {
+    position: absolute;
+    overflow: auto;
+    height: auto; }
+  /*mt*/
+  .mt__nav__back {
+    display: none; }
   .mt__item.rotate {
     width: 271px;
     top: 227px;
@@ -8808,7 +8828,7 @@ material.html
     -o-transform: rotate(0);
     transform: rotate(0); }
   .mt__item.rotate a:after {
-    top: 28px;
+    top: 42px;
     left: 50%;
     width: 17px;
     height: 27px;
@@ -8874,9 +8894,11 @@ material.html
   .mt__subtitle {
     font-size: 32px; }
   .mt__item.rotate {
-    width: 100%;
+    width: 90%;
     text-align: center;
-    right: 0; }
+    right: 0;
+    left: 0;
+    top: 234px; }
   .mt__title--exampl {
     font-size: 16px; }
   .mt__social-icon__mail {
@@ -9075,7 +9097,7 @@ material.html
     top: 10px; }
   .mt__item.rotate {
     top: auto;
-    bottom: -46px; }
+    bottom: -80px; }
   .mt__block2:before {
     top: -71px;
     right: -77px; }
