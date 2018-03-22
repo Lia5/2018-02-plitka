@@ -9071,8 +9071,20 @@ material.html
   /*mt*/
   .mt-descr .hight-eco {
     left: 47%; }
-  .hight-eco img {
+  .main-wrapper__mt .hight-eco img {
+    width: 28px; }
+  .main-wrapper__mt--anim .hight-eco img {
     width: 38px; }
+  .main-wrapper__mt .mt__block2 {
+    padding-top: 121px; }
+  .main-wrapper__mt--anim .mt__block2 {
+    padding-top: 97px; }
+  .main-wrapper__mt .mt__block2:before {
+    top: -38px;
+    right: -77px; }
+  .main-wrapper__mt--anim .mt__block2:before {
+    top: -71px;
+    right: -77px; }
   .mt__social-icon .nav-right--color {
     font-size: 43px; }
   .mt__social-icon__mail,
@@ -9084,8 +9096,6 @@ material.html
     font-size: 10px; }
   .img-title {
     display: none; }
-  .mt__block2 {
-    padding-top: 97px; }
   .mt__social-icon__mail {
     top: -96px; }
   .mt__social-icon__phone {
@@ -9098,9 +9108,6 @@ material.html
   .mt__item.rotate {
     top: auto;
     bottom: -80px; }
-  .mt__block2:before {
-    top: -71px;
-    right: -77px; }
   .mt__menu-toggle.on + nav {
     left: 28px; }
   .mt__nav-left .mt__social-icon-open {
