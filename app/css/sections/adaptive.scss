@@ -399,6 +399,10 @@
   .main-menu__days {
     font-size: 14px;
   }
+  .main-menu__phone-contacts .main-menu__phone-item {
+    color: $white;
+    font-size: 14px;
+  }
 
 
 
@@ -876,9 +880,7 @@
     left: -13vw;
     top: 0vw;
   }
-  .main-menu__phone-contacts .main-menu__phone-item {
-    color: $white;
-  }
+
 
 
 

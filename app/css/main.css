@@ -8081,7 +8081,8 @@ material.html
   top: -10vw; }
 
 .main-menu__phone-contacts .main-menu__phone-item {
-  font-size: 17px;
+  font-size: 23px;
+  font-weight: bold;
   color: #1b273c; }
 
 .main-menu__phone-contacts span {
@@ -8387,6 +8388,9 @@ material.html
   .main-menu__times span {
     font-size: 23px; }
   .main-menu__days {
+    font-size: 14px; }
+  .main-menu__phone-contacts .main-menu__phone-item {
+    color: #ffffff;
     font-size: 14px; } }
 
 @media screen and (max-width: 1390px) {
@@ -8723,9 +8727,7 @@ material.html
   .main-menu__contacts-contacts {
     position: relative;
     left: -13vw;
-    top: 0vw; }
-  .main-menu__phone-contacts .main-menu__phone-item {
-    color: #ffffff; } }
+    top: 0vw; } }
 
 @media screen and (max-width: 749px) {
   .main-page {
