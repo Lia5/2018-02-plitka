@@ -105,4 +105,37 @@ $(function(){
         dots: true,
       });
     });
+   // MAP
+   if(jQuery('#map').length) {
+   ymaps.ready(init);
+   function init(){     
+      var myMap = new ymaps.Map("map", {
+           center: [55.984795, 37.903761],
+           zoom: 13
+       }),
+       
+       // Создаем метку с помощью вспомогательного класса.
+       myPlacemark1 = new ymaps.Placemark([55.984453, 37.872863], {
+        // Свойства.
+        // Содержимое иконки, балуна и хинта.
+        balloonContentBody: 'Мир брусчатки',
+       balloonContentFooter: 'МО, г. Пушкино, Новая улица, 16',
+       hintContent: 'Мир брусчатки'
+    }, {
+        // Опции.
+        // Своё изображение иконки метки.
+        iconLayout: 'default#imageWithContent',
+        iconImageHref: 'img/icons/marker.png',
+        // Размеры метки.
+        iconImageSize: [74, 71]
+    });
+  
+  // Добавляем все метки на карту.
+  myMap.geoObjects.add(myPlacemark1);
+  myMap.behaviors.disable('scrollZoom');
+  
+   };
+  }
+
+
 })
