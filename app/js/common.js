@@ -136,6 +136,18 @@ $(function(){
   
    };
   }
+  //gorizont
+  $('.horizon').mousewheel(function(event, delta) {
+		event.preventDefault();
+		this.scrollLeft -= (delta * 30);
+		return false;
+	});
+
+
+    $('.horizon').scrollbar();
+
+ 
+
 
 
 })
