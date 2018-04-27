@@ -9298,7 +9298,9 @@ material.html
     position: absolute; }
   .main-menu__phone-contacts-left {
     margin-top: 10px;
-    margin-right: 10px; } }
+    margin-right: 10px; }
+  .logo-contacts {
+    width: 123px; } }
 
 @media screen and (max-width: 689px) {
   .block__mt:before {
