@@ -7,9 +7,11 @@
   width:100%;
   overflow: hidden;
 }
-.horizon ul{
+.horizon > ul{
   list-style:none;
   width:4700px;
+  max-height: 92vh;
+
   // float:left;
 }
 .page-about__block {
@@ -21,17 +23,24 @@
   width: 100px;
 }
 .page-about__main-title {
-  font-size: 48px;
+  height: 100%;
+  text-align: center;
   padding: 20px;
   color: $dark-blue;
   writing-mode: tb-rl;
   transform: rotate(180deg);
 }
+.page-about__main-title h2 {
+  font-size: 48px;
+}
 .page-about__img {
   width: 100%;
+  max-height: 311px;
+  height: 311px;
+  overflow: hidden;
 }
 .page-about__img img {
-  width: 100%;
+  width: 110%;
 }
 .page-about__title {
   font-size: 18px;
@@ -44,13 +53,19 @@
   font-size: 14px;
   margin-bottom: 15px;
 }
+.scroll-x .scroll-element_size {
+  height: 3px;
+
+}
 .scroll-x {
   margin: 0 5%;
+  margin-top: -40px;
 }
 .scroll-x .scroll-bar {
   position: relative;;
   height: 50px;
   max-width: 30px;
+
 }
 .scroll-x .scroll-element_track {
   height: 3px;
@@ -79,4 +94,53 @@
   transform: rotate(45deg);
   top: -12px;
   left: 5px;
+}
+/*block2-about*/
+.block2-about {
+  position: relative;
+  height: 83vh;
+  min-height: auto;
+  width: auto;
+}
+.block2-about::before {
+  right: auto;
+  left: 10vw;
+  bottom: auto;
+  top: -10vw;
+}
+.nav-right-wrap-about {
+  top: 0;
+  position: absolute;
+  overflow: auto;
+  height: auto;
+}
+.footer-block {
+  width: 560px;
+  overflow: hidden;
+}
+.logo-about {
+  padding-top: 120px;
+  width: 9vw;
+  margin-left: 5vw;
+}
+.tov-zn-about {
+  font-size: 18px;
+}
+.catalog-about span {
+  padding: 56px 4px;
+  width: auto;
+  height: auto;
+}
+.catalog-about a:after,
+.catalog-about a:before {
+  content: none;
+}
+.nav-right-about {
+  width: 160px;
+}
+.nav-right-wrap--mob {
+  display: none;
+}
+.block2-mob {
+  display: none;
 }

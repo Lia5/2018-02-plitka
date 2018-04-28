@@ -1,0 +1,39 @@
+@media screen and (min-width: 1700px) {
+  .nav-right {
+    padding-top: 12vh;
+    width: 14vw;
+  }
+  .logo {
+    padding-top: 12vh;
+    width: 18vw;
+    height: 55vh;
+  }
+  .prod__item--overlay__figure {
+    width: 48%;
+  }
+  .block3:before {
+    min-width: 851px;
+    min-height: 806px;
+  }
+  .logo-contacts {
+     padding-top: 33px; 
+     width: 11vw;
+     height: 55vh; 
+  }
+  .logo-about {
+    padding-top: 137px;
+    width: 9vw;
+    margin-left: 5vw;
+  }
+  .nav-right-about {
+    padding-top: 54px;
+    width: 160px;
+  }
+
+}
+@media screen and (min-width: 2000px) {
+  .block3:before {
+    left: -18%;
+  }
+}
+

@@ -137,14 +137,14 @@ $(function(){
    };
   }
   //gorizont
-  $('.horizon').mousewheel(function(event, delta) {
+  jQuery(window).width() >= 750 && $('.horizon').mousewheel(function(event, delta) {
 		event.preventDefault();
 		this.scrollLeft -= (delta * 30);
 		return false;
 	});
 
 
-    $('.horizon').scrollbar();
+  jQuery(window).width() >= 750 &&  $('.horizon').scrollbar();
 
  
 

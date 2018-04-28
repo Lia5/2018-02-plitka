@@ -1,0 +1,68 @@
+@media screen and (max-width: 1390px) {
+  /*anim*/
+  .main-menu__phone--anim {
+    left: auto;
+  }
+  .catalog-title--anim {
+    font-size: 31px;
+    right: 49%;
+    top: 34%;
+  }
+  .catalog-title--anim .catalog-smaller {
+    font-size: 21px;
+  }
+  .catalog-page--anim {
+    left: 7%;
+    width: 71%;
+  }
+  .cat__nav-right-wrap {
+    width: 195px;  
+  }
+  .cat__nav-right {
+    width: 195px;
+  }
+  .cat__phone {
+    left: 0;
+    bottom: 36px;
+  }
+  .cat__contacts {
+    bottom: 108px;
+  }
+  .catalog-page--bg {
+    width: 80%;
+  }
+  .catalog-page__color {
+    width: 210px;
+    padding: 24px 16px;
+    margin-right: 0;
+  }
+  .cat__phone-item span {
+    font-size: 22px;
+  }
+  .cat__item--left {
+    width: 229px;
+  }
+  .block3:before {
+    left: -36%;
+  }
+
+  .prod__item--overlay__figure {
+    width: 93%;
+  }
+  .prod__item--overlay__img {
+    margin-left: 52%;
+    width: 28%;
+    height: 28%; 
+  }
+  .main-page--anim {
+    background-size: 76% 100%;
+  }
+  .block2--move-to-left-mt--fix .img-title {
+    margin-left: 39px;
+  }
+}
+@media screen and (max-width: 1190px){
+  .block3:before {
+    left: -47%;
+  }
+}
