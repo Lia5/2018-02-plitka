@@ -420,7 +420,16 @@
   .scroll-x {
     position: relative;
   }
-
+/*vacancies*/
+  .block2-vacancies {
+    width: auto;
+  }
+  .logo-vacancies {
+    margin-left: 30vw;
+  }
+  .block2-vacancies:before {
+    left: 37vw;
+  }
 
 
 }

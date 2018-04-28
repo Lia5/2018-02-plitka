@@ -27,22 +27,22 @@
 .page-vacancies__block {
   padding-top: 110px;
 }
-.page-vacancies__img {
-  position: absolute;
-  height: 100%;
-  width: 600px;
-  max-height: 100vh;
-  overflow: hidden;
-}
-.page-vacancies__img img {
-  width: 100%;
-}
+
+
 .footer-block-vacancies {
-  width: 890px;
+  width: 837px;
+  background: url(../img/vacancies.png) no-repeat;
+  background-size: auto 100%;
 }
 .block2-vacancies:before {
   left: 25vw;
 }
 .logo-vacancies {
   margin-left: 24vw;
+}
+.page-vacancies__img {
+  width: 100%;
+}
+.page-vacancies__img img {
+  width: 100%;
 }

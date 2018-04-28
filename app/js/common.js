@@ -146,8 +146,5 @@ $(function(){
 
   jQuery(window).width() >= 750 &&  $('.horizon').scrollbar();
 
- 
-
-
 
 })

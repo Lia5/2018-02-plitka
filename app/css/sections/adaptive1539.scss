@@ -417,13 +417,16 @@
   }
   /*vacancies*/
   .footer-block-vacancies {
-    width: 690px;
+    width: 550px;
   }
   .page-vacancies__block {
     width: 460px;
   }
   .page-vacancies__title {
     margin-top: 0;
+  }
+  .block2-vacancies:before {
+    left: 31vw;
   }
 
 
