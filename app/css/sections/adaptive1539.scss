@@ -428,6 +428,14 @@
   .block2-vacancies:before {
     left: 31vw;
   }
+  /*article*/
+  .page-articles__text {
+    max-height: 150px;
+  }
+  .page-about__block:first-child {
+    height: 77%;
+  }
+
 
 
 }

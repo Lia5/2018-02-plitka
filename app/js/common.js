@@ -146,10 +146,14 @@ $(function(){
 
   jQuery(window).width() >= 750 &&  $('.horizon').scrollbar();
 
-  $('.filter-item').on('click', function() {
+  $('.filter-item1').on('click', function() {
+    $('.filter-item2').removeClass('on');
     $(this).toggleClass('on');
   });
-
+  $('.filter-item2').on('click', function() {
+    $('.filter-item1').removeClass('on');
+    $(this).toggleClass('on');
+  });
   //------ jQuery: Закрытие элемента по клику за пределами его области (вне элемента)
     $(document).mouseup(function (e){ // событие клика по веб-документу
       var div = $(".filter-item-wrap"); // тут указываем ID элемента

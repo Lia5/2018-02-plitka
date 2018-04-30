@@ -430,6 +430,32 @@
   .block2-vacancies:before {
     left: 37vw;
   }
+  /*article*/
+  .page-articles__text {
+    max-height: 125px;
+  }
+  // .page-articles {
+  //   min-height: auto;
+  // }
+  .page-articles-filter {
 
+  }
+  // .page-articles__block {
+  //   width: 350px;
+  // }
+  .page-articles__date {
+    margin-top: 14px;
+  }
+  .page-articles__title {
+    margin-top: 6px;
+  }
+  .page-articles .scroll-x {
+    top: -75px;
+  }
+  .page-articles-filter {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+  }
 
 }

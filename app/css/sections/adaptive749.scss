@@ -650,10 +650,13 @@
     font-size: 17px;
     margin-bottom: 20px;
   }
-
-
-
-
+  /*articles*/
+  .page-articles-filter {
+    margin-top: 154px;
+  }
+  .page-articles__block:first-child {
+    margin-top: 0;
+  }
 
 }
 
