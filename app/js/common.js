@@ -146,5 +146,17 @@ $(function(){
 
   jQuery(window).width() >= 750 &&  $('.horizon').scrollbar();
 
+  $('.filter-item').on('click', function() {
+    $(this).toggleClass('on');
+  });
+
+  //------ jQuery: Закрытие элемента по клику за пределами его области (вне элемента)
+    $(document).mouseup(function (e){ // событие клика по веб-документу
+      var div = $(".filter-item-wrap"); // тут указываем ID элемента
+      if (!div.is(e.target) // если клик был не по нашему блоку
+      && div.has(e.target).length === 0) { // и не по его дочерним элементам
+        $(".filter-item").removeClass('on'); // скрываем его родителя (оверфлоу фон)
+      }
+    });
 
 })

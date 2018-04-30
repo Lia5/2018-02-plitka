@@ -29,36 +29,80 @@
     <!--/block2-->
     <div class="container-fluid main-page page-about">
       <div class="page-articles-filter">
-        <div class="filter-item">
-          <div class="filter-item-title filter-interesting-title">
-            <span>фильтр</span>
-            <span class="filter-interesting-title-on">Интересно почитать</span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        <div class="filter-item-wrap">
+          <div class="filter-item">
+            <div class="filter-item-title filter-interesting-title">
+              <span class="filter-interesting-title-off">фильтр</span>
+              <span class="filter-interesting-title-on">Интересно почитать</span>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
           </div>
           <div class="filter-item-main filter-interesting-main">
-            <div class="catalog-items">
-              <div class="checkbox__item">
-                <input type="checkbox" id="ampm" checked="">
-                <label for="ampm">Am.Pm</label>
-              </div>
-              <div class="checkbox__item">
-                <input type="checkbox" id="bravat">
-                <label for="bravat">Bravat</label>
-              </div>
-            </div><!--catalog-items  -->
-
-
-
-
+            <div class="checkbox__item">
+              <input type="checkbox" id="all" checked="">
+              <label for="all">Все</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="checkbox" id="borduru">
+              <label for="borduru">Бордюры</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="checkbox" id="kach-br">
+              <label for="kach-br">Качество брусчатки</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="checkbox" id="proectu">
+              <label for="proectu">Проекты</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="checkbox" id="rez-pl">
+              <label for="rez-pl">Резиновая плитка</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="checkbox" id="all2">
+              <label for="all2">Все</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="checkbox" id="borduru2">
+              <label for="borduru2">Бордюры</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="checkbox" id="kach-br2">
+              <label for="kach-br2">Качество брусчатки</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="checkbox" id="proectu2">
+              <label for="proectu2">Проекты</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="checkbox" id="rez-pl2">
+              <label for="rez-pl2">Резиновая плитка</label>
+            </div>
+            <div class="checkbox__item filter-text"><span>Отфильтровать</span></div>
           </div>
         </div>
-        <div class="filter-item">
-          <div class="filter-item-title filter-sort-title">
-            <span>Cортировка</span>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        <div class="filter-item-wrap">
+          <div class="filter-item">
+            <div class="filter-item-title filter-sort-title">
+              <span>Cортировка</span>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
           </div>
-          <div class="filter-item-main filter-sort-main"></div>
+          <div class="filter-item-main filter-sort-main">
+            <div class="checkbox__item">
+              <input type="radio" name="radio" id="radio1" checked="">
+              <label for="radio1">по названию</label>
+            </div>
+            <div class="checkbox__item">
+              <input type="radio" name="radio" id="radio2">
+              <label for="radio2">по дате</label>
+            </div>
+
+            <div class="filter-text"><span>Сортировать</span></div>
+          </div>
         </div>
+        
+
       </div>
         <div class="horizon">
           <ul class="page-about__blocks">

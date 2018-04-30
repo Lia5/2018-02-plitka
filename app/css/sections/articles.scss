@@ -29,21 +29,23 @@
   margin-top: 13px;
   margin-left: 245px;
 }
+.filter-item-wrap {
+  position: relative;
+  display: inline-block;
+}
 .filter-item {
   position: relative;
   display: inline-block;
   padding: 14px 32px 14px 14px;
   border: 1px solid $dark-blue;
-  cursor: pointer;
+  // cursor: pointer;
   margin-right: 16px;
   min-width: 130px;
 }
 .filter-interesting-title-on {
   display: none;
 }
-.filter-item-title {
 
-}
 .filter-item-title .fa-chevron-down {
   font-size: 11px;
   position: absolute;
@@ -54,48 +56,52 @@
 .filter-item-main {
   position: absolute;
   top: 46px;
-  left: 0;
   border: 1px solid $dark-blue;
   border-top: none;
   background-color: $white;
   z-index: 1;
   padding: 14px;
-  min-width: 130px;
+  min-width: 330px;
+  // cursor: default;
+
 }
 /*checkbox*/
 .checkbox__item {
   display: block;
   position: relative;
-  cursor: pointer;
-  margin-bottom: 8px;
+  // cursor: pointer;
 }
 
-.checkbox__item input[type="checkbox"] {
+.checkbox__item input[type="checkbox"],
+.checkbox__item input[type="radio"]{
   position: absolute;
   display: block;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  cursor: pointer;
+  // cursor: pointer;
   margin: 0;
   opacity: 0;
   z-index: 1;
 }
-.checkbox__item input[type="checkbox"] {
+.checkbox__item input[type="checkbox"],
+.checkbox__item input[type="radio"] {
   visibility: hidden;
 }
 .checkbox__item label {
   max-width: 100%;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
   font-weight: bold;
-  display: inline-block;
+  display: block;
   vertical-align: top;
   text-align: left;
   padding-left: 27px;
   color: #666666;
+  // cursor: pointer;
 }
-.checkbox__item label:before, .checkbox__item label:after {
+.checkbox__item label:before,
+.checkbox__item label:after {
   content: '';
   display: block;
   position: absolute;
@@ -119,8 +125,30 @@
   opacity: 0;
 }
 
-.checkbox__item input[type="checkbox"]:checked + label:after {
+.checkbox__item input[type="checkbox"]:checked + label:after,
+.checkbox__item input[type="radio"]:checked + label:after {
   opacity: 1;
 }
 
-
+.filter-item-main {
+  display: none;
+}
+.filter-item.on {
+  min-width: 330px;
+}
+.filter-item.on+.filter-item-main {
+  display: block;
+}
+.filter-item.on .filter-interesting-title-on {
+  display: block;
+}
+.filter-item.on .filter-interesting-title-off {
+  display: none;
+}
+.filter-text {
+  text-align: right;
+}
+.filter-text span {
+  text-decoration: underline;
+  cursor: pointer;
+}
