@@ -1,0 +1,117 @@
+.page-design__main-title {
+  font-size: 40px;
+}
+.page-design__main-title .bigger {
+  font-size: 50px;
+  padding-top: 29%;
+}
+.page-design__main-title span {
+  display: block;
+  line-height: 0.8;
+}
+.page-design__block2 {
+  // width: 621px;
+  width: 13%;
+}
+.page-design__img img {
+  width: 100%;
+}
+.page-design__title-top {
+  font-size: 38px;
+  font-weight: bold;
+  color: $dark-blue;
+  text-align: center;
+  padding-left: 100px;
+}
+.page-design__title-main {
+  font-size: 26px;
+  text-align: center;
+  padding-left: 100px;
+}
+.page-design__title {
+  margin-top: -34px;
+}
+.page-design__text {
+  position: relative;
+  font-size: 14px;
+  padding: 64px 25px 0;
+}
+.text16 {
+  font-style: 16px;
+}
+.text-bold {
+  font-weight: bold;
+}
+.gift__img {
+  position: absolute;
+  right: 0;
+  width: 131px;
+}
+.gift__img img {
+  width: 100%;
+}
+/*slider*/
+.page-about__slider {
+  color: $dark-blue;
+  width: 1170px;
+  font-size: 0;
+}
+.design-main {
+  width: 75%;
+  display: inline-block;
+  font-size: 16px;
+}
+.page-about__slider-right {
+  width: 25%;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+}
+.design-main__img {
+  width: 100%;
+  display: none;
+}
+.design-main__img img {
+  width: 100%;
+}
+.tabs__caption-foto .slick-track {
+  max-height: 414px;
+}
+.tabs__caption-foto .slick-list {
+  margin: 0 10px;
+}
+.tabs__caption-foto .slick-slide {
+  display: inline-block;
+  float: none!important;
+}
+.design-prev__img {
+  margin: 4px;
+  width: 122px!important;
+}
+.design-prev__img img {
+  width: 100%;
+}
+.tabs__content-foto {
+  display: none; /* по умолчанию прячем все блоки */
+}
+.tabs__content-foto.active {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+.page-about__slider-text {
+  font-size: 14px;
+  padding: 50px 20px 20px 40px;
+}
+.footer-block-design {
+  width: 610px;
+  background: url(../img/design-bg-footer.png) no-repeat;
+  background-position-y: bottom;
+}
+.horizon {
+  max-height: 100vh;
+}
+.block2-design:before {
+  left: 15vw;
+}
+.logo-design {
+  margin-left: 11vw;
+}

@@ -145,7 +145,7 @@ $(function(){
 
 
   jQuery(window).width() >= 750 &&  $('.horizon').scrollbar();
-
+/*filter*/
   $('.filter-item1').on('click', function() {
     $('.filter-item2').removeClass('on');
     $(this).toggleClass('on');
@@ -162,5 +162,27 @@ $(function(){
         $(".filter-item").removeClass('on'); // скрываем его родителя (оверфлоу фон)
       }
     });
+
+    /*design-slider*/
+
+       
+        $('.tabs-foto').on('click', '.design-prev__img', function() {
+          var e = $(".design-prev__img"),
+          o = $(".tabs__content-foto");
+          return e.removeClass("active"), o.removeClass("active"), $(this).addClass("active").fadeIn(), o.eq($(this).index()).addClass("active"), !1
+        });
+       
+
+    $('.design-prev').slick({
+
+      slidesToShow: 8,
+      slidesToScroll: 4,
+      dots: true,
+      arrows: false,
+      infinite: false,
+      // vertical: true
+
+    });
+
 
 })

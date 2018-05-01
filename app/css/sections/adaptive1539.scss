@@ -435,7 +435,38 @@
   .page-about__block:first-child {
     height: 77%;
   }
-
-
+  /*design*/
+  .page-design__block2 {
+    width: 10%;
+  }
+  .page-design__title-top,
+  .page-design__title-main {
+    padding-left: 0;
+  }
+  .page-design__text {
+    padding-top: 20px;
+  }
+  .gift__img {
+    width: 50px;
+  }
+  .page-about__slider {
+    width: 880px;
+  }
+  .design-prev__img {
+    width: 91px !important;
+  }
+  .page-about__slider-text {
+    font-size: 13px;
+    padding: 10px;
+  }
+  .footer-block-design {
+    width: 610px;
+  }
+  .block2-design:before {
+    left: 30vw;
+  }
+  .logo-design {
+    margin-left: 24vw;
+  }
 
 }
