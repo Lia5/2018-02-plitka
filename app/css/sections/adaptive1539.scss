@@ -468,5 +468,43 @@
   .logo-design {
     margin-left: 24vw;
   }
+  /*ukladka*/
+  .page-ukladka__block2 {
+    width: 885px;
+    padding: 0;
+  }
+  
+  .stair__img {
+    width: 70px;
+    height: 70px;
+  }
+  .stair {
+    padding-left: 70px;
+  }
+  .stair-first {
+    padding-left: 0;
+  }
+  .stair__txt {
+    max-width: 308px;
+  }
+  .page-ukladka__title {
+    padding-left: 10px;
+  }
+  .page-ukladka__block {
+    width: 925px;
+  }
+  .page-ukladka__block-left {
+    max-height: 505px;
+    overflow: hidden;
+  }
+  .page-ukladka__main-title h2 {
+    font-size: 24px;
+  }
+  .page-ukladka__block50-img {
+    width: 170px;
+    height: 153px;
+    overflow: hidden;
+  }
+
 
 }

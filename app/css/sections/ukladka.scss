@@ -118,6 +118,8 @@
 }
 .page-ukladka__block50-img {
   width: 250px;
+  height: 225px;
+  overflow: hidden;
   display: inline-block;
 }
 
@@ -135,8 +137,19 @@
   margin-top: 10px;
 }
 .page-ukladka__block-bg {
+  position: relative;
   background: none;
   z-index: 1;
+}
+.page-ukladka__block-bg::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 14px;
+  height: 133px;
+  background-color: $dark-blue;
+  opacity: 0.2;
 }
 .bg-number {
   position: absolute;

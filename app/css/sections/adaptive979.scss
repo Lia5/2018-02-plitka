@@ -489,6 +489,52 @@
   .logo-design {
     margin-left: 43vw;
   }
+/*ukladka*/
+  .page-ukladka__block2 {
+    width: 651px;
+  }
+  .stairs {
+    padding-top: 10px;
+  }
+  .stair__img {
+    width: 60px;
+    height: 60px;
+  }
+  .stair {
+    padding-left: 52px;
+  }
+  .stair-first {
+    padding-left: 0;
+  }
+  .page-ukladka__title-top {
+    font-size: 32px;
+  }
+  .page-ukladka__title-main {
+    font-size: 21px;
+  }
+  .stair__txt {
+    max-width: 269px;
+  }
+  .page-ukladka__title {
+    padding-left: 0;
+  }
+  .page-ukladka__block-left {
+    max-height: 436px;
+  }
+  .page-ukladka__block {
+    width: 700px;
+  }
+  .page-ukladka__block-left::after {
+    bottom: 9%;
+  }
+  .page-ukladka__block50-img {
+    width: 148px;
+    height: 131px;
+  }
+  .page-ukladka__block50-first {
+    margin-bottom: 0;
+  }
+
 
 
 }
