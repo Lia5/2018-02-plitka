@@ -1,5 +1,9 @@
 
 @media screen and (max-width: 979px) {
+
+  // .block2-about {
+  //   min-width: 384px;
+  // }
   .main-page {
     background-size: 85% 100%;
   }
@@ -476,7 +480,15 @@
   .page-about__slider-text {
     font-size: 12px;
   }
-
+  .block2-design {
+    width: auto;
+  }
+  .block2-design:before {
+    left: 50vw;
+  }
+  .logo-design {
+    margin-left: 43vw;
+  }
 
 
 }

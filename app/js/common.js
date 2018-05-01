@@ -11,6 +11,7 @@ $(function(){
     $('.mt__nav-left-wrap').toggleClass('mt__nav-left-open');
     $('.mt__social-icon').toggleClass('mt__social-icon-open');
   //  $('.catalog-page--anim--hidden').toggleClass("hidden");
+  
   });
 
   $(".examples-panel-item--block").on('click', function() {

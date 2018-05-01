@@ -8885,8 +8885,8 @@ material.html
   .logo-about {
     width: 112px; }
   .block2-about {
-    min-height: 480px;
-    height: 480px; }
+    min-height: 475px;
+    height: 475px; }
   .block2-about::before {
     left: 11vw;
     top: -33vh;
@@ -9316,7 +9316,13 @@ material.html
   .design-prev__img {
     width: 68px !important; }
   .page-about__slider-text {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .block2-design {
+    width: auto; }
+  .block2-design:before {
+    left: 50vw; }
+  .logo-design {
+    margin-left: 43vw; } }
 
 @media screen and (max-width: 749px) {
   .main-page {
@@ -9844,7 +9850,16 @@ material.html
   .page-articles-filter {
     margin-top: 154px; }
   .page-articles__block:first-child {
-    margin-top: 0; } }
+    margin-top: 0; }
+  /*design*/
+  .page-design__main-title .bigger {
+    padding-top: 0; }
+  .horizon {
+    max-height: none; }
+  .design-main {
+    width: 100%; }
+  .page-about__slider-right {
+    width: 100%; } }
 
 @media screen and (max-width: 689px) {
   .block__mt:before {
