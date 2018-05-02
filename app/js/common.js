@@ -186,4 +186,29 @@ $(function(){
     });
 
 
-})
+
+
+
+}) ;
+    jQuery(window).width() >= 750 && $(window).scroll(function() {
+        // if($(this).scrollLeft() != 0) {
+        //   $('.to-up').fadeIn();
+        // } else {
+        //   $('.to-up').fadeOut();
+        // }
+      });
+      $('.to-up').click(function() {
+      $('.horizon ').animate({scrollLeft:0},800);
+       
+    });
+ jQuery(window).width() < 750 && $(window).scroll(function() {
+        // if($(this).scrollTop() != 0) {
+        //   $('.to-up').fadeIn();
+        // } else {
+        //   $('.to-up').fadeOut();
+        // }
+      });
+      $('.to-up').click(function() {
+      $('html, body ').animate({scrollTop:0},800);
+       
+    });

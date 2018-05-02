@@ -144,6 +144,22 @@
   .har__items__count span {
     width: 59px;
   }
+  /*map*/
+  .menu__phone-item {
+    font-size: 9px;
+  }
+  .main-menu__phone-item span {
+    font-size: 14px;
+  }
+  .main-menu__adress {
+    font-size: 12px;
+  }
+  .logo-contacts {
+    width: 61px;
+  }
+  .main-menu__contacts-contacts {
+    left: -24vw;
+  }
   /*about*/
   .page-about__title {
     margin-top: 15px;
@@ -164,7 +180,18 @@
   .filter-item-main {
     min-width: 300px;
   }
-
-
-
+  /*ukladka*/
+  .stair__txt {
+    max-width: 73%;
+  }
+  .page-ukladka__block50-txt {
+    max-width: 50%;
+  }
+  .page-ukladka__block50-img {
+    width: 100%;
+  }
+  .page-ukladka__block50-txt {
+    width: 100%;
+    max-width: none;
+  }
 }

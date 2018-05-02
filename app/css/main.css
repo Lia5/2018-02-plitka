@@ -8665,7 +8665,8 @@ material.html
   display: inline-block; }
 
 .page-ukladka__main-title {
-  max-width: 100px; }
+  max-width: none;
+  width: auto; }
 
 .page-ukladka__main-title h2 {
   font-size: 35px;
@@ -10052,6 +10053,8 @@ material.html
     margin-left: 10px; }
   .logo-contacts {
     width: 123px; }
+  .main-menu__contacts-contacts {
+    left: -18vw; }
   /*about*/
   .main-wrapper {
     background: transparent; }
@@ -10139,7 +10142,15 @@ material.html
   .page-ukladka__block50-title {
     max-width: none; }
   .page-ukladka__block50-txt {
-    max-width: 60%; } }
+    max-width: 60%; }
+  .return-to-up {
+    top: 0;
+    margin-bottom: 20px; }
+  .to-up:before {
+    border-bottom-width: 1px;
+    border-top-width: 10px; }
+  .page-ukladka__block50-title {
+    margin-top: 20px; } }
 
 @media screen and (max-width: 689px) {
   .block__mt:before {
@@ -10147,7 +10158,7 @@ material.html
   .tabs li a {
     font-size: 28px; }
   /*map*/
-  .nav-right-about .main-menu__phone-contacts {
+  .nav-right-wrap-contacts .main-menu__phone-contacts {
     display: block;
     left: auto;
     right: 42vw; } }
@@ -10250,6 +10261,17 @@ material.html
     width: 39%; }
   .har__items__count span {
     width: 59px; }
+  /*map*/
+  .menu__phone-item {
+    font-size: 9px; }
+  .main-menu__phone-item span {
+    font-size: 14px; }
+  .main-menu__adress {
+    font-size: 12px; }
+  .logo-contacts {
+    width: 61px; }
+  .main-menu__contacts-contacts {
+    left: -24vw; }
   /*about*/
   .page-about__title {
     margin-top: 15px;
@@ -10264,6 +10286,16 @@ material.html
   .filter-item.on {
     min-width: 300px; }
   .filter-item-main {
-    min-width: 300px; } }
+    min-width: 300px; }
+  /*ukladka*/
+  .stair__txt {
+    max-width: 73%; }
+  .page-ukladka__block50-txt {
+    max-width: 50%; }
+  .page-ukladka__block50-img {
+    width: 100%; }
+  .page-ukladka__block50-txt {
+    width: 100%;
+    max-width: none; } }
 
 /*# sourceMappingURL=main.css.map */
