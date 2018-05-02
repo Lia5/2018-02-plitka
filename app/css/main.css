@@ -8308,6 +8308,9 @@ material.html
 .footer-block-vacancies a.nav-right--color {
   color: #ffffff; }
 
+.page-articles .horizon {
+  max-height: 90vh; }
+
 .page-articles__block {
   padding: 16px; }
 
@@ -8321,7 +8324,7 @@ material.html
   margin-top: 0; }
 
 .page-articles__text {
-  max-height: 222px;
+  max-height: 31vh;
   overflow: hidden; }
 
 .more {
@@ -8747,7 +8750,8 @@ material.html
   font-size: 14px;
   padding-left: 40px;
   position: relative;
-  color: #1b273c; }
+  color: #1b273c;
+  cursor: pointer; }
 
 .to-up:before {
   content: "";
@@ -8789,7 +8793,9 @@ material.html
     padding-top: 54px;
     width: 160px; }
   .logo-vacancies {
-    margin-left: 24vw; } }
+    margin-left: 24vw; }
+  .page-articles .horizon {
+    max-height: 90vh; } }
 
 @media screen and (min-width: 2000px) {
   .block3:before {
@@ -10101,6 +10107,8 @@ material.html
   .page-design__main-title .bigger {
     padding-top: 0; }
   .horizon {
+    max-height: none; }
+  .page-articles .horizon {
     max-height: none; }
   .design-main {
     width: 100%; }
