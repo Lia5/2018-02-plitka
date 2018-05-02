@@ -160,5 +160,28 @@
   opacity: 0.2;
   font-weight: bold;
   z-index: -1;
-
+}
+.return-to-up {
+  width: 150px;
+  position: relative;
+  top: 20px;
+}
+.to-up {
+  font-size: 14px;
+  padding-left: 40px;
+  position: relative;
+  color: $dark-blue;
+}
+.to-up:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -6px;
+  left: -7px;
+  transform: rotate(45deg);
+  border: 1px solid $dark-blue;
+  background-color: $white;
+  border-left-width: 10px;
+  border-bottom-width: 10px;
 }
