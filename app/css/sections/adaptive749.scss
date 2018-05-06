@@ -732,6 +732,29 @@
   .page-ukladka__block50-title {
     margin-top: 20px;
   }
+  /*popup*/
+  .popup__block2 {
+    padding-top: 85px;
+  }
+  .popup__block2:before {
+    top: -23%;
+    right: 0;
+  }
+  .popup-btn-wrap {
+    text-align: center;
+  }
+  .main-header__popup-bg {
+    left: 50%;
+    transform: translate(-50%, 0) ;
+  }
+  .popup__content {
+    font-size: 13px;
+    width: 95%;
+    margin: 0;
+  }
+  #modal-2-tel-part3 {
+    width: calc(100% - 113px);
+  }
 }
 
 @media screen and (max-width: 689px) {
@@ -747,6 +770,7 @@
     left: auto;
     right: 42vw;
   }
+
 
 
 }

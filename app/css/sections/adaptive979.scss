@@ -534,7 +534,43 @@
   .page-ukladka__block50-first {
     margin-bottom: 0;
   }
-
-
-
+  /*popup*/
+  .popup__block2 {
+    width: 47vw;
+  }
+  .popup-form-1 input {
+    width: 71px;
+    font-size: 16px;
+  }
+  .popup-btn {
+    position: static;
+  }
+  .radio__item label {
+    width: 75px;
+  }
+  .input-wrap input::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  .input-wrap input::-moz-placeholder          {
+    font-size: 10px;
+  }/* Firefox 19+ */
+  .input-wrap input:-moz-placeholder:-moz-placeholder           {
+    font-size: 10px;
+  }/* Firefox 18- */
+  .input-wrap input:-ms-input-placeholder      {
+    font-size: 10px;  
+  }
+  .arrows {
+    height: 35px;
+  }
+  .popup__content {
+    padding-top: 23px;
+  }
+  .popup__block3:before {
+    bottom: 14%;
+    left: -5px;
+  }
+  .popup-form__qa-ans {
+    top: 44px;
+  }
 }

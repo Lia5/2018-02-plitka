@@ -505,6 +505,25 @@
     height: 153px;
     overflow: hidden;
   }
-
-
+  /*popup*/
+  .popup__content {
+    font-size: 13px;
+    width: 98%;
+  }
+  .popup-form-content label {
+    width: 36%;
+  }
+  .popup-btn {
+    min-width: 192px;
+    min-height: 48px;
+  }
+  .radio__item label {
+    width: 95px;
+  }
+  .popup-form-confident label {
+    margin-left: 46%;
+  }
+  .popup-form__qa-ans {
+    top: 47px;
+  }
 }

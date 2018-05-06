@@ -221,6 +221,7 @@ $(function(){
 
       /*MODAL*/
 $(document).ready(function() {
+  $('body').append('<div class="blackout-bg"></div>');
   $('body').append('<div id="blackout"></div>');
   // var boxWidth = 800;
   function centerBox() {
@@ -238,7 +239,7 @@ $(document).ready(function() {
     /* Добавляем стили к блокам */
     // $('.popup-box').css({'width' : boxWidth+'px', 'left' : disWidth+'px', 'top' : disHeight+'px'});
     $('#blackout').css({'width' : winWidth+'px', 'height' : winHeight+'px'});
-    
+    $('.blackout-bg').css({'width' : winWidth+'px', 'height' : winHeight+'px'});
     return false;       
   }
   $(window).resize(centerBox);
@@ -257,6 +258,7 @@ $(document).ready(function() {
     
     /* Корректный вывод popup окна, накрытие тенью, предотвращение скроллинга */
     $('#popup-box-'+id).show();
+    $('.blackout-bg').show();
     $('#blackout').show();
     $('html,body').css('overflow', 'hidden');
     $('body').css('padding-right', '17px');
@@ -272,6 +274,7 @@ $(document).ready(function() {
       var scrollPos = $(window).scrollTop();
       /* Скрыть окно, когда кликаем вне его области */
       $('[id^=popup-box-]').hide(); 
+      $('.blackout-bg').hide(); 
       $('#blackout').hide(); 
       $("html,body").css("overflow","auto");
       $('body').css('padding-right', '0');
@@ -281,6 +284,7 @@ $(document).ready(function() {
       var scrollPos = $(window).scrollTop();
       /* Скрываем тень и окно, когда пользователь кликнул по X */
       $('[id^=popup-box-]').hide(); 
+      $('.blackout-bg').hide();
       $('#blackout').hide(); 
       $("html,body").css("overflow","auto");
       $('body').css('padding-right', '0');
