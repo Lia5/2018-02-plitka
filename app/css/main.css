@@ -8998,6 +8998,9 @@ material.html
 .popup__block3 {
   padding-top: 115px; }
 
+.popup__block3:before {
+  background: #293a56; }
+
 .popup__title {
   font-size: 40px; }
 
@@ -9445,7 +9448,10 @@ material.html
   .popup-form-confident label {
     margin-left: 46%; }
   .popup-form__qa-ans {
-    top: 47px; } }
+    top: 47px; }
+  .popup__block3:before {
+    width: 233vh;
+    height: 153vh; } }
 
 @media screen and (max-width: 1390px) {
   /*anim*/
@@ -10484,7 +10490,7 @@ material.html
     padding-top: 85px; }
   .popup__block2:before {
     top: -23%;
-    right: 0; }
+    right: 21vw; }
   .popup-btn-wrap {
     text-align: center; }
   .main-header__popup-bg {
@@ -10497,7 +10503,10 @@ material.html
     width: 95%;
     margin: 0; }
   #modal-2-tel-part3 {
-    width: calc(100% - 113px); } }
+    width: calc(100% - 113px); }
+  .popup-form__qa-ans {
+    left: -105px;
+    width: 310px; } }
 
 @media screen and (max-width: 689px) {
   .block__mt:before {
@@ -10643,6 +10652,35 @@ material.html
     width: 100%; }
   .page-ukladka__block50-txt {
     width: 100%;
-    max-width: none; } }
+    max-width: none; }
+  /*popup*/
+  .popup__block2 {
+    padding-top: 0px; }
+  .popup__block2 .block2__container {
+    left: 0; }
+  .popup-form-1 input {
+    width: 58px;
+    font-size: 10px; }
+  .popup-form-content label {
+    width: 40%; }
+  .radio__item label {
+    width: 62px; }
+  .popup__content {
+    width: 100%; }
+  .popup-form__qa-ans {
+    top: 38px; }
+  .popup-btn-wrap {
+    margin-top: 5px; }
+  .popup__content {
+    padding-top: 6px; }
+  .popup-cross {
+    left: 54px;
+    top: 11px; }
+  .popup-btn {
+    min-height: 39px; }
+  .popup-form-confident label {
+    margin-left: 36%; }
+  .popup__block2:before {
+    top: -48%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -738,7 +738,7 @@
   }
   .popup__block2:before {
     top: -23%;
-    right: 0;
+    right: 21vw;
   }
   .popup-btn-wrap {
     text-align: center;
@@ -754,6 +754,10 @@
   }
   #modal-2-tel-part3 {
     width: calc(100% - 113px);
+  }
+  .popup-form__qa-ans {
+    left: -105px;
+    width: 310px;
   }
 }
 

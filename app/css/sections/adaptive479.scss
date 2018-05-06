@@ -194,4 +194,48 @@
     width: 100%;
     max-width: none;
   }
+  /*popup*/
+  .popup__block2 {
+    padding-top: 0px;
+  }
+  .popup__block2 .block2__container {
+    left: 0;
+  }
+  .popup-form-1 input {
+    width: 58px;
+    font-size: 10px;
+  }
+  .popup-form-content label {
+    width: 40%;
+ }
+  .radio__item label {
+    width: 62px;
+  }
+  .popup__content {
+    width: 100%;
+  }
+  .popup-form__qa-ans {
+    top: 38px;
+  }
+  .popup-btn-wrap {
+    margin-top: 5px;
+  }
+  .popup__content {
+    padding-top: 6px;
+  }
+  .popup-cross {
+    left: 54px;
+    top: 11px;
+  }
+  .popup-btn {
+    min-height: 39px;
+  }
+  .popup-form-confident label {
+    margin-left: 36%;
+  }
+  .popup__block2:before {
+    top: -48%;
+  }
+
+
 }
