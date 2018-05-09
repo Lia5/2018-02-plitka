@@ -34,18 +34,20 @@
     height: 100vh;
     min-width: 795px;
     min-height: 795px;
-    bottom: 41%;
-    left: -1vw;
+    top: -50%;
+    left: -11%;
     z-index: 0;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg) scale(0.5,0.5);
+    -ms-transform: rotate(-45deg) scale(0.5,0.5);
+    transform: rotate(-45deg) scale(0.5,0.5);
     background-color: $white;
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    zoom: 0.6;
-
+    -webkit-transform-origin:  bottom center;
+    -ms-transform-origin:  bottom center;
+    transform-origin:  bottom center;
+    // zoom: 0.6;
+    // -ms-zoom: 0.6;
+    // -webkit-zoom: 0.6;
+     -moz-transform-origin: bottom center;
 }
 
 .block4-contacts:before {
@@ -53,11 +55,14 @@
   background-size: 100%;
   background-color: transparent;
   transform: none;
-   bottom: 21%;
-   zoom: 0.75;
-   min-width: 883px;
-   min-height: 883px;
-   left: -6vw;
+  top: -19%;
+  //  zoom: 0.75;
+  -webkit-transform: scale(0.8,0.8);
+  -ms-transform:  scale(0.8,0.8);
+  transform: scale(0.8,0.8);
+  min-width: 774px;
+  min-height: 774px;
+   left: -20%;
 }
 .main-menu__phone-contacts {
   position: relative;

@@ -336,14 +336,18 @@
     bottom: auto;
   }
   .block3-contacts:before {
-    zoom: 0.4;
-    left: -10vw;
-    bottom: 49%;
+    top: -54%;
+    left: -44%;
+    -webkit-transform: rotate(-45deg) scale(0.4, 0.4);
+    -ms-transform: rotate(-45deg) scale(0.4, 0.4);
+    transform: rotate(-45deg) scale(0.4, 0.4);
   }
   .block4-contacts:before {
-    bottom: 36%;
-    left: -12vw;
-    zoom: 0.5;
+    top: -30%;
+    left: -57%;
+    -webkit-transform: scale(0.6, 0.6);
+    -ms-transform: scale(0.6, 0.6);
+    transform: scale(0.6, 0.6);
   }
   .logo-contacts {
     width: 163px;

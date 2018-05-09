@@ -5,9 +5,26 @@
   position:relative;
   // float:left;
   width:100%;
-  overflow: hidden;
+  overflow-x: scroll;
+
   // height: 100%;
 }
+.horizon::-webkit-scrollbar-track{
+  background-color:transparent;
+   width: 40px!important;
+  max-width: 40px!important;
+  min-width: 40px!important;  }
+  .horizon::-webkit-scrollbar{
+  width:12px;
+  background-color:transparent;
+  width: 40px!important;
+  max-width: 40px!important;
+  min-width: 40px!important;  
+}
+  .horizon::-webkit-scrollbar-thumb{
+  background-color:red;
+
+  }
 .horizon > ul{
   list-style:none;
   width:4700px;

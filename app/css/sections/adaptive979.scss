@@ -392,14 +392,18 @@
     font-size: 19px;
   }
   .block3-contacts:before {
-    zoom: 0.3;
-    left: -46vw;
-    bottom: 54%;
+    top: -58%;
+    left: -98%;
+    -webkit-transform: rotate(-45deg) scale(0.3, 0.3);
+    -ms-transform: rotate(-45deg) scale(0.3, 0.3);
+    transform: rotate(-45deg) scale(0.3, 0.3);
   }
   .block4-contacts:before {
-    bottom: 42%;
-    left: -41vw;
-    zoom: 0.4;
+    top: -40%;
+    left: -115%;
+    -webkit-transform: scale(0.45, 0.45);
+    -ms-transform: scale(0.45, 0.45);
+    transform: scale(0.45, 0.45);
   }
   .main-menu__contacts-contacts {
     position: relative;
