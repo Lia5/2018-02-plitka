@@ -336,7 +336,7 @@
     bottom: auto;
   }
   .block3-contacts:before {
-    top: -54%;
+    top: -55%;
     left: -44%;
     -webkit-transform: rotate(-45deg) scale(0.4, 0.4);
     -ms-transform: rotate(-45deg) scale(0.4, 0.4);
@@ -379,10 +379,11 @@
     width: auto;
   }
   .page-about__block {
-    width: 400px;
     padding: 10px;
   }
-    
+  .nav-right-wrap-about {
+    top: -8vh;
+  }
   .page-about__img {
     max-height: 164px;
     height: 164px;

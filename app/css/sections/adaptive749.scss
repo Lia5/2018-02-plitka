@@ -630,16 +630,14 @@
   }
   .page-about__block {
     float: none;
+    padding: 20px 30px;
+    width: auto;
   }
   .page-about__block:first-child {
     transform: none;
     writing-mode: horizontal-tb;
     margin-top: 140px;
     width: 100%;
-  }
-  .page-about__block {
-    width: auto;
-    padding: 20px 30px;
   }
   .footer-block {
     display: none;
@@ -652,6 +650,10 @@
   .page-about__text p {
     font-size: 17px;
     margin-bottom: 20px;
+  }
+  .horizon > ul {
+    display: block;
+    height: auto;
   }
   /*articles*/
   .page-articles-filter {

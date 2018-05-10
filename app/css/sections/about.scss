@@ -5,37 +5,39 @@
   position:relative;
   // float:left;
   width:100%;
-  overflow-x: scroll;
-
+  overflow-y: scroll;
+  // height: 100vh!important
   // height: 100%;
+  max-height: 96vh;
 }
 .horizon::-webkit-scrollbar-track{
-  background-color:transparent;
-   width: 40px!important;
-  max-width: 40px!important;
-  min-width: 40px!important;  }
+  background-color:transparent
+  }
   .horizon::-webkit-scrollbar{
   width:12px;
-  background-color:transparent;
-  width: 40px!important;
-  max-width: 40px!important;
-  min-width: 40px!important;  
-}
+  background-color:transparent
+  }
   .horizon::-webkit-scrollbar-thumb{
   background-color:red;
-
+  width: 40px!important;
+  max-width: 40px!important;
+  min-width: 40px!important;
   }
 .horizon > ul{
   list-style:none;
-  width:4700px;
-  max-height: 92vh;
-
+  // width:4700px;
+  height: 96vh;
   // float:left;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 .page-about__block {
   padding:25px;
-  float:left;
-  width:525px;
+  // float:left;
+  // width:525px;
+  width: 53vw;
+  flex-shrink: 0;
 }
 .page-about__block:first-child {
   width: 100px;
@@ -53,8 +55,8 @@
 }
 .page-about__img {
   width: 100%;
-  max-height: 311px;
-  height: 311px;
+  min-height: 311px;
+  height: 42vh;
   overflow: hidden;
 }
 .page-about__img img {
@@ -67,27 +69,35 @@
   margin-top: 45px;
   margin-bottom: 15px;
 }
+.page-about__text {
+  min-height: 20vh;
+}
 .page-about__text p {
   font-size: 14px;
   margin-bottom: 15px;
 }
 .scroll-x .scroll-element_size {
-  height: 3px;
-
+  height: 15px;
+  // height: 23px;
+  // position: relative;
+  // top: 10px;
 }
 .scroll-x {
   margin: 0 5%;
-  margin-top: -20px;
+  top: -3vh;
+  position: relative;
+  // z-index: 2;
 }
 .scroll-x .scroll-bar {
   position: relative;;
   height: 50px;
   max-width: 30px;
-
+  top: -7px;
 }
 .scroll-x .scroll-element_track {
-  height: 3px;
-  background-color: $dark-blue;
+  height: 10px;
+  background: $dark-blue;
+  background: linear-gradient(to bottom, #fff,  #fff 50%, $dark-blue 50%, $dark-blue 75%, #fff 75%);
 }
 .scroll-x .scroll-bar:before {
   position: absolute;
@@ -118,7 +128,7 @@
   position: relative;
   height: 83vh;
   min-height: auto;
-  width: auto;
+  width: 30vw;
 }
 .block2-about::before {
   right: auto;
@@ -133,8 +143,10 @@
   height: auto;
 }
 .footer-block {
-  width: 560px;
-  overflow: hidden;
+  position: fixed;
+  top: 10vh;
+  right: 0;
+  transition: 3s;
 }
 .logo-about {
   padding-top: 120px;

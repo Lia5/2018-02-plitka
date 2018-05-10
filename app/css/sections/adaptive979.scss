@@ -428,6 +428,10 @@
   .scroll-x {
     position: relative;
   }
+  .block2-about::before {
+    left: 15vw;
+    top: -37vh;
+  }
 /*vacancies*/
   .block2-vacancies {
     width: auto;

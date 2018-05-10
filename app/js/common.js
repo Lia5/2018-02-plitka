@@ -140,10 +140,17 @@ $(function(){
   //gorizont
   jQuery(window).width() >= 750 && $('.horizon').mousewheel(function(event, delta) {
 		event.preventDefault();
-		this.scrollLeft -= (delta * 30);
+    this.scrollLeft -= (delta * 30);
+    $('.footer-block').css({'right':'-10vw'});
 		return false;
 	});
-
+  jQuery(window).width() >= 750 && $('.horizon').mousewheel(function() {
+    clearTimeout($.data(this, 'timer'));
+    $.data(this, 'timer', setTimeout(function() {
+      $('.footer-block').css({'right':'0'});
+       //do something
+    }, 500));
+  });
 
   jQuery(window).width() >= 750 &&  $('.horizon').scrollbar();
 /*filter*/
