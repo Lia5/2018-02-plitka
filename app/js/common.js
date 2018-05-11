@@ -143,7 +143,8 @@ $(function(){
     this.scrollLeft -= (delta * 30);
     $('.footer-block').css({'right':'-10vw'});
 		return false;
-	});
+  });
+  
   jQuery(window).width() >= 750 && $('.horizon').mousewheel(function() {
     clearTimeout($.data(this, 'timer'));
     $.data(this, 'timer', setTimeout(function() {
@@ -173,7 +174,6 @@ $(function(){
 
     /*design-slider*/
 
-       
         $('.tabs-foto').on('click', '.design-prev__img', function() {
           var e = $(".design-prev__img"),
           o = $(".tabs__content-foto");
@@ -182,7 +182,6 @@ $(function(){
        
 
     $('.design-prev').slick({
-
       slidesToShow: 8,
       slidesToScroll: 4,
       dots: true,
@@ -191,9 +190,6 @@ $(function(){
       // vertical: true
 
     });
-
-
-
 
 
 }) ;
@@ -217,11 +213,6 @@ $(function(){
       });
       $('.to-up').click(function() {
       $('html, body ').animate({scrollTop:0},800);
-
-      
-
-
-
     });
 
 

@@ -8138,7 +8138,7 @@ material.html
 
 .horizon > ul {
   list-style: none;
-  height: 96vh;
+  height: 87vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8200,7 +8200,7 @@ material.html
 
 .scroll-x {
   margin: 0 5%;
-  top: -3vh;
+  top: -4vh;
   position: relative; }
 
 .scroll-x .scroll-bar {
@@ -8212,10 +8212,10 @@ material.html
 .scroll-x .scroll-element_track {
   height: 10px;
   background: #1b273c;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(50%, #fff), color-stop(50%, #1b273c), color-stop(75%, #1b273c), color-stop(75%, #fff));
-  background: -webkit-linear-gradient(top, #fff, #fff 50%, #1b273c 50%, #1b273c 75%, #fff 75%);
-  background: -o-linear-gradient(top, #fff, #fff 50%, #1b273c 50%, #1b273c 75%, #fff 75%);
-  background: linear-gradient(to bottom, #fff, #fff 50%, #1b273c 50%, #1b273c 75%, #fff 75%); }
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(25%, #fff), color-stop(25%, #1b273c), color-stop(50%, #1b273c), color-stop(50%, #fff));
+  background: -webkit-linear-gradient(top, #fff, #fff 25%, #1b273c 25%, #1b273c 50%, #fff 50%);
+  background: -o-linear-gradient(top, #fff, #fff 25%, #1b273c 25%, #1b273c 50%, #fff 50%);
+  background: linear-gradient(to bottom, #fff, #fff 25%, #1b273c 25%, #1b273c 50%, #fff 50%); }
 
 .scroll-x .scroll-bar:before {
   position: absolute;
@@ -8272,9 +8272,30 @@ material.html
   -o-transition: 3s;
   transition: 3s; }
 
+.footer-menu-toggle {
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 2vh; }
+
+.footer-menu-toggle .one,
+.footer-menu-toggle .two,
+.footer-menu-toggle .three {
+  width: 100%;
+  height: 8px;
+  background: #ffffff;
+  margin: 6px auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+
 .logo-about {
-  padding-top: 120px;
-  width: 9vw;
+  padding-top: 12vh;
+  width: 12vw;
   margin-left: 5vw; }
 
 .tov-zn-about {
@@ -8326,10 +8347,11 @@ material.html
 .page-vacancies__block {
   padding-top: 110px; }
 
-.footer-block-vacancies {
-  width: 837px;
-  background: url(../img/vacancies.png) no-repeat;
-  background-size: auto 100%; }
+.img-wrap-vacancies {
+  height: 82vh; }
+
+.img-wrap-vacancies img {
+  height: 100%; }
 
 .block2-vacancies:before {
   left: 25vw; }
@@ -8604,14 +8626,6 @@ material.html
   font-size: 14px;
   padding: 50px 20px 20px 40px; }
 
-.footer-block-design {
-  width: 610px;
-  background: url(../img/design-bg-footer.png) no-repeat;
-  background-position-y: bottom; }
-
-.block2-design:before {
-  left: 8vw; }
-
 .logo-design {
   margin-left: 11vw; }
 
@@ -8781,7 +8795,9 @@ material.html
   position: relative;
   top: 20px;
   -ms-flex-item-align: self-start;
-  align-self: self-start; }
+  align-self: self-start;
+  z-index: 2;
+  left: -35vw; }
 
 .to-up {
   font-size: 14px;
@@ -9110,7 +9126,11 @@ material.html
   .logo-vacancies {
     margin-left: 24vw; }
   .page-articles .horizon {
-    max-height: 90vh; } }
+    max-height: 90vh; }
+  .page-about__text p {
+    font-size: 21px; }
+  .linelist-item {
+    font-size: 21px; } }
 
 @media screen and (min-width: 2000px) {
   .block3:before {
@@ -9387,7 +9407,10 @@ material.html
     top: -8vh; }
   .page-about__img {
     max-height: 164px;
-    height: 164px; }
+    height: 164px;
+    min-height: auto; }
+  .page-about__text {
+    min-height: 41vh; }
   .page-about__title {
     margin-top: 17px;
     margin-bottom: 5px;
@@ -9396,7 +9419,9 @@ material.html
     font-size: 12px;
     margin-bottom: 8px; }
   .logo-about {
-    width: 112px; }
+    width: 112px;
+    padding-top: 12vh;
+    margin-left: 8vw; }
   .block2-about {
     min-height: 475px;
     height: 475px; }
@@ -9406,7 +9431,9 @@ material.html
     min-width: 795px;
     min-height: 795px; }
   .nav-right-about {
-    height: auto; }
+    height: auto;
+    font-size: 13px;
+    width: 120px; }
   .catalog-about span {
     padding: 15px 4px;
     height: auto; }
@@ -9834,17 +9861,20 @@ material.html
     left: -13vw;
     top: 0vw; }
   /*about*/
+  .page-about__img {
+    max-height: 130px; }
   .bg-body-about,
   .main-wrapper-about {
     background: transparent; }
   .main-menu__contacts-about {
     position: relative;
-    left: -30px;
+    left: -12px;
     bottom: auto; }
   .horizon {
     padding-top: 0; }
   .scroll-x {
-    position: relative; }
+    position: relative;
+    top: -6vh; }
   .block2-about::before {
     left: 15vw;
     top: -37vh; }
@@ -10463,6 +10493,8 @@ material.html
     margin-top: 140px;
     width: 100%; }
   .footer-block {
+    display: none; }
+  .footer-block--mob {
     display: none; }
   .page-about__title {
     margin-top: 20px;

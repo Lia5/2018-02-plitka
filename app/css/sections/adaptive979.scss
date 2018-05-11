@@ -412,14 +412,16 @@
   }
 
   /*about*/
-
+  .page-about__img {
+    max-height: 130px;
+  }
   .bg-body-about,
   .main-wrapper-about {
     background: transparent
   }
   .main-menu__contacts-about {
     position: relative;
-    left: -30px;
+    left: -12px;
     bottom: auto;
   }
   .horizon {
@@ -427,6 +429,7 @@
   }
   .scroll-x {
     position: relative;
+    top: -6vh;
   }
   .block2-about::before {
     left: 15vw;

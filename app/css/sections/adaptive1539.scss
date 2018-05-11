@@ -387,6 +387,11 @@
   .page-about__img {
     max-height: 164px;
     height: 164px;
+    min-height: auto;
+  
+  }
+  .page-about__text {
+    min-height: 41vh;
   }
   .page-about__title {
     margin-top: 17px;
@@ -399,6 +404,8 @@
   }
   .logo-about {
     width: 112px;
+    padding-top: 12vh;
+    margin-left: 8vw;
   }
   .block2-about {
     min-height: 475px;
@@ -412,6 +419,8 @@
   }
   .nav-right-about {
     height: auto;
+    font-size: 13px;
+    width: 120px;
   }
   .catalog-about span {
     padding: 15px 4px;
