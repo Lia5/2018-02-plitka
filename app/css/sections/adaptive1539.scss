@@ -375,6 +375,9 @@
     font-size: 14px;
   }
   /*about*/
+  .horizon > ul{
+    padding-top: 0;
+  }
   .block2-about {
     width: auto;
   }
@@ -443,22 +446,35 @@
     left: 31vw;
   }
   /*article*/
+  .page-articles__date {
+    font-size: 13px;
+    margin-top: 11px;
+  }
   .page-articles__text {
     max-height: 150px;
   }
   .page-about__block:first-child {
     height: 77%;
   }
+  .page-articles .page-about__text {
+    min-height: 31vh;
+  }
+  .page-articles .horizon {
+    padding-top: 0;
+  }
   /*design*/
+  .page-design .horizon {
+    padding-top: 5px;
+}
   .page-design__block2 {
-    width: 10%;
+    width: 49vw;
   }
   .page-design__title-top,
   .page-design__title-main {
     padding-left: 0;
   }
   .page-design__text {
-    padding-top: 20px;
+    padding-top: 0;
   }
   .gift__img {
     width: 50px;

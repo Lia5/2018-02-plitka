@@ -24,6 +24,7 @@
   min-width: 40px!important;
   }
 .horizon > ul{
+  padding-top: 15px;
   list-style:none;
   // width:4700px;
   height: 87vh;
@@ -86,7 +87,7 @@
   margin: 0 5%;
   top: -4vh;
   position: relative;
-  // z-index: 2;
+  z-index: 2;
 }
 .scroll-x .scroll-bar {
   position: relative;;
@@ -195,4 +196,7 @@
 }
 .block2-mob {
   display: none;
+}
+.last__block {
+  width: 43vw;
 }

@@ -8137,6 +8137,7 @@ material.html
   min-width: 40px !important; }
 
 .horizon > ul {
+  padding-top: 15px;
   list-style: none;
   height: 87vh;
   display: -webkit-box;
@@ -8201,7 +8202,8 @@ material.html
 .scroll-x {
   margin: 0 5%;
   top: -4vh;
-  position: relative; }
+  position: relative;
+  z-index: 2; }
 
 .scroll-x .scroll-bar {
   position: relative;
@@ -8318,6 +8320,9 @@ material.html
 
 .block2-mob {
   display: none; }
+
+.last__block {
+  width: 43vw; }
 
 .page-vacancies__title {
   font-weight: bold;
@@ -8534,7 +8539,7 @@ material.html
   line-height: 0.8; }
 
 .page-design__block2 {
-  width: 13%; }
+  width: 37vw; }
 
 .page-design__img img {
   width: 100%; }
@@ -8628,6 +8633,21 @@ material.html
 
 .logo-design {
   margin-left: 11vw; }
+
+.img-wrap-design {
+  height: 82vh;
+  vertical-align: bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
+
+.img-wrap-design img {
+  height: 60vh;
+  margin-bottom: -5vh;
+  display: block; }
 
 .page-ukladka__block2 {
   position: relative;
@@ -9399,6 +9419,8 @@ material.html
     color: #ffffff;
     font-size: 14px; }
   /*about*/
+  .horizon > ul {
+    padding-top: 0; }
   .block2-about {
     width: auto; }
   .page-about__block {
@@ -9449,18 +9471,27 @@ material.html
   .block2-vacancies:before {
     left: 31vw; }
   /*article*/
+  .page-articles__date {
+    font-size: 13px;
+    margin-top: 11px; }
   .page-articles__text {
     max-height: 150px; }
   .page-about__block:first-child {
     height: 77%; }
+  .page-articles .page-about__text {
+    min-height: 31vh; }
+  .page-articles .horizon {
+    padding-top: 0; }
   /*design*/
+  .page-design .horizon {
+    padding-top: 5px; }
   .page-design__block2 {
-    width: 10%; }
+    width: 49vw; }
   .page-design__title-top,
   .page-design__title-main {
     padding-left: 0; }
   .page-design__text {
-    padding-top: 20px; }
+    padding-top: 0; }
   .gift__img {
     width: 50px; }
   .page-about__slider {
@@ -9876,8 +9907,13 @@ material.html
     position: relative;
     top: -6vh; }
   .block2-about::before {
-    left: 15vw;
-    top: -37vh; }
+    left: 25vw;
+    top: -49vh; }
+  .footer-block .logo {
+    width: 114px;
+    height: 265px;
+    margin-left: 13vw;
+    padding-top: 3vh; }
   /*vacancies*/
   .block2-vacancies {
     width: auto; }
@@ -9900,11 +9936,13 @@ material.html
     text-align: center; }
   /*design*/
   .page-design__text {
-    font-size: 12px; }
+    font-size: 11px; }
   .page-design__block2 {
-    width: 9%; }
+    width: 48vw; }
   .page-design__title-top {
-    font-size: 35px; }
+    font-size: 29px; }
+  .page-design__title-main {
+    font-size: 21px; }
   .page-about__slider {
     width: 710px; }
   .design-prev__img {
@@ -9917,6 +9955,10 @@ material.html
     left: 50vw; }
   .logo-design {
     margin-left: 43vw; }
+  .page-about__main-title h2 {
+    font-size: 46px; }
+  .page-design__main-title .bigger {
+    font-size: 48px; }
   /*ukladka*/
   .page-ukladka__block2 {
     width: 651px; }
@@ -10474,7 +10516,8 @@ material.html
     display: block; }
   .horizon > ul {
     max-height: none;
-    width: auto; }
+    width: auto;
+    padding-top: 0; }
   .main-wrapper-about {
     height: auto; }
   .page-about {
@@ -10522,6 +10565,12 @@ material.html
     width: 100%; }
   .page-about__slider-right {
     width: 100%; }
+  .page-design__text {
+    font-size: 14px; }
+  .page-about__slider-text {
+    font-size: 16px; }
+  .return-to-up {
+    left: 0; }
   /*ukladka*/
   .stair {
     padding-left: 0; }

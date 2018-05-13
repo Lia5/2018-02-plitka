@@ -432,8 +432,15 @@
     top: -6vh;
   }
   .block2-about::before {
-    left: 15vw;
-    top: -37vh;
+    left: 25vw;
+    top: -49vh;
+  }
+  .footer-block .logo {
+    width: 114px;
+    height: 265px;
+    margin-left: 13vw;
+    padding-top: 3vh;
+
   }
 /*vacancies*/
   .block2-vacancies {
@@ -474,13 +481,16 @@
   }
   /*design*/
   .page-design__text {
-    font-size: 12px;
+    font-size: 11px;
   }
   .page-design__block2 {
-    width: 9%;
-  }
+    width: 48vw;
+}
   .page-design__title-top {
-    font-size: 35px;
+    font-size: 29px;
+  }
+  .page-design__title-main {
+    font-size: 21px;
   }
   .page-about__slider {
     width: 710px;
@@ -499,6 +509,12 @@
   }
   .logo-design {
     margin-left: 43vw;
+  }
+  .page-about__main-title h2 {
+    font-size: 46px;
+  }
+  .page-design__main-title .bigger {
+    font-size: 48px;
   }
 /*ukladka*/
   .page-ukladka__block2 {

@@ -11,7 +11,7 @@
 }
 .page-design__block2 {
   // width: 621px;
-  width: 13%;
+  width: 37vw;
 }
 .page-design__img img {
   width: 100%;
@@ -112,4 +112,15 @@
 // }
 .logo-design {
   margin-left: 11vw;
+}
+.img-wrap-design {
+  height: 82vh;
+  vertical-align: bottom;
+  display: flex;
+  align-items: flex-end;
+}
+.img-wrap-design img {
+  height: 60vh;
+  margin-bottom: -5vh;
+  display: block;
 }
