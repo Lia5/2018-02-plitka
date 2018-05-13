@@ -140,7 +140,7 @@
 .page-ukladka__block-bg {
   position: relative;
   background: none;
-  z-index: 1;
+  // z-index: 1;
 }
 .page-ukladka__block-bg::after {
   content: "";
@@ -160,7 +160,7 @@
   color: $dark-blue;
   opacity: 0.2;
   font-weight: bold;
-  z-index: -1;
+  // z-index: -1;
 }
 .return-to-up {
   width: 150px;

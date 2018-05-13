@@ -305,7 +305,9 @@ color: $dark-blue;
 }
 .block2__container {
   position: relative;
+
 }
+
 .make-calc {
   border: 2px solid $white;
   padding: 6px 27px;
@@ -377,11 +379,12 @@ material.html
   padding-bottom: 5px;
   position: absolute;
   left: 55%;
-  bottom: -22%;
+  bottom: -12%;
   transform: translateX(-50%);
 }
 .block2 .hight-eco {
   padding-left: 0;
+  width: 249px;
 }
 .tov-zn-hide {
   display: none;

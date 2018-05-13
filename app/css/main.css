@@ -7597,13 +7597,14 @@ material.html
   padding-bottom: 5px;
   position: absolute;
   left: 55%;
-  bottom: -22%;
+  bottom: -12%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%); }
 
 .block2 .hight-eco {
-  padding-left: 0; }
+  padding-left: 0;
+  width: 249px; }
 
 .tov-zn-hide {
   display: none; }
@@ -8787,8 +8788,7 @@ material.html
 
 .page-ukladka__block-bg {
   position: relative;
-  background: none;
-  z-index: 1; }
+  background: none; }
 
 .page-ukladka__block-bg::after {
   content: "";
@@ -8807,8 +8807,7 @@ material.html
   font-family: Arial, Helvetica, sans-serif;
   color: #1b273c;
   opacity: 0.2;
-  font-weight: bold;
-  z-index: -1; }
+  font-weight: bold; }
 
 .return-to-up {
   width: 150px;
@@ -8840,6 +8839,12 @@ material.html
   background-color: #ffffff;
   border-left-width: 10px;
   border-bottom-width: 10px; }
+
+.block2__container--popup {
+  top: 37%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%); }
 
 .popup-box {
   position: absolute;
@@ -9113,7 +9118,11 @@ material.html
 
 .main-header__popup-bg {
   position: absolute;
-  width: 75%;
+  width: 73%;
+  top: 44%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
   z-index: -1; }
 
 .main-header__popup-bg img {
@@ -9150,11 +9159,33 @@ material.html
   .page-about__text p {
     font-size: 21px; }
   .linelist-item {
-    font-size: 21px; } }
+    font-size: 21px; }
+  /*articles*/
+  .page-design__text {
+    font-size: 20px; }
+  .mt-page--anim--visible {
+    left: 33vw;
+    width: 68vw; }
+  .block2--move-to-left-mt--fix {
+    left: 13vw; }
+  .block2--move-to-left-mt--fix:before {
+    right: 3vw;
+    bottom: 0%;
+    width: 100vh;
+    height: 102vh; } }
 
 @media screen and (min-width: 2000px) {
   .block3:before {
-    left: -18%; } }
+    left: -18%; }
+  .block2-about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .logo-about {
+    padding-top: 0; } }
 
 @media screen and (max-width: 1539px) {
   .block2 {
@@ -9913,7 +9944,7 @@ material.html
     width: 114px;
     height: 265px;
     margin-left: 13vw;
-    padding-top: 3vh; }
+    padding-top: 7vh; }
   /*vacancies*/
   .block2-vacancies {
     width: auto; }

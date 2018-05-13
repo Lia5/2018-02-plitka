@@ -1,3 +1,7 @@
+.block2__container--popup {
+  top: 37%;
+  transform: translate(0, -50%);
+}
 .popup-box {
   position: absolute;
   left: 0;
@@ -276,7 +280,9 @@
 }
 .main-header__popup-bg {
   position: absolute;
-  width: 75%;
+  width: 73%;
+  top: 44%;
+  transform: translate(0, -50%);
   z-index: -1;
 }
 .main-header__popup-bg img {

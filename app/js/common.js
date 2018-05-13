@@ -201,9 +201,11 @@ $(function(){
         // }
       });
       $('.to-up').click(function() {
-      $('.horizon ').animate({scrollLeft:0},800);
-       
-    });
+        $('.horizon ').animate({scrollLeft:0},800);
+      });
+      $('#menu a').click(function() {
+        $('#3 ').animate({scrollLeft:0},800);
+      });
  jQuery(window).width() < 750 && $(window).scroll(function() {
         // if($(this).scrollTop() != 0) {
         //   $('.to-up').fadeIn();
@@ -289,3 +291,8 @@ $(document).ready(function() {
       $('html').scrollTop(scrollPos);
   });
 });
+
+
+
+/*1-2-3-4 navigation*/
+
