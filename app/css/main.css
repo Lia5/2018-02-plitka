@@ -8131,12 +8131,6 @@ material.html
   width: 12px;
   background-color: transparent; }
 
-.horizon::-webkit-scrollbar-thumb {
-  background-color: red;
-  width: 40px !important;
-  max-width: 40px !important;
-  min-width: 40px !important; }
-
 .horizon > ul {
   padding-top: 15px;
   list-style: none;
