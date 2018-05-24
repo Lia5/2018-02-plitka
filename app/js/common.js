@@ -144,14 +144,17 @@ $(function(){
     $('.footer-block').css({'right':'-10vw'});
 		return false;
   });
-  
-  jQuery(window).width() >= 750 && $('.horizon').mousewheel(function() {
-    clearTimeout($.data(this, 'timer'));
-    $.data(this, 'timer', setTimeout(function() {
+  jQuery(window).width() >= 750 && $('.footer-block').mouseover(function() {
       $('.footer-block').css({'right':'0'});
-       //do something
-    }, 500));
-  });
+  });  
+  // поплавок
+  // jQuery(window).width() >= 750 && $('.horizon').mousewheel(function() {
+  //   clearTimeout($.data(this, 'timer'));
+  //   $.data(this, 'timer', setTimeout(function() {
+  //     $('.footer-block').css({'right':'0'});
+  //      //do something
+  //   }, 500));
+  // });
 
   jQuery(window).width() >= 750 &&  $('.horizon').scrollbar();
 /*filter*/
@@ -203,9 +206,9 @@ $(function(){
       $('.to-up').click(function() {
         $('.horizon ').animate({scrollLeft:0},800);
       });
-      $('#menu a').click(function() {
-        $('#3 ').animate({scrollLeft:0},800);
-      });
+      // $('#menu a').click(function() {
+      //   $('#3 ').animate({scrollLeft:0},800);
+      // });
  jQuery(window).width() < 750 && $(window).scroll(function() {
         // if($(this).scrollTop() != 0) {
         //   $('.to-up').fadeIn();
@@ -217,7 +220,28 @@ $(function(){
       $('html, body ').animate({scrollTop:0},800);
     });
 
-
+    $(function(){
+      var sections = {},
+          _width  = $(window).width(),
+          i        = 0;
+  
+      // Grab positions of our sections 
+      $('.section').each(function(){
+          sections[this.name] = $(this).offset().left;
+      });
+  
+      $(document).scroll(function(){
+          var $this = $(this),
+              pos   = $this.scrollLeft();
+  
+          for(i in sections){
+              if(sections[i] >= pos && sections[i] <= pos + _width){
+                  $('a').removeClass('active');
+                  $('#nav_' + i).addClass('active');
+              }  
+          }
+      });
+  });
 
       /*MODAL*/
 $(document).ready(function() {
