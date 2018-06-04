@@ -288,3 +288,109 @@
 .main-header__popup-bg img {
   width: 100%;
 }
+/*modal3*/
+.block3__container--popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: $dark-blue;
+  .popup__title {
+    font-size: 49px;
+    font-weight: bold;
+  }
+  .popup-form-confident label {
+    color: $dark-blue;
+  }
+  .popup__subtitle {
+    font-size: 32px
+  }
+  
+}
+.popup3-call {
+  font-size: 14px;
+  text-align: right;
+  text-decoration: underline;
+  a {
+    color: $dark-blue;
+  }
+}
+.popup-box-3 {
+  background: #fff;
+  .popup-cross:before, .popup-cross:after {
+    background-color: $dark-blue;
+  }
+}
+.popup-form-3 {
+  input {
+    color: #1b273c;
+    padding: 5px;
+    width: 100%;
+     border: 1px solid #c4c4c4;
+  }
+  .popup-form-confident label {
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 50%;
+  }
+  .popup-form-confident label:before {
+    border-color: $dark-blue;
+  }
+  .popup-form-confident label:after {
+    background: $dark-blue;
+  }
+  .send-qa {
+    font-size: 30px;
+   border: 2px solid $dark-blue;
+   padding: 6px 27px;
+   background-color: transparent;
+   transition: 0.3s;
+   &:hover {
+    background-color: $dark-blue; 
+    color: $white;
+   }
+  }
+
+}
+.line {
+  width: 80%;
+  padding-bottom: 44px;
+  border-bottom: 1px solid $dark-blue;
+  &:before {
+    position: absolute;
+    left: 20px;
+    bottom: 12px;
+    content: '';
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border: 1px solid $dark-blue;
+    border-right: none;
+    border-bottom: none;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  &:after {
+    position: absolute;
+    left: 20px;
+    bottom: 5px;
+    content: '';
+    background-color: $dark-blue;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
+#modal-3-tel-part1 {
+  width: 45px;
+}
+#modal-3-tel-part2 {
+  width: 60px;
+}
+#modal-3-tel-part3 {
+  width: calc(100% - 117px);
+}

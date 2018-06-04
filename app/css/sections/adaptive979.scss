@@ -516,6 +516,16 @@
   .page-design__main-title .bigger {
     font-size: 48px;
   }
+  .page-design__block3 {
+    width: 34vw;
+  }
+  .page-design__block4 {
+    width: 36vw;
+  }
+  .page-about__form {
+    width: 39vw;
+  }
+
 /*ukladka*/
   .page-ukladka__block2 {
     width: 651px;
@@ -599,5 +609,8 @@
   }
   .popup-form__qa-ans {
     top: 44px;
+  }
+  .popup-form-3 .popup-form-confident label {
+    margin-left: 0;
   }
 }

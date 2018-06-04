@@ -479,12 +479,12 @@
   .gift__img {
     width: 50px;
   }
-  .page-about__slider {
-    width: 880px;
-  }
-  .design-prev__img {
-    width: 91px !important;
-  }
+  // .page-about__slider {
+  //   width: 880px;
+  // }
+  // .design-prev__img {
+  //   width: 91px !important;
+  // }
   .page-about__slider-text {
     font-size: 13px;
     padding: 10px;
@@ -497,6 +497,36 @@
   }
   .logo-design {
     margin-left: 24vw;
+  }
+  .accordeon {
+    font-size: 12px;
+  }
+  .accordeon-title{
+    font-size: 15px;
+  }
+  .page-about__slider {
+    width: 60vw;
+  }
+  .page-about__form h2 {
+    font-size: 29px;
+  }
+  .page-about__form ul {
+    font-size: 26px;
+  }
+  .page-about__form--write {
+    font-size: 16px;
+  }
+  .page-design__subtitle-1 {
+    font-size: 42px;
+  }
+  .page-design__subtitle-2 {
+    font-size: 46px;
+  }
+  .page-design__subtitle-3 {
+    font-size: 25px;
+  }
+  .page-design__subtitle-4 {
+    font-size: 35px;
   }
   /*ukladka*/
   .page-ukladka__block2 {
@@ -559,5 +589,20 @@
   .popup__block3:before {
     width: 233vh;
     height: 153vh;
+  }
+  .block3__container--popup .popup__title {
+    font-size: 31px;
+  }
+  .block3__container--popup .popup__subtitle {
+    font-size: 24px;
+  }
+  .popup-form-3 .send-qa {
+    font-size: 25px;
+  }
+  .popup-form-content {
+    margin-bottom: 16px;
+  }
+  .popup-btn-wrap {
+    margin-top: 17px;
   }
 }

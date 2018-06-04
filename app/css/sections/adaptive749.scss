@@ -691,6 +691,27 @@
   .return-to-up {
     left: 0;
   }
+  .accordeon {
+    font-size: 17px;
+  }
+  .accordeon-title {
+    font-size: 22px;
+  }
+  .page-about__form h2 {
+    margin-top: 20px;
+    font-size: 45px;
+  }
+  .page-about__form ul {
+    font-size: 43px;
+  }
+  .page-about__form--write {
+    font-size: 19px;
+  }
+  .popup-box {
+    width: 100vw;
+    height: 100vh;
+  }
+
   /*ukladka*/
   .stair {
     padding-left: 0;
@@ -773,6 +794,32 @@
   .popup-form__qa-ans {
     left: -105px;
     width: 310px;
+  }
+  .bg-body-about {
+    height: 100vh;
+  }
+  .page-design__block4 {
+    max-height: none;
+  }
+  .design-main {
+    max-height: none;
+  }
+  .design-main__title {
+    position: static;
+    width: 100%;
+  }
+  .popup-box-3 .popup-cross {
+    left: auto;
+    right: 10%;
+    width: 42px;
+    height: 42px;
+  }
+  .popup-box-3 .popup-cross:before,
+  .popup-box-3  .popup-cross:after {
+    height: 45px;
+  }
+  .design-prev__img--wrap {
+    overflow: hidden;
   }
 }
 

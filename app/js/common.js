@@ -144,8 +144,11 @@ $(function(){
     $('.footer-block').css({'right':'-10vw'});
 		return false;
   });
-  jQuery(window).width() >= 750 && $('.footer-block').mouseover(function() {
+  jQuery(window).width() >= 750 && $('.logo-about').mouseover(function() {
       $('.footer-block').css({'right':'0'});
+  });  
+  jQuery(window).width() >= 750 && $('.block2-about').click(function() {
+    $('.footer-block').css({'right':'0'});
   });  
   // поплавок
   // jQuery(window).width() >= 750 && $('.horizon').mousewheel(function() {
@@ -177,25 +180,29 @@ $(function(){
 
     /*design-slider*/
 
-        $('.tabs-foto').on('click', '.design-prev__img', function() {
-          var e = $(".design-prev__img"),
+        $('.tabs-foto').on('click', '.design-prev__img--wrap', function() {
+          var e = $(".design-prev__img--wrap"),
           o = $(".tabs__content-foto");
           return e.removeClass("active"), o.removeClass("active"), $(this).addClass("active").fadeIn(), o.eq($(this).index()).addClass("active"), !1
         });
        
 
     $('.design-prev').slick({
-      slidesToShow: 8,
-      slidesToScroll: 4,
-      dots: true,
-      arrows: false,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: true,
       infinite: false,
+      prevArrow: '<i class="fa fa-angle-left design-prev-arrows design-prev_arrow-left"></i>',
+     nextArrow: '<i class="fa fa-angle-right design-prev-arrows design-prev_arrow-right"></i>',
+  
       // vertical: true
 
     });
 
 
 }) ;
+
     jQuery(window).width() >= 750 && $(window).scroll(function() {
         // if($(this).scrollLeft() != 0) {
         //   $('.to-up').fadeIn();
@@ -314,7 +321,25 @@ $(document).ready(function() {
       $('body').css('padding-right', '0');
       $('html').scrollTop(scrollPos);
   });
+
+
+    var contents = $('.accordeon-content');
+    var titles = $('.accordeon-title');
+    titles.on('click',function(){
+      var title = $(this);
+      contents.filter(':visible').slideUp(function(){
+        $(this).prev('.accordeon-title').removeClass('is-opened');
+      });  
+      
+      var content = title.next('.accordeon-content'); 
+      
+      if (!content.is(':visible')) {
+        content.slideDown(function(){title.addClass('is-opened')});
+      } 
+    });
+
 });
+
 
 
 
