@@ -8122,6 +8122,7 @@ material.html
   position: relative;
   width: 100%;
   overflow-y: scroll;
+  overflow: hidden;
   max-height: 96vh; }
 
 .horizon::-webkit-scrollbar-track {

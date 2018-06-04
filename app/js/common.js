@@ -137,6 +137,13 @@ $(function(){
   
    };
   }
+  // //scroll mozilla
+  // jQuery('.horizon').bind('mousewheel', function(event) {
+  //   event.preventDefault();
+  //   var scrollTop = this.scrollTop;
+  //   this.scrollTop = (scrollTop + ((event.deltaY * event.deltaFactor) * -1));
+  //   //console.log(event.deltaY, event.deltaFactor, event.originalEvent.deltaMode, event.originalEvent.wheelDelta);
+  // });
   //gorizont
   jQuery(window).width() >= 750 && $('.horizon').mousewheel(function(event, delta) {
 		event.preventDefault();
