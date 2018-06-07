@@ -3,12 +3,17 @@
 }
 .page-articles__block {
   padding: 16px;
+  width: 26vw;
+}
+.page-articles__block .page-about__img {
+  min-height: 220px;
+  height: 30vh;
 }
 .page-articles__date {
   font-size: 17px;
   color: $dark-blue;
   opacity: 0.3;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .page-articles__title {
   margin-top: 0;
@@ -17,6 +22,12 @@
   // max-height: 222px;
   max-height: 31vh;
   overflow: hidden;
+}
+
+
+.page-articles__text p {
+  font-size: 13px;
+  margin-bottom: 13px;
 }
 .more {
   display: block;
