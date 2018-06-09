@@ -8825,6 +8825,9 @@ material.html
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
+.main-wrapper-ukladka {
+  padding-left: 87px; }
+
 .page-ukladka__block2 {
   position: relative;
   width: 1070px;
@@ -9020,6 +9023,30 @@ material.html
   top: 0px;
   background-color: #FFF;
   padding: 20px; }
+
+.fix-nav {
+  position: fixed;
+  top: 24px;
+  left: 0; }
+
+.fix-nav__item--link {
+  display: block;
+  font-size: 48px;
+  color: rgba(27, 39, 60, 0.2);
+  padding: 20px;
+  border: 2px solid rgba(27, 39, 60, 0.2);
+  background-color: #ffffff;
+  min-width: 87px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer; }
+  .fix-nav__item--link:hover {
+    background-color: rgba(27, 39, 60, 0.2);
+    color: rgba(27, 39, 60, 0.8); }
+
+.fix-nav__item.active a {
+  color: red; }
 
 .block2__container--popup {
   top: 37%;

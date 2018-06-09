@@ -231,31 +231,31 @@ $(function(){
         // }
       });
       $('.to-up').click(function() {
-      $('html, body ').animate({scrollTop:0},800);
-    });
+        $('html, body ').animate({scrollTop:0},800);
+      });
 
-    $(function(){
-      var sections = {},
-          _width  = $(window).width(),
-          i        = 0;
+  //   $(function(){
+  //     var sections = {},
+  //         _width  = $(window).width(),
+  //         i        = 0;
   
-      // Grab positions of our sections 
-      $('.section').each(function(){
-          sections[this.name] = $(this).offset().left;
-      });
+  //     // Grab positions of our sections 
+  //     $('.section').each(function(){
+  //         sections[this.name] = $(this).offset().left;
+  //     });
   
-      $(document).scroll(function(){
-          var $this = $(this),
-              pos   = $this.scrollLeft();
+  //     $(document).scroll(function(){
+  //         var $this = $(this),
+  //             pos   = $this.scrollLeft();
   
-          for(i in sections){
-              if(sections[i] >= pos && sections[i] <= pos + _width){
-                  $('a').removeClass('active');
-                  $('#nav_' + i).addClass('active');
-              }  
-          }
-      });
-  });
+  //         for(i in sections){
+  //             if(sections[i] >= pos && sections[i] <= pos + _width){
+  //                 $('a').removeClass('active');
+  //                 $('#nav_' + i).addClass('active');
+  //             }  
+  //         }
+  //     });
+  // });
 
       /*MODAL*/
 $(document).ready(function() {
@@ -344,6 +344,53 @@ $(document).ready(function() {
         content.slideDown(function(){title.addClass('is-opened')});
       } 
     });
+
+
+
+
+    $('.fix-nav__item--link').on('click', function(e) {
+      e.preventDefault();
+      showSection($(this).attr('href'), true);
+    });
+  
+    showSection(window.location.hash, false);
+
+
+    function showSection(section, isAnimate) {
+      var direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="'+ direction +'"]'),
+          reqSectionPos = reqSection.offset().left;
+    
+        if (isAnimate) {
+          $('.horizon').animate({scrollLeft: reqSectionPos}, 500);
+        } else {
+          $('.horizon').scrollLeft(reqSectionPos);
+        }
+    }
+
+
+    $('.horizon').mousewheel(function() {
+      checkSection();
+    });
+    function checkSection(){
+      $('.section').each(function(){
+        var
+          $this = $(this),
+          leftEdge = $this.offset().left - 87,
+          rightEdge = leftEdge + $this.width(),
+          wScroll = $(window).scrollLeft();
+          console.log(wScroll);
+        if (leftEdge < wScroll && rightEdge > wScroll) {
+       var
+        currentId = $this.data('section'),
+        reqLink = $('.fix-nav__item--link').filter('[href="#'+ currentId +'"]');
+
+        reqLink.closest('.fix-nav__item').addClass('active').siblings().removeClass('active');
+console.log(currentId);
+          window.location.hash = currentId;
+        }
+      });
+    }
 
 });
 
