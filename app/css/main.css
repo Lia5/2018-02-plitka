@@ -3672,7 +3672,8 @@ body {
   line-height: 1.2;
   background: #1b273c;
   position: relative;
-  font-family: 'PTSans-Regular', 'Arial Narrow', Arial, sans-serif; }
+  font-family: 'PTSans-Regular', 'Arial Narrow', Arial, sans-serif;
+  overflow: hidden; }
 
 p {
   color: #1b273c;
@@ -8118,6 +8119,9 @@ material.html
 .page-about {
   background-image: none; }
 
+.bg-body-about {
+  overflow: hidden; }
+
 .horizon {
   position: relative;
   width: 100%;
@@ -8135,7 +8139,7 @@ material.html
 .horizon > ul {
   padding-top: 15px;
   list-style: none;
-  height: 87vh;
+  height: 91vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8197,13 +8201,13 @@ material.html
 
 .scroll-x {
   margin: 0 5%;
-  top: -4vh;
+  top: -17px;
   position: relative;
   z-index: 2; }
 
 .scroll-x .scroll-bar {
   position: relative;
-  height: 50px;
+  height: 20px;
   max-width: 30px;
   top: -7px; }
 
@@ -8259,7 +8263,6 @@ material.html
 .nav-right-wrap-about {
   top: 0;
   position: absolute;
-  overflow: auto;
   height: auto; }
 
 .footer-block {
@@ -11039,7 +11042,9 @@ material.html
   .popup-box-3 .popup-cross:after {
     height: 45px; }
   .design-prev__img--wrap {
-    overflow: hidden; } }
+    overflow: hidden; }
+  .main-wrapper {
+    height: auto; } }
 
 @media screen and (max-width: 689px) {
   .block__mt:before {

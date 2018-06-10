@@ -1,6 +1,9 @@
 .page-about {
   background-image: none;
 }
+.bg-body-about {
+  overflow: hidden;
+}
 .horizon {
   position:relative;
   // float:left;
@@ -28,7 +31,7 @@
   padding-top: 15px;
   list-style:none;
   // width:4700px;
-  height: 87vh;
+  height: 91vh;
   // float:left;
   display: flex;
   align-items: center;
@@ -86,13 +89,13 @@
 }
 .scroll-x {
   margin: 0 5%;
-  top: -4vh;
+  top: -17px;
   position: relative;
   z-index: 2;
 }
 .scroll-x .scroll-bar {
   position: relative;;
-  height: 50px;
+  height: 20px; //50
   max-width: 30px;
   top: -7px;
 }
@@ -141,7 +144,7 @@
 .nav-right-wrap-about {
   top: 0;
   position: absolute;
-  overflow: auto;
+  // overflow: auto;
   height: auto;
 }
 .footer-block {
