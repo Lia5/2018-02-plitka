@@ -234,29 +234,6 @@ $(function(){
         $('html, body ').animate({scrollTop:0},800);
       });
 
-  //   $(function(){
-  //     var sections = {},
-  //         _width  = $(window).width(),
-  //         i        = 0;
-  
-  //     // Grab positions of our sections 
-  //     $('.section').each(function(){
-  //         sections[this.name] = $(this).offset().left;
-  //     });
-  
-  //     $(document).scroll(function(){
-  //         var $this = $(this),
-  //             pos   = $this.scrollLeft();
-  
-  //         for(i in sections){
-  //             if(sections[i] >= pos && sections[i] <= pos + _width){
-  //                 $('a').removeClass('active');
-  //                 $('#nav_' + i).addClass('active');
-  //             }  
-  //         }
-  //     });
-  // });
-
       /*MODAL*/
 $(document).ready(function() {
   $('body').append('<div class="blackout-bg"></div>');
@@ -300,6 +277,7 @@ $(document).ready(function() {
     $('#blackout').show();
     $('html,body').css('overflow', 'hidden');
     $('body').css('padding-right', '17px');
+    $('.bg-body-about').css('height', '100vh');
     /* Убираем баг в Firefox */
     $('html').scrollTop(scrollPos);
   });
@@ -316,6 +294,7 @@ $(document).ready(function() {
       $('#blackout').hide(); 
       $("html,body").css("overflow","auto");
       $('body').css('padding-right', '0');
+      $('.bg-body-about').css('height', 'auto');
       $('html').scrollTop(scrollPos);
   });
   $('.close').click(function() { 
@@ -326,6 +305,7 @@ $(document).ready(function() {
       $('#blackout').hide(); 
       $("html,body").css("overflow","auto");
       $('body').css('padding-right', '0');
+      $('.bg-body-about').css('height', 'auto');
       $('html').scrollTop(scrollPos);
   });
 
@@ -345,8 +325,8 @@ $(document).ready(function() {
       } 
     });
 
-
-
+/*------------------- */
+/*SCROLL */
 
     $('.fix-nav__item--link').on('click', function(e) {
       e.preventDefault();
@@ -360,7 +340,7 @@ $(document).ready(function() {
       var direction = section.replace(/#/, ''),
           reqSection = $('.section').filter('[data-section="'+ direction +'"]'),
           reqSectionPos = reqSection.offset().left;
-    
+          console.log(reqSectionPos);
         if (isAnimate) {
           $('.horizon').animate({scrollLeft: reqSectionPos}, 500);
         } else {
@@ -392,6 +372,8 @@ console.log(currentId);
       });
     }
 
+/*------------------- */
+/*end SCROLL */
 });
 
 

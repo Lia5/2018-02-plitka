@@ -11023,8 +11023,6 @@ material.html
   .popup-form__qa-ans {
     left: -105px;
     width: 310px; }
-  .bg-body-about {
-    height: 100vh; }
   .page-design__block4 {
     max-height: none; }
   .design-main {
@@ -11226,5 +11224,9 @@ material.html
     padding-bottom: 14px; }
   .design-main__description {
     width: 100%; } }
+
+@media screen and (max-width: 440px) {
+  .page-about__form ul {
+    font-size: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
