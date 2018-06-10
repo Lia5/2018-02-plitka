@@ -330,7 +330,9 @@ $(document).ready(function() {
 
     $('.fix-nav__item--link').on('click', function(e) {
       e.preventDefault();
+      $('.horizon').animate({scrollLeft:0},0);
       showSection($(this).attr('href'), true);
+      $(this).closest('.fix-nav__item').addClass('active').siblings().removeClass('active');
     });
   
     showSection(window.location.hash, false);
