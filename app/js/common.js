@@ -359,7 +359,7 @@ if(jQuery('.fix-nav__item--link').length) {
       $('.section').each(function(){
         var
           $this = $(this),
-          leftEdge = $this.offset().left - 87,
+          leftEdge = $this.offset().left-87,
           rightEdge = leftEdge + $this.width(),
           wScroll = $(window).scrollLeft();
           console.log(wScroll);
