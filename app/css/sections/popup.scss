@@ -176,6 +176,9 @@
 .popup-form-radio {
   display: inline-block;
 }
+.popup-form-1 .popup-form-radio input {
+  width: 0;
+}
 .radio__item {
   display: inline-block;
 }

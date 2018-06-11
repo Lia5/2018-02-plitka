@@ -9233,6 +9233,9 @@ material.html
 .popup-form-radio {
   display: inline-block; }
 
+.popup-form-1 .popup-form-radio input {
+  width: 0; }
+
 .radio__item {
   display: inline-block; }
 
@@ -11051,7 +11054,9 @@ material.html
   .block2__container--popup {
     position: absolute;
     top: 50%;
-    width: 100%; } }
+    width: 100%; }
+  .main-wrapper-ukladka {
+    padding-left: 0; } }
 
 @media screen and (max-width: 689px) {
   .block__mt:before {
