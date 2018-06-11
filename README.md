@@ -8,4 +8,4 @@
 <p><a href="https://lia5.github.io/2018-02-plitka/app/vacancies.html">Вакансии</a></p>
 <p><a href="https://lia5.github.io/2018-02-plitka/app/articles.html">Статьи</a></p>
 <p><a href="https://lia5.github.io/2018-02-plitka/app/design.html">Дизайн-проект</a></p>
-<p><a href="https://lia5.github.io/2018-02-plitka/app/ukladka.html">Укладка</a></p>
+<p><a href="https://lia5.github.io/2018-02-plitka/app/ukladka.html#section1">Укладка</a></p>
