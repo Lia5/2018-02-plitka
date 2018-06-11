@@ -798,6 +798,7 @@
   .bg-body-about {
     // height: 100vh;
     overflow: auto;
+    overflow-x: hidden;
   }
   .page-design__block4 {
     max-height: none;

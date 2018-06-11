@@ -8156,7 +8156,8 @@ material.html
   flex-shrink: 0; }
 
 .page-about__block:first-child {
-  width: 100px; }
+  width: 100px;
+  margin-right: 87px; }
 
 .page-about__main-title {
   height: 100%;
@@ -9049,7 +9050,7 @@ material.html
     color: rgba(27, 39, 60, 0.8); }
 
 .fix-nav__item.active a {
-  color: red; }
+  color: #1b273c; }
 
 .block2__container--popup {
   top: 37%;
@@ -11025,7 +11026,8 @@ material.html
     left: -105px;
     width: 310px; }
   .bg-body-about {
-    overflow: auto; }
+    overflow: auto;
+    overflow-x: hidden; }
   .page-design__block4 {
     max-height: none; }
   .design-main {
