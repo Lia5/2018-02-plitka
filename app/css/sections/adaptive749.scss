@@ -829,6 +829,11 @@
   .fix-nav {
     display: none;  
   }
+  .block2__container--popup {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 689px) {

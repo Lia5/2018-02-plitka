@@ -11048,7 +11048,11 @@ material.html
   .main-wrapper {
     height: auto; }
   .fix-nav {
-    display: none; } }
+    display: none; }
+  .block2__container--popup {
+    position: absolute;
+    top: 50%;
+    width: 100%; } }
 
 @media screen and (max-width: 689px) {
   .block__mt:before {
@@ -11197,7 +11201,9 @@ material.html
     max-width: none; }
   /*popup*/
   .popup__block2 {
-    padding-top: 0px; }
+    padding-top: 0;
+    min-height: auto;
+    height: 100%; }
   .popup__block2 .block2__container {
     left: 0; }
   .popup-form-1 input {
