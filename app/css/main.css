@@ -9320,7 +9320,8 @@ material.html
   position: relative;
   color: #ffffff;
   font-weight: normal;
-  margin-left: 56%; }
+  margin-left: auto;
+  max-width: 189px; }
 
 .popup-form-confident label:before {
   border-color: #ffffff; }
@@ -9901,8 +9902,6 @@ material.html
     min-height: 48px; }
   .radio__item label {
     width: 95px; }
-  .popup-form-confident label {
-    margin-left: 46%; }
   .popup-form__qa-ans {
     top: 47px; }
   .popup__block3:before {
@@ -11226,8 +11225,6 @@ material.html
     top: 11px; }
   .popup-btn {
     min-height: 39px; }
-  .popup-form-confident label {
-    margin-left: 36%; }
   .popup__block2:before {
     top: -48%; }
   .page-design__title-main {

@@ -270,7 +270,8 @@
   position: relative;
   color: $white;
   font-weight: normal;
-  margin-left: 56%;
+  margin-left: auto;
+  max-width: 189px;
 }
 .popup-form-confident label:before{
   border-color: $white;
