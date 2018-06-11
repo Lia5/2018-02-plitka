@@ -327,7 +327,7 @@ $(document).ready(function() {
 
 /*------------------- */
 /*SCROLL */
-
+if(jQuery('.fix-nav__item--link').length) {
     $('.fix-nav__item--link').on('click', function(e) {
       e.preventDefault();
       $('.horizon').animate({scrollLeft:0},0);
@@ -354,6 +354,7 @@ $(document).ready(function() {
     $('.horizon').mousewheel(function() {
       checkSection();
     });
+    
     function checkSection(){
       $('.section').each(function(){
         var
@@ -373,6 +374,7 @@ console.log(currentId);
         }
       });
     }
+  }
 
 /*------------------- */
 /*end SCROLL */

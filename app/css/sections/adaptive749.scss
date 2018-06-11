@@ -795,9 +795,10 @@
     left: -105px;
     width: 310px;
   }
-  // .bg-body-about {
-  //   height: 100vh;
-  // }
+  .bg-body-about {
+    // height: 100vh;
+    overflow: auto;
+  }
   .page-design__block4 {
     max-height: none;
   }
@@ -823,6 +824,9 @@
   }
   .main-wrapper {
     height: auto;
+  }
+  .fix-nav {
+    display: none;  
   }
 }
 

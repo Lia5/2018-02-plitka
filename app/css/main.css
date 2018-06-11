@@ -8201,9 +8201,9 @@ material.html
 
 .scroll-x {
   margin: 0 5%;
-  top: -17px;
   position: relative;
-  z-index: 2; }
+  z-index: 2;
+  top: -30px; }
 
 .scroll-x .scroll-bar {
   position: relative;
@@ -9783,7 +9783,7 @@ material.html
   .logo-about {
     width: 112px;
     padding-top: 12vh;
-    margin-left: 8vw; }
+    margin-left: 7vw; }
   .block2-about {
     min-height: 475px;
     height: 475px; }
@@ -11024,6 +11024,8 @@ material.html
   .popup-form__qa-ans {
     left: -105px;
     width: 310px; }
+  .bg-body-about {
+    overflow: auto; }
   .page-design__block4 {
     max-height: none; }
   .design-main {
@@ -11042,7 +11044,9 @@ material.html
   .design-prev__img--wrap {
     overflow: hidden; }
   .main-wrapper {
-    height: auto; } }
+    height: auto; }
+  .fix-nav {
+    display: none; } }
 
 @media screen and (max-width: 689px) {
   .block__mt:before {
