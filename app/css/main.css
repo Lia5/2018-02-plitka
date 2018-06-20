@@ -8279,7 +8279,8 @@ material.html
   width: 50px;
   height: 50px;
   position: relative;
-  top: 2vh; }
+  top: 2vh;
+  right: 10px; }
 
 .footer-menu-toggle .one,
 .footer-menu-toggle .two,
@@ -8298,7 +8299,7 @@ material.html
 .logo-about {
   padding-top: 12vh;
   width: 12vw;
-  margin-left: 5vw; }
+  margin-left: 8vw; }
 
 .tov-zn-about {
   font-size: 18px; }
@@ -8322,7 +8323,10 @@ material.html
   display: none; }
 
 .last__block {
-  width: 43vw; }
+  width: 16vw; }
+
+.page-about__block--mob {
+  display: none; }
 
 .page-vacancies__title {
   font-weight: bold;
@@ -9018,11 +9022,11 @@ material.html
 .return-to-up {
   width: 150px;
   position: relative;
-  top: 20px;
+  top: 0;
   -ms-flex-item-align: self-start;
   align-self: self-start;
   z-index: 2;
-  left: -35vw; }
+  left: 4vw; }
 
 .to-up {
   font-size: 14px;
@@ -9485,8 +9489,7 @@ material.html
     height: 55vh; }
   .logo-about {
     padding-top: 13vh;
-    width: 9vw;
-    margin-left: 8vw; }
+    width: 9vw; }
   .nav-right-about {
     padding-top: 54px;
     width: 160px; }
@@ -9517,7 +9520,8 @@ material.html
     -ms-flex-align: center;
     align-items: center; }
   .logo-about {
-    padding-top: 0; } }
+    padding-top: 0;
+    margin-left: 3vw; } }
 
 @media screen and (max-width: 1539px) {
   .block2 {
@@ -9805,13 +9809,13 @@ material.html
     margin-bottom: 8px; }
   .logo-about {
     width: 112px;
-    padding-top: 12vh;
-    margin-left: 7vw; }
+    padding-top: 10vh;
+    margin-left: 3vw; }
   .block2-about {
     min-height: 475px;
     height: 475px; }
   .block2-about::before {
-    left: 11vw;
+    left: 8vw;
     top: -33vh;
     min-width: 795px;
     min-height: 795px; }
@@ -9824,6 +9828,8 @@ material.html
     height: auto; }
   .horizon {
     padding-top: 20px; }
+  .return-to-up {
+    left: -2vw; }
   /*vacancies*/
   .footer-block-vacancies {
     width: 550px; }
@@ -10299,6 +10305,9 @@ material.html
     height: 265px;
     margin-left: 13vw;
     padding-top: 7vh; }
+  .return-to-up {
+    top: -6vh;
+    left: 4vw; }
   /*vacancies*/
   .block2-vacancies {
     width: auto; }
@@ -10932,6 +10941,9 @@ material.html
     display: none; }
   .footer-block--mob {
     display: none; }
+  .page-about__block--mob {
+    display: block;
+    padding: 20px 30px; }
   .page-about__title {
     margin-top: 20px;
     margin-bottom: 15px;

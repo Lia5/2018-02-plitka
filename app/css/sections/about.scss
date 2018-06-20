@@ -162,6 +162,7 @@
   height: 50px;
   position: relative;
   top: 2vh;
+  right: 10px;
 }
 .footer-menu-toggle .one,
 .footer-menu-toggle .two,
@@ -181,7 +182,7 @@
 .logo-about {
   padding-top: 12vh;
   width: 12vw;
-  margin-left: 5vw;
+  margin-left: 8vw;
 }
 .tov-zn-about {
   font-size: 18px;
@@ -205,5 +206,8 @@
   display: none;
 }
 .last__block {
-  width: 43vw;
+  width: 16vw;
+}
+.page-about__block--mob {
+  display: none;
 }

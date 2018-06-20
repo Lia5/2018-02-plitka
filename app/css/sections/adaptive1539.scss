@@ -407,15 +407,15 @@
   }
   .logo-about {
     width: 112px;
-    padding-top: 12vh;
-    margin-left: 7vw;
+    padding-top: 10vh;
+    margin-left: 3vw;
   }
   .block2-about {
     min-height: 475px;
     height: 475px;
   }
   .block2-about::before {
-    left: 11vw;
+    left: 8vw;
     top: -33vh;
     min-width: 795px;
     min-height: 795px;
@@ -431,6 +431,9 @@
   }
   .horizon {
     padding-top: 20px;
+  }
+  .return-to-up {
+    left: -2vw;
   }
   /*vacancies*/
   .footer-block-vacancies {

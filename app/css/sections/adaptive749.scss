@@ -646,6 +646,10 @@
   .footer-block--mob {
     display: none;
   }
+  .page-about__block--mob {
+    display: block;
+    padding: 20px 30px;
+  }
   .page-about__title {
     margin-top: 20px;
     margin-bottom: 15px;
@@ -659,6 +663,7 @@
     display: block;
     height: auto;
   }
+
   /*articles*/
   .page-articles-filter {
     margin-top: 154px;
