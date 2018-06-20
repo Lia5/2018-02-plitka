@@ -45,7 +45,8 @@
   flex-shrink: 0;
 }
 .page-about__block:first-child {
-  width: 100px;
+  // width: 100px;
+  width: auto;
   padding-right: 87px;
 }
 .page-about__main-title {
@@ -152,7 +153,7 @@
   position: fixed;
   top: 10vh;
   right: 0;
-  transition: 3s;
+  transition: 1s;
 }
 .footer-menu-toggle {
   margin-left: auto;
