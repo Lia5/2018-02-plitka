@@ -38,10 +38,11 @@
   flex-wrap: nowrap;
 }
 .page-about__block {
-  padding:25px;
+  // padding:25px;
+  padding: 2vw;
   // float:left;
   // width:525px;
-  width: 53vw;
+  width: 39vw;
   flex-shrink: 0;
 }
 .page-about__block:first-child {
