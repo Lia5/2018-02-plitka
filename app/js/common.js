@@ -147,7 +147,7 @@ $(function(){
   //gorizont
   jQuery(window).width() >= 750 && $('.horizon').mousewheel(function(event, delta) {
 		event.preventDefault();
-    this.scrollLeft -= (delta * 30);
+    this.scrollLeft -= (delta * 300);
     $('.footer-block').css({'right':'-10vw'});
 		return false;
   });
@@ -359,7 +359,7 @@ if(jQuery('.fix-nav__item--link').length) {
       $('.section').each(function(){
         var
           $this = $(this),
-          leftEdge = $this.offset().left-87,
+          leftEdge = $this.offset().left-287,
           rightEdge = leftEdge + $this.width(),
           wScroll = $(window).scrollLeft();
           console.log(wScroll);

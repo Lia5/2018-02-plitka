@@ -1,9 +1,19 @@
+.horizon .page-ukladka__blocks {
+  align-items: flex-start;
+}
+.section {
+  padding-left: 100px;
+}
+.page-about__main-title.section {
+  padding-left: 25px;
+  padding-right: 100px;
+}
 .main-wrapper-ukladka {
   padding-left: 87px;
 }
 .page-ukladka__block2 {
   position: relative;
-  width: 1070px;
+  width: 72vw;
   padding: 16px;
 }
 .page-ukladka__title {
@@ -47,11 +57,13 @@
 }
 .page-ukladka__block {
   position: relative;
-  width: 925px;
+  width: 75vw;
   display: flex;
   align-items: center;
   background: url(../img/icons/logo-bg.png);
-  background-position: 0 -30%;
+  // background-position: 0 -30%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .page-ukladka__text-up {
   font-size: 18px;
