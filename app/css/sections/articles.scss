@@ -1,6 +1,9 @@
 .page-articles .horizon {
   max-height: 90vh;
 }
+.horizon .page-articles__blocks {
+  align-items: flex-start;
+}
 .page-articles__block {
   padding: 16px;
   width: 26vw;
