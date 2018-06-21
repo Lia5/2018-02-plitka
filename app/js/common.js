@@ -165,7 +165,20 @@ $(function(){
   //      //do something
   //   }, 500));
   // });
+/* appear return-to-up */
+  jQuery(window).width() >= 750 && $('.horizon').mousewheel(function(){
+    var el = $('.last__block--js');
 
+    var rt = ($(window).width() - (el.offset().left + el.outerWidth()));
+
+    console.log(rt);
+    if  (rt > 0)
+      $('.return-to-up').animate({'opacity':'1'},300);
+    else
+      $('.return-to-up').stop(true).animate({'opacity':'0'},200);
+  });
+
+  /*scroll*/
   jQuery(window).width() >= 750 &&  $('.horizon').scrollbar();
 /*filter*/
   $('.filter-item1').on('click', function() {
@@ -177,52 +190,48 @@ $(function(){
     $(this).toggleClass('on');
   });
   //------ jQuery: Закрытие элемента по клику за пределами его области (вне элемента)
-    $(document).mouseup(function (e){ // событие клика по веб-документу
-      var div = $(".filter-item-wrap"); // тут указываем ID элемента
-      if (!div.is(e.target) // если клик был не по нашему блоку
-      && div.has(e.target).length === 0) { // и не по его дочерним элементам
-        $(".filter-item").removeClass('on'); // скрываем его родителя (оверфлоу фон)
-      }
-    });
+  $(document).mouseup(function (e){ // событие клика по веб-документу
+    var div = $(".filter-item-wrap"); // тут указываем ID элемента
+    if (!div.is(e.target) // если клик был не по нашему блоку
+    && div.has(e.target).length === 0) { // и не по его дочерним элементам
+      $(".filter-item").removeClass('on'); // скрываем его родителя (оверфлоу фон)
+    }
+  });
 
-    /*design-slider*/
+  /*design-slider*/
+  $('.tabs-foto').on('click', '.design-prev__img--wrap', function() {
+    var e = $(".design-prev__img--wrap"),
+    o = $(".tabs__content-foto");
+    return e.removeClass("active"), o.removeClass("active"), $(this).addClass("active").fadeIn(), o.eq($(this).index()).addClass("active"), !1
+  });
 
-        $('.tabs-foto').on('click', '.design-prev__img--wrap', function() {
-          var e = $(".design-prev__img--wrap"),
-          o = $(".tabs__content-foto");
-          return e.removeClass("active"), o.removeClass("active"), $(this).addClass("active").fadeIn(), o.eq($(this).index()).addClass("active"), !1
-        });
-       
-
-    $('.design-prev').slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      dots: false,
-      arrows: true,
-      infinite: false,
-      prevArrow: '<i class="fa fa-angle-left design-prev-arrows design-prev_arrow-left"></i>',
-     nextArrow: '<i class="fa fa-angle-right design-prev-arrows design-prev_arrow-right"></i>',
-  
-      // vertical: true
-
-    });
-
-
+  $('.design-prev').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: true,
+    infinite: false,
+    prevArrow: '<i class="fa fa-angle-left design-prev-arrows design-prev_arrow-left"></i>',
+    nextArrow: '<i class="fa fa-angle-right design-prev-arrows design-prev_arrow-right"></i>',
+    // vertical: true
+  });
 }) ;
 
-    jQuery(window).width() >= 750 && $(window).scroll(function() {
-        // if($(this).scrollLeft() != 0) {
-        //   $('.to-up').fadeIn();
-        // } else {
-        //   $('.to-up').fadeOut();
-        // }
-      });
-      $('.to-up').click(function() {
-        $('.horizon ').animate({scrollLeft:0},800);
-      });
-      // $('#menu a').click(function() {
-      //   $('#3 ').animate({scrollLeft:0},800);
-      // });
+
+
+  jQuery(window).width() >= 750 && $(window).scroll(function() {
+      // if($(this).scrollLeft() != 0) {
+      //   $('.to-up').fadeIn();
+      // } else {
+      //   $('.to-up').fadeOut();
+      // }
+    });
+    $('.to-up').click(function() {
+      $('.horizon ').animate({scrollLeft:0},800);
+    });
+    // $('#menu a').click(function() {
+    //   $('#3 ').animate({scrollLeft:0},800);
+    // });
  jQuery(window).width() < 750 && $(window).scroll(function() {
         // if($(this).scrollTop() != 0) {
         //   $('.to-up').fadeIn();
