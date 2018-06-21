@@ -170,8 +170,6 @@ $(function(){
     var el = $('.last__block--js');
 
     var rt = ($(window).width() - (el.offset().left + el.outerWidth()));
-
-    console.log(rt);
     if  (rt > 0)
       $('.return-to-up').animate({'opacity':'1'},300);
     else
