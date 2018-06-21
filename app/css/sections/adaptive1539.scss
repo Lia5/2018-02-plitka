@@ -609,3 +609,15 @@
     margin-top: 17px;
   }
 }
+@media screen and (max-width: 1539px) and (min-width: 980px) and (max-height: 900px) {
+  .block2:before {
+    min-width: 900px;
+    min-height: 900px;
+    bottom: 0;
+  }
+  .block2-contacts:before {
+    min-width: 795px;
+    min-height: 795px;
+    bottom: 19%;
+  }
+}

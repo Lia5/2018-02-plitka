@@ -120,7 +120,11 @@ color: $dark-blue;
   -ms-transform: rotate(180deg) translateX(50%);
   -o-transform: rotate(180deg) translateX(50%);
   transform: rotate(180deg) translateX(50%);
+  &:hover {
+    text-decoration: underline;
+  }
 }
+
 .mt__nav__back a {
   color: $dark-blue;
 }
@@ -238,7 +242,15 @@ color: $dark-blue;
 .mt-bread-crumbs {
   font-size: 14px;
   margin: 53px 20px 0 39px;
-  opacity: 0.8;
+
+  a {
+    padding: 5px 0;
+    opacity: 0.8;
+    &:hover {
+      text-decoration: underline;
+      opacity: 1;
+    }
+  }
 }
 .mt__title  {
   position: relative;
@@ -259,6 +271,10 @@ color: $dark-blue;
   color: $white1;
   padding-left: 12px;
   position: relative;
+  &:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
 }
 .mt__title--exampl:before {
   content: "";
