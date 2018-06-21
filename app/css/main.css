@@ -6386,7 +6386,7 @@ button {
 
 .tov-zn {
   position: absolute;
-  right: 0;
+  right: 1vw;
   font-size: 25px;
   color: #ffffff; }
 
@@ -7457,6 +7457,7 @@ a .nav-right--color {
   opacity: 0.8; }
 
 .mt__title {
+  position: relative;
   text-transform: uppercase;
   font-size: 82px;
   line-height: 1;
@@ -7674,13 +7675,12 @@ material.html
 /*anim2*/
 .main-wrapper__mt--anim .mt__back-to {
   text-transform: uppercase;
-  left: -214px;
-  top: 196px;
-  opacity: 0;
-  padding: 26px 30px; }
+  left: -55px;
+  top: 9px;
+  padding: 5px; }
 
 .main-wrapper__mt--anim .mt__back-to:hover {
-  opacity: 1; }
+  text-decoration: underline; }
 
 .main-wrapper__mt--anim .block2__container {
   left: -102px;
@@ -9597,9 +9597,6 @@ material.html
   /*mt*/
   .main-wrapper__mt--anim .mt__block2:before {
     left: -92px; }
-  .main-wrapper__mt--anim .mt__back-to {
-    top: 96px;
-    left: -55px; }
   .main-wrapper__mt--anim .make-calc {
     top: 273px; }
   .main-wrapper__mt--anim .mt__social-icon__phone {

@@ -66,13 +66,14 @@
 /*anim2*/
 .main-wrapper__mt--anim .mt__back-to {
   text-transform: uppercase;
-  left: -214px;
-  top: 196px;
-  opacity: 0;
-  padding: 26px 30px;
+  left: -55px;
+  top: 9px;
+  // opacity: 0;
+  padding: 5px;
 }
 .main-wrapper__mt--anim .mt__back-to:hover {
-  opacity: 1;
+  // opacity: 1;
+  text-decoration: underline;
 }
 .main-wrapper__mt--anim .block2__container  {
   left: -102px;
